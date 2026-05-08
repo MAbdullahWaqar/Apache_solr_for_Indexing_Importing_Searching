@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark light" />
+  <title>BookFinder &mdash; Solr-powered Search</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- =================== HEADER =================== -->
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">B</span>
+      <div>
+        <h1>BookFinder</h1>
+        <p class="brand-sub">Apache Solr powered search across 250+ books</p>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <span id="health-indicator" class="health-pill" title="Solr connection status">
+        <span class="dot"></span><span id="health-text">connecting&hellip;</span>
+      </span>
+    </div>
+  </header>
+
+  <!-- =================== SEARCH BAR =================== -->
+  <section class="search-shell">
+    <div class="search-row">
+      <div class="search-input-wrap">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M10 2a8 8 0 105.293 14.293l4.207 4.207 1.414-1.414-4.207-4.207A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
+        </svg>
+        <input
+          id="q"
+          type="search"
+          autocomplete="off"
+          placeholder="Try: distributed systems, Tolkien, machine learning, dystopian..."
+          aria-label="Search books"
+        />
+        <button id="clear-btn" class="clear-btn" title="Clear" aria-label="Clear">&times;</button>
+        <ul id="suggestions" class="suggestions" hidden></ul>
+      </div>
+
+      <select id="sort" aria-label="Sort">
+        <option value="score desc">Relevance</option>
+        <option value="rating desc">Rating &darr;</option>
+        <option value="rating asc">Rating &uarr;</option>
+        <option value="year desc">Newest</option>
+        <option value="year asc">Oldest</option>
+        <option value="price asc">Price &uarr;</option>
+        <option value="price desc">Price &darr;</option>
+        <option value="title_str asc">Title A&rarr;Z</option>
+      </select>
+    </div>
+  </section>
+
+  <!-- =================== MAIN LAYOUT =================== -->
+  <main class="layout">
+
+    <!-- ========== Sidebar facets ========== -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-section">
+        <h3>Quick filters</h3>
+        <label class="check-row">
+          <input id="in-stock" type="checkbox" />
+          <span>In stock only</span>
+        </label>
+
+        <label class="range-row">
+          <span>Min rating</span>
+          <input id="rating-min" type="range" min="0" max="5" step="0.5" value="0" />
+          <output id="rating-min-out">0</output>
+        </label>
+
+        <div class="range-row">
+          <span>Year range</span>
+          <div class="dual-input">
+            <input id="year-min" type="number" placeholder="from" min="1700" max="2030" />
+            <input id="year-max" type="number" placeholder="to"   min="1700" max="2030" />
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-section" id="facet-genres-block">
+        <h3>Genre</h3>
+        <ul class="facet-list" id="facet-genres"></ul>
+      </div>
+
+      <div class="sidebar-section" id="facet-language-block">
+        <h3>Language</h3>
+        <ul class="facet-list" id="facet-language"></ul>
+      </div>
+
+      <div class="sidebar-section" id="facet-publisher-block">
+        <h3>Publisher</h3>
+        <ul class="facet-list" id="facet-publisher"></ul>
+      </div>
+
+      <div class="sidebar-section" id="facet-tags-block">
+        <h3>Tags</h3>
+        <ul class="facet-list" id="facet-tags"></ul>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>By decade</h3>
+        <ul class="facet-list" id="facet-year"></ul>
+      </div>
+
+      <button id="reset-filters" class="ghost-btn">Reset filters</button>
+    </aside>
+
+    <!-- ========== Results ========== -->
+    <section class="results">
+      <div class="results-meta">
+        <span id="results-count">&nbsp;</span>
+        <span id="results-time" class="results-time"></span>
+      </div>
+
+      <div id="results" class="results-grid" aria-live="polite"></div>
+
+      <div id="empty-state" class="empty-state" hidden>
+        <h2>No matches found</h2>
+        <p>Try removing a filter or searching for a different keyword.</p>
+      </div>
+
+      <nav id="pagination" class="pagination" aria-label="Pagination"></nav>
+    </section>
+  </main>
+
+  <!-- =================== DETAIL MODAL =================== -->
+  <div id="modal" class="modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <article class="modal-card" role="dialog" aria-modal="true">
+      <button class="modal-close" data-close aria-label="Close">&times;</button>
+      <div id="modal-body"></div>
+    </article>
+  </div>
+
+  <footer class="footer">
+    <span>BookFinder &middot; Apache Solr indexing &amp; search demo for Lab 13.</span>
+    <span><a href="https://solr.apache.org/" target="_blank" rel="noopener">solr.apache.org</a></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
