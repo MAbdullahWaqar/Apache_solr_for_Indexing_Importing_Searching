@@ -1,0 +1,6369 @@
+[
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt and David Thomas",
+    "genres": [
+      "Programming",
+      "Software Engineering"
+    ],
+    "language": "English",
+    "year": 1999,
+    "pages": 352,
+    "rating": 4.6,
+    "price": 39.99,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "coding",
+      "career",
+      "best-practices"
+    ],
+    "description": "A modern classic that helps software developers move from journeyman to master through practical advice on craftsmanship, tooling, and the social aspects of building reliable software systems.",
+    "id": "book_0001",
+    "isbn": "9780163285667",
+    "in_stock": true,
+    "stock_count": 223,
+    "pub_date": "1999-01-01T00:00:00Z"
+  },
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "genres": [
+      "Programming",
+      "Software Engineering"
+    ],
+    "language": "English",
+    "year": 2008,
+    "pages": 464,
+    "rating": 4.4,
+    "price": 35.5,
+    "publisher": "Prentice Hall",
+    "tags": [
+      "coding",
+      "refactoring",
+      "design"
+    ],
+    "description": "A handbook of agile software craftsmanship that teaches developers how to write code that is easy to read, change, and maintain by applying simple, repeatable principles.",
+    "id": "book_0002",
+    "isbn": "9781357378783",
+    "in_stock": true,
+    "stock_count": 228,
+    "pub_date": "2008-01-01T00:00:00Z"
+  },
+  {
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "genres": [
+      "Distributed Systems",
+      "Databases"
+    ],
+    "language": "English",
+    "year": 2017,
+    "pages": 616,
+    "rating": 4.8,
+    "price": 49.99,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "databases",
+      "scalability",
+      "architecture"
+    ],
+    "description": "An indispensable guide to the architecture of modern data systems, covering replication, partitioning, transactions, consistency, and the trade-offs of stream and batch processing pipelines.",
+    "id": "book_0003",
+    "isbn": "9787360247825",
+    "in_stock": true,
+    "stock_count": 100,
+    "pub_date": "2017-01-01T00:00:00Z"
+  },
+  {
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen",
+    "genres": [
+      "Algorithms",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2009,
+    "pages": 1312,
+    "rating": 4.5,
+    "price": 89.0,
+    "publisher": "MIT Press",
+    "tags": [
+      "algorithms",
+      "data-structures",
+      "academic"
+    ],
+    "description": "Comprehensive treatment of the modern study of computer algorithms, presenting a wide range of algorithms in depth with rigorous mathematical analysis suitable for advanced study.",
+    "id": "book_0004",
+    "isbn": "9789143819564",
+    "in_stock": false,
+    "stock_count": 115,
+    "pub_date": "2009-01-01T00:00:00Z"
+  },
+  {
+    "title": "Structure and Interpretation of Computer Programs",
+    "author": "Harold Abelson and Gerald Jay Sussman",
+    "genres": [
+      "Programming",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 1996,
+    "pages": 657,
+    "rating": 4.7,
+    "price": 60.0,
+    "publisher": "MIT Press",
+    "tags": [
+      "functional",
+      "scheme",
+      "classic"
+    ],
+    "description": "A foundational text that uses Scheme to introduce abstraction, modularity, and the principles of computation in a way that has shaped generations of programmers.",
+    "id": "book_0005",
+    "isbn": "9781940515199",
+    "in_stock": true,
+    "stock_count": 119,
+    "pub_date": "1996-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Mythical Man-Month",
+    "author": "Frederick P. Brooks Jr.",
+    "genres": [
+      "Software Engineering",
+      "Project Management"
+    ],
+    "language": "English",
+    "year": 1995,
+    "pages": 322,
+    "rating": 4.3,
+    "price": 32.0,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "project-management",
+      "history",
+      "essays"
+    ],
+    "description": "Brooks's seminal collection of essays on software engineering argues that adding manpower to a late project makes it later, and explores the human side of large-scale software development.",
+    "id": "book_0006",
+    "isbn": "9785241027689",
+    "in_stock": true,
+    "stock_count": 15,
+    "pub_date": "1995-01-01T00:00:00Z"
+  },
+  {
+    "title": "Code Complete",
+    "author": "Steve McConnell",
+    "genres": [
+      "Programming",
+      "Software Engineering"
+    ],
+    "language": "English",
+    "year": 2004,
+    "pages": 960,
+    "rating": 4.4,
+    "price": 45.0,
+    "publisher": "Microsoft Press",
+    "tags": [
+      "construction",
+      "best-practices"
+    ],
+    "description": "A practical handbook of software construction techniques that synthesizes research and experience into actionable advice for writing higher-quality code.",
+    "id": "book_0007",
+    "isbn": "9782697070726",
+    "in_stock": true,
+    "stock_count": 55,
+    "pub_date": "2004-01-01T00:00:00Z"
+  },
+  {
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "genres": [
+      "Programming",
+      "Software Engineering"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 448,
+    "rating": 4.5,
+    "price": 47.99,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "refactoring",
+      "design",
+      "patterns"
+    ],
+    "description": "A catalog of small, behavior-preserving transformations that improve the design of existing code, with worked examples and guidance on when each refactoring is appropriate.",
+    "id": "book_0008",
+    "isbn": "9781948273954",
+    "in_stock": true,
+    "stock_count": 0,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "title": "Designing Distributed Systems",
+    "author": "Brendan Burns",
+    "genres": [
+      "Distributed Systems",
+      "Cloud Computing"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 166,
+    "rating": 4.2,
+    "price": 29.99,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "kubernetes",
+      "patterns",
+      "microservices"
+    ],
+    "description": "Patterns and paradigms for designing reliable, scalable distributed systems built on container orchestration platforms such as Kubernetes.",
+    "id": "book_0009",
+    "isbn": "9787503328503",
+    "in_stock": false,
+    "stock_count": 0,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "title": "Site Reliability Engineering",
+    "author": "Niall Richard Murphy and Betsy Beyer",
+    "genres": [
+      "DevOps",
+      "Operations"
+    ],
+    "language": "English",
+    "year": 2016,
+    "pages": 552,
+    "rating": 4.3,
+    "price": 44.99,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "sre",
+      "operations",
+      "google"
+    ],
+    "description": "Google's principles and practices for running production systems, covering service-level objectives, error budgets, on-call culture, and post-mortem driven engineering.",
+    "id": "book_0010",
+    "isbn": "9784070962505",
+    "in_stock": true,
+    "stock_count": 233,
+    "pub_date": "2016-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Art of Computer Programming, Vol. 1",
+    "author": "Donald E. Knuth",
+    "genres": [
+      "Algorithms",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 1997,
+    "pages": 672,
+    "rating": 4.7,
+    "price": 99.0,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "fundamentals",
+      "math",
+      "classic"
+    ],
+    "description": "Knuth's monumental treatise on the analysis of algorithms, beginning with the mathematical preliminaries needed for the deep study of computer programming.",
+    "id": "book_0011",
+    "isbn": "9782921947978",
+    "in_stock": true,
+    "stock_count": 1,
+    "pub_date": "1997-01-01T00:00:00Z"
+  },
+  {
+    "title": "Database System Concepts",
+    "author": "Abraham Silberschatz",
+    "genres": [
+      "Databases",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2019,
+    "pages": 1376,
+    "rating": 4.2,
+    "price": 95.0,
+    "publisher": "McGraw-Hill",
+    "tags": [
+      "databases",
+      "sql",
+      "academic"
+    ],
+    "description": "A comprehensive introduction to database management systems covering relational theory, transaction processing, query optimization, and modern distributed data stores.",
+    "id": "book_0012",
+    "isbn": "9788554406363",
+    "in_stock": true,
+    "stock_count": 225,
+    "pub_date": "2019-01-01T00:00:00Z"
+  },
+  {
+    "title": "Operating System Concepts",
+    "author": "Abraham Silberschatz",
+    "genres": [
+      "Operating Systems",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 976,
+    "rating": 4.1,
+    "price": 88.0,
+    "publisher": "Wiley",
+    "tags": [
+      "os",
+      "academic",
+      "kernel"
+    ],
+    "description": "The classic 'dinosaur book' on operating systems, presenting process management, memory, file systems, and synchronization with worked examples from real systems.",
+    "id": "book_0013",
+    "isbn": "9786531070439",
+    "in_stock": true,
+    "stock_count": 18,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "title": "Computer Networking: A Top-Down Approach",
+    "author": "James F. Kurose and Keith W. Ross",
+    "genres": [
+      "Networking",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2017,
+    "pages": 864,
+    "rating": 4.3,
+    "price": 79.0,
+    "publisher": "Pearson",
+    "tags": [
+      "networking",
+      "tcp",
+      "academic"
+    ],
+    "description": "A widely adopted networking textbook that introduces protocols and performance from the application layer down to the physical layer, with rich pedagogy and lab exercises.",
+    "id": "book_0014",
+    "isbn": "9783613325692",
+    "in_stock": false,
+    "stock_count": 90,
+    "pub_date": "2017-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Algorithm Design Manual",
+    "author": "Steven S. Skiena",
+    "genres": [
+      "Algorithms",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2020,
+    "pages": 793,
+    "rating": 4.5,
+    "price": 64.99,
+    "publisher": "Springer",
+    "tags": [
+      "algorithms",
+      "interview",
+      "practical"
+    ],
+    "description": "A practical guide to algorithm design with a hitchhiker-style catalog of common algorithmic problems and proven techniques for tackling them.",
+    "id": "book_0015",
+    "isbn": "9780264117027",
+    "in_stock": true,
+    "stock_count": 176,
+    "pub_date": "2020-01-01T00:00:00Z"
+  },
+  {
+    "title": "Hands-On Machine Learning",
+    "author": "Aurelien Geron",
+    "genres": [
+      "Machine Learning",
+      "Data Science"
+    ],
+    "language": "English",
+    "year": 2019,
+    "pages": 856,
+    "rating": 4.7,
+    "price": 59.99,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "ml",
+      "tensorflow",
+      "scikit-learn"
+    ],
+    "description": "An applied tour of modern machine learning using Scikit-Learn, Keras, and TensorFlow, with end-to-end projects that illustrate best practices from data prep through deployment.",
+    "id": "book_0016",
+    "isbn": "9782812124822",
+    "in_stock": true,
+    "stock_count": 218,
+    "pub_date": "2019-01-01T00:00:00Z"
+  },
+  {
+    "title": "Deep Learning",
+    "author": "Ian Goodfellow",
+    "genres": [
+      "Machine Learning",
+      "Artificial Intelligence"
+    ],
+    "language": "English",
+    "year": 2016,
+    "pages": 800,
+    "rating": 4.4,
+    "price": 70.0,
+    "publisher": "MIT Press",
+    "tags": [
+      "deep-learning",
+      "neural-networks",
+      "theory"
+    ],
+    "description": "An authoritative reference on deep learning that covers the mathematical and conceptual background, modern architectures, and research-frontier topics in representation learning.",
+    "id": "book_0017",
+    "isbn": "9782503541037",
+    "in_stock": true,
+    "stock_count": 234,
+    "pub_date": "2016-01-01T00:00:00Z"
+  },
+  {
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "genres": [
+      "Programming",
+      "Python"
+    ],
+    "language": "English",
+    "year": 2019,
+    "pages": 544,
+    "rating": 4.6,
+    "price": 39.95,
+    "publisher": "No Starch Press",
+    "tags": [
+      "python",
+      "beginner",
+      "projects"
+    ],
+    "description": "A fast-paced introduction to Python programming that takes complete beginners from the basics through three substantial projects in games, data, and web.",
+    "id": "book_0018",
+    "isbn": "9784400435013",
+    "in_stock": true,
+    "stock_count": 3,
+    "pub_date": "2019-01-01T00:00:00Z"
+  },
+  {
+    "title": "Fluent Python",
+    "author": "Luciano Ramalho",
+    "genres": [
+      "Programming",
+      "Python"
+    ],
+    "language": "English",
+    "year": 2022,
+    "pages": 1014,
+    "rating": 4.7,
+    "price": 65.99,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "python",
+      "advanced",
+      "idioms"
+    ],
+    "description": "An expert tour of Python's most powerful features, showing how to write idiomatic, efficient code by leveraging the language's data model, descriptors, and concurrency primitives.",
+    "id": "book_0019",
+    "isbn": "9785001947882",
+    "in_stock": true,
+    "stock_count": 183,
+    "pub_date": "2022-01-01T00:00:00Z"
+  },
+  {
+    "title": "Effective Java",
+    "author": "Joshua Bloch",
+    "genres": [
+      "Programming",
+      "Java"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 412,
+    "rating": 4.7,
+    "price": 49.99,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "java",
+      "best-practices",
+      "design"
+    ],
+    "description": "A collection of pragmatic, high-impact items on writing better Java, distilled from years of language-design experience and real-world API construction.",
+    "id": "book_0020",
+    "isbn": "9780795799471",
+    "in_stock": true,
+    "stock_count": 105,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "title": "Programming Pearls",
+    "author": "Jon Bentley",
+    "genres": [
+      "Programming",
+      "Algorithms"
+    ],
+    "language": "English",
+    "year": 1999,
+    "pages": 256,
+    "rating": 4.5,
+    "price": 38.0,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "essays",
+      "problem-solving",
+      "classic"
+    ],
+    "description": "A delightful set of essays on practical algorithm design and the craft of programming, distilled from columns originally written for Communications of the ACM.",
+    "id": "book_0021",
+    "isbn": "9789098127547",
+    "in_stock": true,
+    "stock_count": 59,
+    "pub_date": "1999-01-01T00:00:00Z"
+  },
+  {
+    "title": "Cracking the Coding Interview",
+    "author": "Gayle Laakmann McDowell",
+    "genres": [
+      "Algorithms",
+      "Career"
+    ],
+    "language": "English",
+    "year": 2015,
+    "pages": 696,
+    "rating": 4.5,
+    "price": 35.0,
+    "publisher": "CareerCup",
+    "tags": [
+      "interview",
+      "algorithms",
+      "career"
+    ],
+    "description": "A comprehensive guide to technical interviews with 189 fully worked questions, covering algorithms, data structures, and the soft skills that hiring managers screen for.",
+    "id": "book_0022",
+    "isbn": "9784932413015",
+    "in_stock": true,
+    "stock_count": 55,
+    "pub_date": "2015-01-01T00:00:00Z"
+  },
+  {
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "genres": [
+      "Programming",
+      "JavaScript"
+    ],
+    "language": "English",
+    "year": 2008,
+    "pages": 176,
+    "rating": 4.1,
+    "price": 28.99,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "javascript",
+      "language-design"
+    ],
+    "description": "A concise distillation of the elegant subset of JavaScript that lets developers avoid the language's well-known sharp edges and build robust software.",
+    "id": "book_0023",
+    "isbn": "9780891713784",
+    "in_stock": true,
+    "stock_count": 199,
+    "pub_date": "2008-01-01T00:00:00Z"
+  },
+  {
+    "title": "You Don't Know JS Yet",
+    "author": "Kyle Simpson",
+    "genres": [
+      "Programming",
+      "JavaScript"
+    ],
+    "language": "English",
+    "year": 2020,
+    "pages": 282,
+    "rating": 4.4,
+    "price": 32.5,
+    "publisher": "Self-Published",
+    "tags": [
+      "javascript",
+      "fundamentals",
+      "series"
+    ],
+    "description": "A deep, no-shortcuts series that explores the core mechanics of JavaScript from scoping and closures to types, coercion, and the asynchronous model.",
+    "id": "book_0024",
+    "isbn": "9785058545635",
+    "in_stock": true,
+    "stock_count": 193,
+    "pub_date": "2020-01-01T00:00:00Z"
+  },
+  {
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "genres": [
+      "Programming",
+      "JavaScript"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 472,
+    "rating": 4.5,
+    "price": 39.95,
+    "publisher": "No Starch Press",
+    "tags": [
+      "javascript",
+      "beginner",
+      "projects"
+    ],
+    "description": "A modern introduction to programming with JavaScript that combines language fundamentals with browser, Node.js, and interactive project chapters.",
+    "id": "book_0025",
+    "isbn": "9788572466400",
+    "in_stock": true,
+    "stock_count": 12,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "title": "The C Programming Language",
+    "author": "Brian W. Kernighan and Dennis M. Ritchie",
+    "genres": [
+      "Programming",
+      "C"
+    ],
+    "language": "English",
+    "year": 1988,
+    "pages": 272,
+    "rating": 4.7,
+    "price": 42.0,
+    "publisher": "Prentice Hall",
+    "tags": [
+      "c",
+      "classic",
+      "fundamentals"
+    ],
+    "description": "The definitive reference to ANSI C, written by the creators of the language with the disciplined clarity that made it a permanent fixture of every programmer's bookshelf.",
+    "id": "book_0026",
+    "isbn": "9782668751470",
+    "in_stock": true,
+    "stock_count": 206,
+    "pub_date": "1988-01-01T00:00:00Z"
+  },
+  {
+    "title": "Compilers: Principles, Techniques, and Tools",
+    "author": "Alfred V. Aho",
+    "genres": [
+      "Compilers",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2006,
+    "pages": 1009,
+    "rating": 4.3,
+    "price": 95.0,
+    "publisher": "Pearson",
+    "tags": [
+      "compilers",
+      "academic",
+      "dragon"
+    ],
+    "description": "The 'Dragon Book' covering lexical analysis, parsing, semantic analysis, intermediate code generation, optimization, and code generation for modern compilers.",
+    "id": "book_0027",
+    "isbn": "9788717157361",
+    "in_stock": true,
+    "stock_count": 8,
+    "pub_date": "2006-01-01T00:00:00Z"
+  },
+  {
+    "title": "Computer Systems: A Programmer's Perspective",
+    "author": "Randal E. Bryant and David R. O'Hallaron",
+    "genres": [
+      "Computer Architecture",
+      "Operating Systems"
+    ],
+    "language": "English",
+    "year": 2015,
+    "pages": 1072,
+    "rating": 4.6,
+    "price": 90.0,
+    "publisher": "Pearson",
+    "tags": [
+      "systems",
+      "x86",
+      "linking"
+    ],
+    "description": "Examines computer systems from the programmer's viewpoint, covering data representation, processor architecture, the memory hierarchy, linking, exceptions, and concurrency.",
+    "id": "book_0028",
+    "isbn": "9786899813327",
+    "in_stock": true,
+    "stock_count": 225,
+    "pub_date": "2015-01-01T00:00:00Z"
+  },
+  {
+    "title": "Domain-Driven Design",
+    "author": "Eric Evans",
+    "genres": [
+      "Software Engineering",
+      "Architecture"
+    ],
+    "language": "English",
+    "year": 2003,
+    "pages": 560,
+    "rating": 4.3,
+    "price": 49.99,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "ddd",
+      "modeling",
+      "architecture"
+    ],
+    "description": "Tackling software complexity in the heart of business logic, Evans introduces a vocabulary and a set of practices for modeling rich domains in collaboration with experts.",
+    "id": "book_0029",
+    "isbn": "9786313805068",
+    "in_stock": false,
+    "stock_count": 89,
+    "pub_date": "2003-01-01T00:00:00Z"
+  },
+  {
+    "title": "Patterns of Enterprise Application Architecture",
+    "author": "Martin Fowler",
+    "genres": [
+      "Software Engineering",
+      "Architecture"
+    ],
+    "language": "English",
+    "year": 2002,
+    "pages": 560,
+    "rating": 4.3,
+    "price": 54.99,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "patterns",
+      "enterprise",
+      "architecture"
+    ],
+    "description": "A catalog of architectural patterns for building enterprise applications, covering data mapping, concurrency, session state, and distribution strategies.",
+    "id": "book_0030",
+    "isbn": "9789219702301",
+    "in_stock": true,
+    "stock_count": 182,
+    "pub_date": "2002-01-01T00:00:00Z"
+  },
+  {
+    "title": "Working Effectively with Legacy Code",
+    "author": "Michael C. Feathers",
+    "genres": [
+      "Software Engineering",
+      "Refactoring"
+    ],
+    "language": "English",
+    "year": 2004,
+    "pages": 456,
+    "rating": 4.4,
+    "price": 41.99,
+    "publisher": "Prentice Hall",
+    "tags": [
+      "legacy",
+      "testing",
+      "refactoring"
+    ],
+    "description": "Practical techniques for stabilizing, testing, and extending untested codebases by introducing seams and isolating dependencies in safe, incremental steps.",
+    "id": "book_0031",
+    "isbn": "9780889829923",
+    "in_stock": true,
+    "stock_count": 192,
+    "pub_date": "2004-01-01T00:00:00Z"
+  },
+  {
+    "title": "Cloud Native Patterns",
+    "author": "Cornelia Davis",
+    "genres": [
+      "Cloud Computing",
+      "Architecture"
+    ],
+    "language": "English",
+    "year": 2019,
+    "pages": 400,
+    "rating": 4.0,
+    "price": 49.99,
+    "publisher": "Manning",
+    "tags": [
+      "cloud",
+      "patterns",
+      "12-factor"
+    ],
+    "description": "Concepts and patterns for designing applications that take full advantage of dynamic, distributed cloud environments — service discovery, resilience, and observability.",
+    "id": "book_0032",
+    "isbn": "9785942865153",
+    "in_stock": false,
+    "stock_count": 178,
+    "pub_date": "2019-01-01T00:00:00Z"
+  },
+  {
+    "title": "The DevOps Handbook",
+    "author": "Gene Kim",
+    "genres": [
+      "DevOps",
+      "Software Engineering"
+    ],
+    "language": "English",
+    "year": 2016,
+    "pages": 480,
+    "rating": 4.5,
+    "price": 39.99,
+    "publisher": "IT Revolution Press",
+    "tags": [
+      "devops",
+      "culture",
+      "automation"
+    ],
+    "description": "A guide to applying the principles described in The Phoenix Project to real organizations, with case studies that demonstrate how to align development and operations.",
+    "id": "book_0033",
+    "isbn": "9783339267115",
+    "in_stock": false,
+    "stock_count": 45,
+    "pub_date": "2016-01-01T00:00:00Z"
+  },
+  {
+    "title": "Accelerate",
+    "author": "Nicole Forsgren",
+    "genres": [
+      "DevOps",
+      "Research"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 252,
+    "rating": 4.5,
+    "price": 27.95,
+    "publisher": "IT Revolution Press",
+    "tags": [
+      "devops",
+      "metrics",
+      "research"
+    ],
+    "description": "An evidence-based exploration of the practices that drive high software-delivery performance, summarizing four years of State of DevOps research.",
+    "id": "book_0034",
+    "isbn": "9781664951273",
+    "in_stock": true,
+    "stock_count": 95,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Phoenix Project",
+    "author": "Gene Kim",
+    "genres": [
+      "DevOps",
+      "Fiction"
+    ],
+    "language": "English",
+    "year": 2013,
+    "pages": 432,
+    "rating": 4.6,
+    "price": 26.99,
+    "publisher": "IT Revolution Press",
+    "tags": [
+      "devops",
+      "novel",
+      "lean"
+    ],
+    "description": "A business novel that follows an IT manager whose company is on the verge of collapse and the lessons he learns about applying lean principles to software delivery.",
+    "id": "book_0035",
+    "isbn": "9784279033235",
+    "in_stock": true,
+    "stock_count": 200,
+    "pub_date": "2013-01-01T00:00:00Z"
+  },
+  {
+    "title": "Kubernetes Up & Running",
+    "author": "Brendan Burns",
+    "genres": [
+      "Cloud Computing",
+      "DevOps"
+    ],
+    "language": "English",
+    "year": 2019,
+    "pages": 278,
+    "rating": 4.3,
+    "price": 39.99,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "kubernetes",
+      "containers",
+      "ops"
+    ],
+    "description": "A practical guide to deploying and operating containerized applications on Kubernetes, with hands-on examples covering scaling, security, and storage.",
+    "id": "book_0036",
+    "isbn": "9783562290768",
+    "in_stock": false,
+    "stock_count": 119,
+    "pub_date": "2019-01-01T00:00:00Z"
+  },
+  {
+    "title": "Docker Deep Dive",
+    "author": "Nigel Poulton",
+    "genres": [
+      "Cloud Computing",
+      "DevOps"
+    ],
+    "language": "English",
+    "year": 2020,
+    "pages": 426,
+    "rating": 4.6,
+    "price": 35.0,
+    "publisher": "Self-Published",
+    "tags": [
+      "docker",
+      "containers",
+      "ops"
+    ],
+    "description": "A thorough yet readable tour of Docker covering images, containers, networking, storage, swarm mode, and the broader container ecosystem.",
+    "id": "book_0037",
+    "isbn": "9781369855913",
+    "in_stock": true,
+    "stock_count": 69,
+    "pub_date": "2020-01-01T00:00:00Z"
+  },
+  {
+    "title": "Lucene in Action",
+    "author": "Michael McCandless",
+    "genres": [
+      "Information Retrieval",
+      "Search"
+    ],
+    "language": "English",
+    "year": 2010,
+    "pages": 528,
+    "rating": 4.2,
+    "price": 49.99,
+    "publisher": "Manning",
+    "tags": [
+      "lucene",
+      "search",
+      "indexing"
+    ],
+    "description": "An in-depth exploration of Apache Lucene, covering indexing, searching, analyzers, and the techniques used to build powerful full-text search applications.",
+    "id": "book_0038",
+    "isbn": "9782501243582",
+    "in_stock": true,
+    "stock_count": 226,
+    "pub_date": "2010-01-01T00:00:00Z"
+  },
+  {
+    "title": "Solr in Action",
+    "author": "Trey Grainger",
+    "genres": [
+      "Information Retrieval",
+      "Search"
+    ],
+    "language": "English",
+    "year": 2014,
+    "pages": 664,
+    "rating": 4.3,
+    "price": 49.99,
+    "publisher": "Manning",
+    "tags": [
+      "solr",
+      "lucene",
+      "search"
+    ],
+    "description": "A comprehensive guide to Apache Solr that covers schema design, scoring, faceting, distributed search, and the operational aspects of running Solr in production.",
+    "id": "book_0039",
+    "isbn": "9785349735660",
+    "in_stock": true,
+    "stock_count": 174,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "title": "Elasticsearch: The Definitive Guide",
+    "author": "Clinton Gormley",
+    "genres": [
+      "Information Retrieval",
+      "Search"
+    ],
+    "language": "English",
+    "year": 2015,
+    "pages": 720,
+    "rating": 4.4,
+    "price": 49.99,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "elasticsearch",
+      "lucene",
+      "search"
+    ],
+    "description": "An authoritative introduction to Elasticsearch covering indexing, querying, analysis, aggregations, and the operational concerns of running a clustered search service.",
+    "id": "book_0040",
+    "isbn": "9782646683700",
+    "in_stock": true,
+    "stock_count": 147,
+    "pub_date": "2015-01-01T00:00:00Z"
+  },
+  {
+    "title": "Hadoop: The Definitive Guide",
+    "author": "Tom White",
+    "genres": [
+      "Big Data",
+      "Distributed Systems"
+    ],
+    "language": "English",
+    "year": 2015,
+    "pages": 756,
+    "rating": 4.3,
+    "price": 49.99,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "hadoop",
+      "mapreduce",
+      "hdfs"
+    ],
+    "description": "The standard reference for Apache Hadoop, covering HDFS, MapReduce, YARN, and the surrounding ecosystem with practical guidance on operating production clusters.",
+    "id": "book_0041",
+    "isbn": "9781196262694",
+    "in_stock": true,
+    "stock_count": 149,
+    "pub_date": "2015-01-01T00:00:00Z"
+  },
+  {
+    "title": "Spark: The Definitive Guide",
+    "author": "Bill Chambers and Matei Zaharia",
+    "genres": [
+      "Big Data",
+      "Distributed Systems"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 624,
+    "rating": 4.4,
+    "price": 49.99,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "spark",
+      "scala",
+      "data-processing"
+    ],
+    "description": "A comprehensive guide to Apache Spark covering the structured APIs, streaming, machine learning, and tuning techniques for large-scale data processing.",
+    "id": "book_0042",
+    "isbn": "9788627884685",
+    "in_stock": true,
+    "stock_count": 1,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "title": "Streaming Systems",
+    "author": "Tyler Akidau",
+    "genres": [
+      "Big Data",
+      "Distributed Systems"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 380,
+    "rating": 4.6,
+    "price": 49.99,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "streaming",
+      "kafka",
+      "beam"
+    ],
+    "description": "A modern treatment of unbounded data processing that introduces the principles behind streaming systems, the Beam model, and exactly-once delivery semantics.",
+    "id": "book_0043",
+    "isbn": "9783948655556",
+    "in_stock": false,
+    "stock_count": 146,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "title": "Building Microservices",
+    "author": "Sam Newman",
+    "genres": [
+      "Software Engineering",
+      "Architecture"
+    ],
+    "language": "English",
+    "year": 2021,
+    "pages": 612,
+    "rating": 4.4,
+    "price": 49.99,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "microservices",
+      "architecture",
+      "patterns"
+    ],
+    "description": "A practical guide to designing fine-grained services with clear boundaries, independent deployability, and resilience strategies for the operational realities of distributed systems.",
+    "id": "book_0044",
+    "isbn": "9789934604980",
+    "in_stock": true,
+    "stock_count": 201,
+    "pub_date": "2021-01-01T00:00:00Z"
+  },
+  {
+    "title": "Software Engineering at Google",
+    "author": "Titus Winters",
+    "genres": [
+      "Software Engineering",
+      "Engineering Culture"
+    ],
+    "language": "English",
+    "year": 2020,
+    "pages": 602,
+    "rating": 4.4,
+    "price": 49.99,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "culture",
+      "process",
+      "scale"
+    ],
+    "description": "Lessons learned from programming over time at Google scale, with a focus on culture, processes, and tools that allow teams to build software that lasts.",
+    "id": "book_0045",
+    "isbn": "9783465250753",
+    "in_stock": true,
+    "stock_count": 68,
+    "pub_date": "2020-01-01T00:00:00Z"
+  },
+  {
+    "title": "Don't Make Me Think",
+    "author": "Steve Krug",
+    "genres": [
+      "UX Design",
+      "Web"
+    ],
+    "language": "English",
+    "year": 2014,
+    "pages": 200,
+    "rating": 4.6,
+    "price": 28.0,
+    "publisher": "New Riders",
+    "tags": [
+      "usability",
+      "ux",
+      "web"
+    ],
+    "description": "A common-sense approach to web usability that has guided designers and developers for two decades to build interfaces people actually understand.",
+    "id": "book_0046",
+    "isbn": "9787921167517",
+    "in_stock": true,
+    "stock_count": 25,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Design of Everyday Things",
+    "author": "Don Norman",
+    "genres": [
+      "UX Design",
+      "Psychology"
+    ],
+    "language": "English",
+    "year": 2013,
+    "pages": 368,
+    "rating": 4.5,
+    "price": 18.99,
+    "publisher": "Basic Books",
+    "tags": [
+      "design",
+      "cognition",
+      "affordance"
+    ],
+    "description": "A foundational text in user-centered design that examines how everyday objects succeed or fail at communicating their purpose to the humans who use them.",
+    "id": "book_0047",
+    "isbn": "9782183676678",
+    "in_stock": true,
+    "stock_count": 243,
+    "pub_date": "2013-01-01T00:00:00Z"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genres": [
+      "Fiction",
+      "Dystopian"
+    ],
+    "language": "English",
+    "year": 1949,
+    "pages": 328,
+    "rating": 4.4,
+    "price": 14.99,
+    "publisher": "Secker & Warburg",
+    "tags": [
+      "classic",
+      "totalitarianism",
+      "surveillance"
+    ],
+    "description": "Orwell's chilling portrait of a totalitarian future in which the state controls thought through language, surveillance, and perpetual war.",
+    "id": "book_0048",
+    "isbn": "9785422793211",
+    "in_stock": true,
+    "stock_count": 236,
+    "pub_date": "1949-01-01T00:00:00Z"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genres": [
+      "Fiction",
+      "Classic"
+    ],
+    "language": "English",
+    "year": 1960,
+    "pages": 281,
+    "rating": 4.6,
+    "price": 12.99,
+    "publisher": "J. B. Lippincott",
+    "tags": [
+      "classic",
+      "justice",
+      "south"
+    ],
+    "description": "A coming-of-age story set in Depression-era Alabama in which a young girl's father defends a Black man falsely accused of a terrible crime.",
+    "id": "book_0049",
+    "isbn": "9781411749160",
+    "in_stock": true,
+    "stock_count": 219,
+    "pub_date": "1960-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genres": [
+      "Fiction",
+      "Classic"
+    ],
+    "language": "English",
+    "year": 1925,
+    "pages": 180,
+    "rating": 4.0,
+    "price": 11.99,
+    "publisher": "Scribner",
+    "tags": [
+      "classic",
+      "jazz-age",
+      "tragedy"
+    ],
+    "description": "A lyrical chronicle of obsession and the American Dream set in the roaring twenties of Long Island and Manhattan.",
+    "id": "book_0050",
+    "isbn": "9788952108302",
+    "in_stock": true,
+    "stock_count": 123,
+    "pub_date": "1925-01-01T00:00:00Z"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "language": "English",
+    "year": 1813,
+    "pages": 432,
+    "rating": 4.4,
+    "price": 10.99,
+    "publisher": "T. Egerton",
+    "tags": [
+      "classic",
+      "regency",
+      "romance"
+    ],
+    "description": "Austen's witty study of manners, marriage, and the gradual softening of first impressions in early-19th-century English society.",
+    "id": "book_0051",
+    "isbn": "9789376438280",
+    "in_stock": true,
+    "stock_count": 48,
+    "pub_date": "1813-01-01T00:00:00Z"
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel Garcia Marquez",
+    "genres": [
+      "Fiction",
+      "Magical Realism"
+    ],
+    "language": "Spanish",
+    "year": 1967,
+    "pages": 417,
+    "rating": 4.4,
+    "price": 16.99,
+    "publisher": "Editorial Sudamericana",
+    "tags": [
+      "magical-realism",
+      "latin-america",
+      "epic"
+    ],
+    "description": "The multi-generational saga of the Buendia family in the fictional town of Macondo, a foundational work of magical realism.",
+    "id": "book_0052",
+    "isbn": "9781755385574",
+    "in_stock": true,
+    "stock_count": 67,
+    "pub_date": "1967-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "genres": [
+      "Fiction",
+      "Philosophy"
+    ],
+    "language": "Russian",
+    "year": 1880,
+    "pages": 796,
+    "rating": 4.5,
+    "price": 18.99,
+    "publisher": "The Russian Messenger",
+    "tags": [
+      "classic",
+      "philosophy",
+      "russian"
+    ],
+    "description": "A philosophical novel that explores faith, doubt, and free will through the conflicts of three brothers and the murder of their dissolute father.",
+    "id": "book_0053",
+    "isbn": "9788283614992",
+    "in_stock": false,
+    "stock_count": 37,
+    "pub_date": "1880-01-01T00:00:00Z"
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "genres": [
+      "Fiction",
+      "Psychological"
+    ],
+    "language": "Russian",
+    "year": 1866,
+    "pages": 671,
+    "rating": 4.4,
+    "price": 14.99,
+    "publisher": "The Russian Messenger",
+    "tags": [
+      "classic",
+      "psychology",
+      "russian"
+    ],
+    "description": "A poor former student in St. Petersburg commits a murder and is haunted by the moral and psychological consequences of his act.",
+    "id": "book_0054",
+    "isbn": "9786809523216",
+    "in_stock": true,
+    "stock_count": 119,
+    "pub_date": "1866-01-01T00:00:00Z"
+  },
+  {
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "language": "Russian",
+    "year": 1869,
+    "pages": 1225,
+    "rating": 4.3,
+    "price": 22.99,
+    "publisher": "The Russian Messenger",
+    "tags": [
+      "epic",
+      "history",
+      "napoleonic"
+    ],
+    "description": "Tolstoy's panoramic Napoleonic-era novel that interweaves the fates of five aristocratic families with sweeping reflections on history.",
+    "id": "book_0055",
+    "isbn": "9780774665704",
+    "in_stock": true,
+    "stock_count": 139,
+    "pub_date": "1869-01-01T00:00:00Z"
+  },
+  {
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "language": "Russian",
+    "year": 1878,
+    "pages": 864,
+    "rating": 4.3,
+    "price": 16.99,
+    "publisher": "The Russian Messenger",
+    "tags": [
+      "classic",
+      "russian",
+      "tragedy"
+    ],
+    "description": "A devastating exploration of love, faith, and society told through the parallel stories of Anna Karenina's tragic affair and Levin's search for meaning.",
+    "id": "book_0056",
+    "isbn": "9786697719258",
+    "in_stock": true,
+    "stock_count": 220,
+    "pub_date": "1878-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J. R. R. Tolkien",
+    "genres": [
+      "Fiction",
+      "Fantasy"
+    ],
+    "language": "English",
+    "year": 1937,
+    "pages": 310,
+    "rating": 4.7,
+    "price": 14.99,
+    "publisher": "George Allen & Unwin",
+    "tags": [
+      "fantasy",
+      "adventure",
+      "middle-earth"
+    ],
+    "description": "Bilbo Baggins is whisked from his comfortable hobbit-hole on a quest to help a company of dwarves reclaim their mountain home from the dragon Smaug.",
+    "id": "book_0057",
+    "isbn": "9782724047127",
+    "in_stock": true,
+    "stock_count": 78,
+    "pub_date": "1937-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J. R. R. Tolkien",
+    "genres": [
+      "Fiction",
+      "Fantasy"
+    ],
+    "language": "English",
+    "year": 1954,
+    "pages": 1178,
+    "rating": 4.8,
+    "price": 29.99,
+    "publisher": "George Allen & Unwin",
+    "tags": [
+      "fantasy",
+      "epic",
+      "middle-earth"
+    ],
+    "description": "The epic tale of the Fellowship's quest to destroy the One Ring and overthrow the dark lord Sauron, a foundational text of modern fantasy.",
+    "id": "book_0058",
+    "isbn": "9780590772044",
+    "in_stock": true,
+    "stock_count": 48,
+    "pub_date": "1954-01-01T00:00:00Z"
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "genres": [
+      "Fiction",
+      "Science Fiction"
+    ],
+    "language": "English",
+    "year": 1965,
+    "pages": 688,
+    "rating": 4.6,
+    "price": 19.99,
+    "publisher": "Chilton Books",
+    "tags": [
+      "sci-fi",
+      "epic",
+      "politics"
+    ],
+    "description": "On the desert planet Arrakis, the only source of the universe's most valuable substance, a young noble must navigate ecology, religion, and intergalactic politics.",
+    "id": "book_0059",
+    "isbn": "9787841512275",
+    "in_stock": false,
+    "stock_count": 245,
+    "pub_date": "1965-01-01T00:00:00Z"
+  },
+  {
+    "title": "Foundation",
+    "author": "Isaac Asimov",
+    "genres": [
+      "Fiction",
+      "Science Fiction"
+    ],
+    "language": "English",
+    "year": 1951,
+    "pages": 244,
+    "rating": 4.3,
+    "price": 13.99,
+    "publisher": "Gnome Press",
+    "tags": [
+      "sci-fi",
+      "classic",
+      "psychohistory"
+    ],
+    "description": "Mathematician Hari Seldon predicts the fall of a galactic empire and creates a foundation that aims to shorten the approaching age of barbarism.",
+    "id": "book_0060",
+    "isbn": "9786997643352",
+    "in_stock": true,
+    "stock_count": 55,
+    "pub_date": "1951-01-01T00:00:00Z"
+  },
+  {
+    "title": "Neuromancer",
+    "author": "William Gibson",
+    "genres": [
+      "Fiction",
+      "Science Fiction"
+    ],
+    "language": "English",
+    "year": 1984,
+    "pages": 271,
+    "rating": 4.0,
+    "price": 14.99,
+    "publisher": "Ace Books",
+    "tags": [
+      "cyberpunk",
+      "ai",
+      "classic"
+    ],
+    "description": "A washed-up hacker is given a chance at redemption in a noir-tinged future where AI, mega-corporations, and human consciousness collide.",
+    "id": "book_0061",
+    "isbn": "9785866359950",
+    "in_stock": true,
+    "stock_count": 232,
+    "pub_date": "1984-01-01T00:00:00Z"
+  },
+  {
+    "title": "Snow Crash",
+    "author": "Neal Stephenson",
+    "genres": [
+      "Fiction",
+      "Science Fiction"
+    ],
+    "language": "English",
+    "year": 1992,
+    "pages": 480,
+    "rating": 4.0,
+    "price": 16.99,
+    "publisher": "Bantam",
+    "tags": [
+      "cyberpunk",
+      "metaverse",
+      "satire"
+    ],
+    "description": "A pizza-delivering hacker uncovers a virtual virus that threatens both the digital Metaverse and the physical world in this prescient cyberpunk satire.",
+    "id": "book_0062",
+    "isbn": "9783450905989",
+    "in_stock": true,
+    "stock_count": 143,
+    "pub_date": "1992-01-01T00:00:00Z"
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "genres": [
+      "Fiction",
+      "Dystopian"
+    ],
+    "language": "English",
+    "year": 1932,
+    "pages": 311,
+    "rating": 4.0,
+    "price": 13.99,
+    "publisher": "Chatto & Windus",
+    "tags": [
+      "classic",
+      "dystopia",
+      "satire"
+    ],
+    "description": "A future society engineered for maximum stability and pleasure is disturbed by the arrival of an outsider who has known a different way of life.",
+    "id": "book_0063",
+    "isbn": "9786298186626",
+    "in_stock": true,
+    "stock_count": 242,
+    "pub_date": "1932-01-01T00:00:00Z"
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "genres": [
+      "Fiction",
+      "Dystopian"
+    ],
+    "language": "English",
+    "year": 1953,
+    "pages": 249,
+    "rating": 4.0,
+    "price": 12.99,
+    "publisher": "Ballantine Books",
+    "tags": [
+      "classic",
+      "dystopia",
+      "books"
+    ],
+    "description": "In a future where books are outlawed and burned by 'firemen', one fireman begins to question the world he enforces and the stories he is destroying.",
+    "id": "book_0064",
+    "isbn": "9782676863165",
+    "in_stock": true,
+    "stock_count": 69,
+    "pub_date": "1953-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J. D. Salinger",
+    "genres": [
+      "Fiction",
+      "Classic"
+    ],
+    "language": "English",
+    "year": 1951,
+    "pages": 277,
+    "rating": 3.8,
+    "price": 12.99,
+    "publisher": "Little, Brown",
+    "tags": [
+      "classic",
+      "coming-of-age"
+    ],
+    "description": "Holden Caulfield's three-day odyssey through New York City captures the alienation, anger, and tenderness of adolescence with extraordinary voice.",
+    "id": "book_0065",
+    "isbn": "9786557351802",
+    "in_stock": true,
+    "stock_count": 210,
+    "pub_date": "1951-01-01T00:00:00Z"
+  },
+  {
+    "title": "Beloved",
+    "author": "Toni Morrison",
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "language": "English",
+    "year": 1987,
+    "pages": 324,
+    "rating": 4.0,
+    "price": 15.99,
+    "publisher": "Knopf",
+    "tags": [
+      "pulitzer",
+      "history",
+      "memory"
+    ],
+    "description": "A formerly enslaved woman's house is haunted by the ghost of her dead daughter in this Pulitzer-winning meditation on memory and freedom.",
+    "id": "book_0066",
+    "isbn": "9787875377550",
+    "in_stock": true,
+    "stock_count": 165,
+    "pub_date": "1987-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "genres": [
+      "Fiction",
+      "Post-Apocalyptic"
+    ],
+    "language": "English",
+    "year": 2006,
+    "pages": 287,
+    "rating": 4.0,
+    "price": 16.0,
+    "publisher": "Knopf",
+    "tags": [
+      "post-apocalyptic",
+      "father-son"
+    ],
+    "description": "A father and son traverse a scorched, post-apocalyptic America in McCarthy's spare and devastating exploration of love and survival.",
+    "id": "book_0067",
+    "isbn": "9780000996992",
+    "in_stock": true,
+    "stock_count": 92,
+    "pub_date": "2006-01-01T00:00:00Z"
+  },
+  {
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "genres": [
+      "Non-Fiction",
+      "History"
+    ],
+    "language": "English",
+    "year": 2014,
+    "pages": 443,
+    "rating": 4.4,
+    "price": 24.99,
+    "publisher": "Harper",
+    "tags": [
+      "history",
+      "anthropology"
+    ],
+    "description": "A sweeping account of how Homo sapiens came to dominate the planet, weaving together biology, history, and economics into a single narrative.",
+    "id": "book_0068",
+    "isbn": "9781575701066",
+    "in_stock": true,
+    "stock_count": 84,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "genres": [
+      "Non-Fiction",
+      "Psychology"
+    ],
+    "language": "English",
+    "year": 2011,
+    "pages": 499,
+    "rating": 4.2,
+    "price": 18.99,
+    "publisher": "Farrar, Straus and Giroux",
+    "tags": [
+      "cognition",
+      "decision-making"
+    ],
+    "description": "Nobel laureate Daniel Kahneman explores the two systems that drive the way we think, exposing the biases and shortcuts that shape every decision we make.",
+    "id": "book_0069",
+    "isbn": "9789553775160",
+    "in_stock": false,
+    "stock_count": 220,
+    "pub_date": "2011-01-01T00:00:00Z"
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genres": [
+      "Non-Fiction",
+      "Self-Help"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 320,
+    "rating": 4.7,
+    "price": 27.0,
+    "publisher": "Avery",
+    "tags": [
+      "habits",
+      "productivity"
+    ],
+    "description": "A practical framework for building good habits and breaking bad ones by focusing on tiny, compounding changes to identity and environment.",
+    "id": "book_0070",
+    "isbn": "9785710881712",
+    "in_stock": true,
+    "stock_count": 118,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "genres": [
+      "Non-Fiction",
+      "Business"
+    ],
+    "language": "English",
+    "year": 2011,
+    "pages": 336,
+    "rating": 4.1,
+    "price": 26.0,
+    "publisher": "Crown Business",
+    "tags": [
+      "startup",
+      "lean",
+      "product"
+    ],
+    "description": "A methodology for launching products and businesses based on validated learning, rapid experimentation, and iterative release cycles.",
+    "id": "book_0071",
+    "isbn": "9788429188974",
+    "in_stock": true,
+    "stock_count": 25,
+    "pub_date": "2011-01-01T00:00:00Z"
+  },
+  {
+    "title": "Zero to One",
+    "author": "Peter Thiel",
+    "genres": [
+      "Non-Fiction",
+      "Business"
+    ],
+    "language": "English",
+    "year": 2014,
+    "pages": 224,
+    "rating": 4.2,
+    "price": 27.0,
+    "publisher": "Crown Business",
+    "tags": [
+      "startup",
+      "monopoly",
+      "innovation"
+    ],
+    "description": "Notes on startups, or how to build the future, distilled from Thiel's Stanford lectures on the contrarian thinking required to create breakthrough companies.",
+    "id": "book_0072",
+    "isbn": "9784407063622",
+    "in_stock": true,
+    "stock_count": 164,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "title": "Good to Great",
+    "author": "Jim Collins",
+    "genres": [
+      "Non-Fiction",
+      "Business"
+    ],
+    "language": "English",
+    "year": 2001,
+    "pages": 320,
+    "rating": 4.1,
+    "price": 30.0,
+    "publisher": "HarperBusiness",
+    "tags": [
+      "leadership",
+      "management"
+    ],
+    "description": "A research-driven look at what distinguishes companies that achieve sustained excellence from their merely good peers, with concrete principles for leaders.",
+    "id": "book_0073",
+    "isbn": "9784257987086",
+    "in_stock": true,
+    "stock_count": 10,
+    "pub_date": "2001-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Wealth of Nations",
+    "author": "Adam Smith",
+    "genres": [
+      "Non-Fiction",
+      "Economics"
+    ],
+    "language": "English",
+    "year": 1776,
+    "pages": 1264,
+    "rating": 3.9,
+    "price": 24.0,
+    "publisher": "W. Strahan",
+    "tags": [
+      "classic",
+      "economics",
+      "philosophy"
+    ],
+    "description": "Adam Smith's foundational treatise on economics, exploring the division of labour, free markets, and the accumulation of wealth in modern society.",
+    "id": "book_0074",
+    "isbn": "9786303356037",
+    "in_stock": true,
+    "stock_count": 160,
+    "pub_date": "1776-01-01T00:00:00Z"
+  },
+  {
+    "title": "Capital in the Twenty-First Century",
+    "author": "Thomas Piketty",
+    "genres": [
+      "Non-Fiction",
+      "Economics"
+    ],
+    "language": "French",
+    "year": 2013,
+    "pages": 696,
+    "rating": 4.1,
+    "price": 39.95,
+    "publisher": "Belknap Press",
+    "tags": [
+      "economics",
+      "inequality"
+    ],
+    "description": "A data-rich analysis of wealth and income inequality in Europe and the United States since the 18th century and the forces that shape its trajectory.",
+    "id": "book_0075",
+    "isbn": "9783081299853",
+    "in_stock": true,
+    "stock_count": 236,
+    "pub_date": "2013-01-01T00:00:00Z"
+  },
+  {
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "genres": [
+      "Non-Fiction",
+      "Physics"
+    ],
+    "language": "English",
+    "year": 1988,
+    "pages": 256,
+    "rating": 4.2,
+    "price": 18.0,
+    "publisher": "Bantam",
+    "tags": [
+      "cosmology",
+      "popular-science"
+    ],
+    "description": "Hawking's landmark popular-science account of cosmology, from the Big Bang to black holes, written for readers without a scientific background.",
+    "id": "book_0076",
+    "isbn": "9789341370973",
+    "in_stock": true,
+    "stock_count": 245,
+    "pub_date": "1988-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "genres": [
+      "Non-Fiction",
+      "Biology"
+    ],
+    "language": "English",
+    "year": 1976,
+    "pages": 360,
+    "rating": 4.1,
+    "price": 17.95,
+    "publisher": "Oxford University Press",
+    "tags": [
+      "evolution",
+      "biology"
+    ],
+    "description": "Dawkins's gene-centred view of evolution, introducing the concept of the meme and reframing natural selection in terms of replicators.",
+    "id": "book_0077",
+    "isbn": "9780785159339",
+    "in_stock": false,
+    "stock_count": 189,
+    "pub_date": "1976-01-01T00:00:00Z"
+  },
+  {
+    "title": "Cosmos",
+    "author": "Carl Sagan",
+    "genres": [
+      "Non-Fiction",
+      "Astronomy"
+    ],
+    "language": "English",
+    "year": 1980,
+    "pages": 396,
+    "rating": 4.4,
+    "price": 18.99,
+    "publisher": "Random House",
+    "tags": [
+      "space",
+      "popular-science"
+    ],
+    "description": "Sagan's poetic and panoramic tour of the universe, weaving together cosmology, history, and the human quest to understand our place in the cosmos.",
+    "id": "book_0078",
+    "isbn": "9785413832400",
+    "in_stock": false,
+    "stock_count": 195,
+    "pub_date": "1980-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Origin of Species",
+    "author": "Charles Darwin",
+    "genres": [
+      "Non-Fiction",
+      "Biology"
+    ],
+    "language": "English",
+    "year": 1859,
+    "pages": 502,
+    "rating": 4.2,
+    "price": 14.99,
+    "publisher": "John Murray",
+    "tags": [
+      "evolution",
+      "classic",
+      "science"
+    ],
+    "description": "Darwin's revolutionary work introducing the theory of evolution by natural selection through extensive observations and synthesis of natural history.",
+    "id": "book_0079",
+    "isbn": "9781756707665",
+    "in_stock": false,
+    "stock_count": 83,
+    "pub_date": "1859-01-01T00:00:00Z"
+  },
+  {
+    "title": "Silent Spring",
+    "author": "Rachel Carson",
+    "genres": [
+      "Non-Fiction",
+      "Environment"
+    ],
+    "language": "English",
+    "year": 1962,
+    "pages": 368,
+    "rating": 4.2,
+    "price": 16.99,
+    "publisher": "Houghton Mifflin",
+    "tags": [
+      "environment",
+      "pesticides",
+      "classic"
+    ],
+    "description": "Carson's wake-up call about the environmental cost of pesticides that helped launch the modern environmental movement.",
+    "id": "book_0080",
+    "isbn": "9787201800127",
+    "in_stock": true,
+    "stock_count": 45,
+    "pub_date": "1962-01-01T00:00:00Z"
+  },
+  {
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "genres": [
+      "Biography",
+      "Business"
+    ],
+    "language": "English",
+    "year": 2011,
+    "pages": 656,
+    "rating": 4.4,
+    "price": 22.0,
+    "publisher": "Simon & Schuster",
+    "tags": [
+      "biography",
+      "tech",
+      "apple"
+    ],
+    "description": "An authorized biography of Apple's co-founder based on hundreds of interviews, painting a complex portrait of one of the tech industry's most influential leaders.",
+    "id": "book_0081",
+    "isbn": "9780251929701",
+    "in_stock": true,
+    "stock_count": 241,
+    "pub_date": "2011-01-01T00:00:00Z"
+  },
+  {
+    "title": "Elon Musk",
+    "author": "Walter Isaacson",
+    "genres": [
+      "Biography",
+      "Business"
+    ],
+    "language": "English",
+    "year": 2023,
+    "pages": 688,
+    "rating": 4.0,
+    "price": 35.0,
+    "publisher": "Simon & Schuster",
+    "tags": [
+      "biography",
+      "tech",
+      "spacex"
+    ],
+    "description": "Isaacson's deeply reported biography of Elon Musk, exploring the personal and professional forces that drive the founder of Tesla and SpaceX.",
+    "id": "book_0082",
+    "isbn": "9787289909033",
+    "in_stock": true,
+    "stock_count": 32,
+    "pub_date": "2023-01-01T00:00:00Z"
+  },
+  {
+    "title": "Born a Crime",
+    "author": "Trevor Noah",
+    "genres": [
+      "Biography",
+      "Memoir"
+    ],
+    "language": "English",
+    "year": 2016,
+    "pages": 304,
+    "rating": 4.7,
+    "price": 17.0,
+    "publisher": "Spiegel & Grau",
+    "tags": [
+      "memoir",
+      "south-africa"
+    ],
+    "description": "Comedian Trevor Noah's memoir of growing up under apartheid in South Africa, told with humor and unsparing honesty about race, family, and resilience.",
+    "id": "book_0083",
+    "isbn": "9787370413753",
+    "in_stock": true,
+    "stock_count": 5,
+    "pub_date": "2016-01-01T00:00:00Z"
+  },
+  {
+    "title": "Educated",
+    "author": "Tara Westover",
+    "genres": [
+      "Biography",
+      "Memoir"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 334,
+    "rating": 4.5,
+    "price": 18.99,
+    "publisher": "Random House",
+    "tags": [
+      "memoir",
+      "education",
+      "family"
+    ],
+    "description": "A memoir of self-invention by a woman raised by survivalist parents in Idaho who eventually earned a PhD from the University of Cambridge.",
+    "id": "book_0084",
+    "isbn": "9780645047042",
+    "in_stock": true,
+    "stock_count": 198,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "title": "When Breath Becomes Air",
+    "author": "Paul Kalanithi",
+    "genres": [
+      "Biography",
+      "Memoir"
+    ],
+    "language": "English",
+    "year": 2016,
+    "pages": 228,
+    "rating": 4.6,
+    "price": 16.99,
+    "publisher": "Random House",
+    "tags": [
+      "memoir",
+      "medicine",
+      "mortality"
+    ],
+    "description": "A neurosurgeon's poignant meditation on identity, meaning, and mortality after a terminal cancer diagnosis cuts short a promising career.",
+    "id": "book_0085",
+    "isbn": "9784377257595",
+    "in_stock": true,
+    "stock_count": 143,
+    "pub_date": "2016-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Diary of a Young Girl",
+    "author": "Anne Frank",
+    "genres": [
+      "Biography",
+      "History"
+    ],
+    "language": "Dutch",
+    "year": 1947,
+    "pages": 283,
+    "rating": 4.5,
+    "price": 12.0,
+    "publisher": "Contact Publishing",
+    "tags": [
+      "wwii",
+      "memoir",
+      "classic"
+    ],
+    "description": "The diary of a Jewish teenager hiding from the Nazis in occupied Amsterdam, an enduring testament to humanity in the face of horror.",
+    "id": "book_0086",
+    "isbn": "9786664381624",
+    "in_stock": true,
+    "stock_count": 28,
+    "pub_date": "1947-01-01T00:00:00Z"
+  },
+  {
+    "title": "Long Walk to Freedom",
+    "author": "Nelson Mandela",
+    "genres": [
+      "Biography",
+      "History"
+    ],
+    "language": "English",
+    "year": 1994,
+    "pages": 656,
+    "rating": 4.6,
+    "price": 22.0,
+    "publisher": "Little, Brown",
+    "tags": [
+      "memoir",
+      "south-africa",
+      "politics"
+    ],
+    "description": "Nelson Mandela's autobiography, recounting his childhood, the long struggle against apartheid, and the road from prison cell to presidency.",
+    "id": "book_0087",
+    "isbn": "9785600333994",
+    "in_stock": true,
+    "stock_count": 34,
+    "pub_date": "1994-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Power of Habit",
+    "author": "Charles Duhigg",
+    "genres": [
+      "Non-Fiction",
+      "Psychology"
+    ],
+    "language": "English",
+    "year": 2012,
+    "pages": 371,
+    "rating": 4.1,
+    "price": 18.0,
+    "publisher": "Random House",
+    "tags": [
+      "habits",
+      "productivity",
+      "psychology"
+    ],
+    "description": "Why we do what we do in life and business, told through stories from Olympic athletes, Pepsodent executives, and civil-rights movements.",
+    "id": "book_0088",
+    "isbn": "9789832793786",
+    "in_stock": true,
+    "stock_count": 111,
+    "pub_date": "2012-01-01T00:00:00Z"
+  },
+  {
+    "title": "Outliers",
+    "author": "Malcolm Gladwell",
+    "genres": [
+      "Non-Fiction",
+      "Psychology"
+    ],
+    "language": "English",
+    "year": 2008,
+    "pages": 309,
+    "rating": 4.2,
+    "price": 18.0,
+    "publisher": "Little, Brown",
+    "tags": [
+      "sociology",
+      "success"
+    ],
+    "description": "Gladwell's exploration of the cultural, social, and statistical forces that produce extraordinarily successful people — popularizing the 10,000-hours rule.",
+    "id": "book_0089",
+    "isbn": "9786370451475",
+    "in_stock": true,
+    "stock_count": 231,
+    "pub_date": "2008-01-01T00:00:00Z"
+  },
+  {
+    "title": "Blink",
+    "author": "Malcolm Gladwell",
+    "genres": [
+      "Non-Fiction",
+      "Psychology"
+    ],
+    "language": "English",
+    "year": 2005,
+    "pages": 296,
+    "rating": 4.0,
+    "price": 17.0,
+    "publisher": "Little, Brown",
+    "tags": [
+      "psychology",
+      "decision-making"
+    ],
+    "description": "An investigation into the power of split-second decisions and how rapid cognition can be more reliable than careful deliberation — except when it isn't.",
+    "id": "book_0090",
+    "isbn": "9782968084551",
+    "in_stock": true,
+    "stock_count": 51,
+    "pub_date": "2005-01-01T00:00:00Z"
+  },
+  {
+    "title": "The Tipping Point",
+    "author": "Malcolm Gladwell",
+    "genres": [
+      "Non-Fiction",
+      "Sociology"
+    ],
+    "language": "English",
+    "year": 2000,
+    "pages": 301,
+    "rating": 4.0,
+    "price": 17.0,
+    "publisher": "Little, Brown",
+    "tags": [
+      "sociology",
+      "trends"
+    ],
+    "description": "How little things can make a big difference — Gladwell's examination of the moments when ideas, behaviors, and products cross a threshold and spread like wildfire.",
+    "id": "book_0091",
+    "isbn": "9785122498089",
+    "in_stock": true,
+    "stock_count": 108,
+    "pub_date": "2000-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0092",
+    "title": "Compilers: Principles, Techniques, and Tools: Field Guide",
+    "author": "Alfred V. Aho",
+    "genres": [
+      "Compilers",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2009,
+    "pages": 889,
+    "rating": 4.2,
+    "price": 102.46,
+    "publisher": "HarperCollins",
+    "tags": [
+      "dragon",
+      "field",
+      "compilers",
+      "academic"
+    ],
+    "description": "A companion volume to Compilers: Principles, Techniques, and Tools that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9782649936216",
+    "in_stock": true,
+    "stock_count": 116,
+    "pub_date": "2009-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0093",
+    "title": "Spark: The Definitive Guide: Field Guide",
+    "author": "Bill Chambers and Matei Zaharia",
+    "genres": [
+      "Big Data",
+      "Distributed Systems"
+    ],
+    "language": "German",
+    "year": 2015,
+    "pages": 683,
+    "rating": 4.5,
+    "price": 43.02,
+    "publisher": "Knopf",
+    "tags": [
+      "data-processing",
+      "spark",
+      "field",
+      "scala"
+    ],
+    "description": "A companion volume to Spark: The Definitive Guide that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9789657796245",
+    "in_stock": true,
+    "stock_count": 20,
+    "pub_date": "2015-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0094",
+    "title": "Working Effectively with Legacy Code: Workbook",
+    "author": "Michael C. Feathers",
+    "genres": [
+      "Software Engineering",
+      "Refactoring"
+    ],
+    "language": "English",
+    "year": 2010,
+    "pages": 654,
+    "rating": 3.8,
+    "price": 33.07,
+    "publisher": "Prentice Hall",
+    "tags": [
+      "workbook",
+      "legacy",
+      "testing",
+      "refactoring"
+    ],
+    "description": "A companion volume to Working Effectively with Legacy Code that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9789718873205",
+    "in_stock": true,
+    "stock_count": 54,
+    "pub_date": "2010-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0095",
+    "title": "Elon Musk: Workbook",
+    "author": "Walter Isaacson",
+    "genres": [
+      "Biography",
+      "Business"
+    ],
+    "language": "English",
+    "year": 2024,
+    "pages": 739,
+    "rating": 3.6,
+    "price": 46.01,
+    "publisher": "Simon & Schuster",
+    "tags": [
+      "workbook",
+      "biography",
+      "spacex",
+      "tech"
+    ],
+    "description": "A companion volume to Elon Musk that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9788525000835",
+    "in_stock": false,
+    "stock_count": 52,
+    "pub_date": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0096",
+    "title": "When Breath Becomes Air: Solutions Manual",
+    "author": "Paul Kalanithi",
+    "genres": [
+      "Biography",
+      "Memoir"
+    ],
+    "language": "English",
+    "year": 2017,
+    "pages": 350,
+    "rating": 4.5,
+    "price": 17.22,
+    "publisher": "Random House",
+    "tags": [
+      "medicine",
+      "mortality",
+      "memoir",
+      "solutions"
+    ],
+    "description": "A companion volume to When Breath Becomes Air that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9782149261757",
+    "in_stock": true,
+    "stock_count": 195,
+    "pub_date": "2017-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0097",
+    "title": "Code Complete: Annotated Edition",
+    "author": "Steve McConnell",
+    "genres": [
+      "Programming",
+      "Software Engineering"
+    ],
+    "language": "English",
+    "year": 2003,
+    "pages": 960,
+    "rating": 4.5,
+    "price": 59.52,
+    "publisher": "Microsoft Press",
+    "tags": [
+      "annotated",
+      "best-practices",
+      "construction"
+    ],
+    "description": "A companion volume to Code Complete that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9780392208116",
+    "in_stock": true,
+    "stock_count": 132,
+    "pub_date": "2003-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0098",
+    "title": "Introduction to Algorithms: Companion",
+    "author": "Thomas H. Cormen",
+    "genres": [
+      "Algorithms",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2014,
+    "pages": 1249,
+    "rating": 4.9,
+    "price": 87.51,
+    "publisher": "MIT Press",
+    "tags": [
+      "algorithms",
+      "academic",
+      "data-structures",
+      "companion"
+    ],
+    "description": "A companion volume to Introduction to Algorithms that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9787890789642",
+    "in_stock": true,
+    "stock_count": 0,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0099",
+    "title": "Cosmos: Field Guide",
+    "author": "Carl Sagan",
+    "genres": [
+      "Non-Fiction",
+      "Astronomy"
+    ],
+    "language": "English",
+    "year": 1987,
+    "pages": 538,
+    "rating": 4.0,
+    "price": 24.98,
+    "publisher": "Random House",
+    "tags": [
+      "space",
+      "field",
+      "popular-science"
+    ],
+    "description": "A companion volume to Cosmos that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9783744628266",
+    "in_stock": true,
+    "stock_count": 195,
+    "pub_date": "1987-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0100",
+    "title": "Cracking the Coding Interview: Field Guide",
+    "author": "Gayle Laakmann McDowell",
+    "genres": [
+      "Algorithms",
+      "Career"
+    ],
+    "language": "English",
+    "year": 2014,
+    "pages": 844,
+    "rating": 4.7,
+    "price": 36.8,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "algorithms",
+      "field",
+      "career",
+      "interview"
+    ],
+    "description": "A companion volume to Cracking the Coding Interview that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9787756470233",
+    "in_stock": false,
+    "stock_count": 130,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0101",
+    "title": "Pride and Prejudice: Companion",
+    "author": "Jane Austen",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "language": "English",
+    "year": 1818,
+    "pages": 366,
+    "rating": 4.2,
+    "price": 20.29,
+    "publisher": "T. Egerton",
+    "tags": [
+      "companion",
+      "regency",
+      "classic",
+      "romance"
+    ],
+    "description": "A companion volume to Pride and Prejudice that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9785614070229",
+    "in_stock": true,
+    "stock_count": 154,
+    "pub_date": "1818-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0102",
+    "title": "Born a Crime: Companion",
+    "author": "Trevor Noah",
+    "genres": [
+      "Biography",
+      "Memoir"
+    ],
+    "language": "English",
+    "year": 2015,
+    "pages": 363,
+    "rating": 4.4,
+    "price": 31.95,
+    "publisher": "Spiegel & Grau",
+    "tags": [
+      "memoir",
+      "companion",
+      "south-africa"
+    ],
+    "description": "A companion volume to Born a Crime that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9785782475956",
+    "in_stock": false,
+    "stock_count": 21,
+    "pub_date": "2015-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0103",
+    "title": "Dune: Workbook",
+    "author": "Frank Herbert",
+    "genres": [
+      "Fiction",
+      "Science Fiction"
+    ],
+    "language": "English",
+    "year": 1971,
+    "pages": 625,
+    "rating": 4.9,
+    "price": 10.46,
+    "publisher": "Chilton Books",
+    "tags": [
+      "politics",
+      "workbook",
+      "sci-fi",
+      "epic"
+    ],
+    "description": "A companion volume to Dune that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9789970253302",
+    "in_stock": true,
+    "stock_count": 34,
+    "pub_date": "1971-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0104",
+    "title": "Outliers: Field Guide",
+    "author": "Malcolm Gladwell",
+    "genres": [
+      "Non-Fiction",
+      "Psychology"
+    ],
+    "language": "English",
+    "year": 2008,
+    "pages": 298,
+    "rating": 4.1,
+    "price": 17.36,
+    "publisher": "Little, Brown",
+    "tags": [
+      "sociology",
+      "field",
+      "success"
+    ],
+    "description": "A companion volume to Outliers that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9783337589080",
+    "in_stock": true,
+    "stock_count": 14,
+    "pub_date": "2008-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0105",
+    "title": "Cloud Native Patterns: Field Guide",
+    "author": "Cornelia Davis",
+    "genres": [
+      "Cloud Computing",
+      "Architecture"
+    ],
+    "language": "English",
+    "year": 2022,
+    "pages": 393,
+    "rating": 3.6,
+    "price": 51.14,
+    "publisher": "HarperCollins",
+    "tags": [
+      "cloud",
+      "field",
+      "12-factor",
+      "patterns"
+    ],
+    "description": "A companion volume to Cloud Native Patterns that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9787496198046",
+    "in_stock": true,
+    "stock_count": 68,
+    "pub_date": "2022-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0106",
+    "title": "Elasticsearch: The Definitive Guide: Field Guide",
+    "author": "Clinton Gormley",
+    "genres": [
+      "Information Retrieval",
+      "Search"
+    ],
+    "language": "Japanese",
+    "year": 2023,
+    "pages": 726,
+    "rating": 4.4,
+    "price": 46.91,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "elasticsearch",
+      "field",
+      "lucene",
+      "search"
+    ],
+    "description": "A companion volume to Elasticsearch: The Definitive Guide that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9785955867922",
+    "in_stock": true,
+    "stock_count": 91,
+    "pub_date": "2023-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0107",
+    "title": "Zero to One: Workbook",
+    "author": "Peter Thiel",
+    "genres": [
+      "Non-Fiction",
+      "Business"
+    ],
+    "language": "English",
+    "year": 2014,
+    "pages": 303,
+    "rating": 4.5,
+    "price": 46.24,
+    "publisher": "Crown Business",
+    "tags": [
+      "monopoly",
+      "innovation",
+      "workbook",
+      "startup"
+    ],
+    "description": "A companion volume to Zero to One that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9788280774248",
+    "in_stock": false,
+    "stock_count": 56,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0108",
+    "title": "Crime and Punishment: Annotated Edition",
+    "author": "Fyodor Dostoevsky",
+    "genres": [
+      "Fiction",
+      "Psychological"
+    ],
+    "language": "Russian",
+    "year": 1872,
+    "pages": 589,
+    "rating": 4.1,
+    "price": 5.06,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "psychology",
+      "annotated",
+      "classic",
+      "russian"
+    ],
+    "description": "A companion volume to Crime and Punishment that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9781435641372",
+    "in_stock": true,
+    "stock_count": 152,
+    "pub_date": "1872-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0109",
+    "title": "Introduction to Algorithms: Workbook",
+    "author": "Thomas H. Cormen",
+    "genres": [
+      "Algorithms",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2011,
+    "pages": 1359,
+    "rating": 4.4,
+    "price": 94.96,
+    "publisher": "MIT Press",
+    "tags": [
+      "workbook",
+      "algorithms",
+      "academic",
+      "data-structures"
+    ],
+    "description": "A companion volume to Introduction to Algorithms that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9785011135408",
+    "in_stock": false,
+    "stock_count": 125,
+    "pub_date": "2011-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0110",
+    "title": "Software Engineering at Google: Companion",
+    "author": "Titus Winters",
+    "genres": [
+      "Software Engineering",
+      "Engineering Culture"
+    ],
+    "language": "English",
+    "year": 2020,
+    "pages": 597,
+    "rating": 4.6,
+    "price": 65.52,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "culture",
+      "scale",
+      "process",
+      "companion"
+    ],
+    "description": "A companion volume to Software Engineering at Google that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9785665244792",
+    "in_stock": true,
+    "stock_count": 98,
+    "pub_date": "2020-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0111",
+    "title": "Steve Jobs: Workbook",
+    "author": "Walter Isaacson",
+    "genres": [
+      "Biography",
+      "Business"
+    ],
+    "language": "English",
+    "year": 2015,
+    "pages": 714,
+    "rating": 4.2,
+    "price": 13.95,
+    "publisher": "Simon & Schuster",
+    "tags": [
+      "workbook",
+      "biography",
+      "apple",
+      "tech"
+    ],
+    "description": "A companion volume to Steve Jobs that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9785939522359",
+    "in_stock": false,
+    "stock_count": 194,
+    "pub_date": "2015-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0112",
+    "title": "War and Peace: Companion",
+    "author": "Leo Tolstoy",
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "language": "German",
+    "year": 1872,
+    "pages": 1115,
+    "rating": 4.2,
+    "price": 35.05,
+    "publisher": "The Russian Messenger",
+    "tags": [
+      "history",
+      "epic",
+      "companion",
+      "napoleonic"
+    ],
+    "description": "A companion volume to War and Peace that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9781483114255",
+    "in_stock": true,
+    "stock_count": 5,
+    "pub_date": "1872-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0113",
+    "title": "Capital in the Twenty-First Century: Solutions Manual",
+    "author": "Thomas Piketty",
+    "genres": [
+      "Non-Fiction",
+      "Economics"
+    ],
+    "language": "French",
+    "year": 2017,
+    "pages": 750,
+    "rating": 4.3,
+    "price": 32.46,
+    "publisher": "Belknap Press",
+    "tags": [
+      "economics",
+      "inequality",
+      "solutions"
+    ],
+    "description": "A companion volume to Capital in the Twenty-First Century that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9780332302645",
+    "in_stock": true,
+    "stock_count": 173,
+    "pub_date": "2017-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0114",
+    "title": "Cosmos: Field Guide",
+    "author": "Carl Sagan",
+    "genres": [
+      "Non-Fiction",
+      "Astronomy"
+    ],
+    "language": "English",
+    "year": 1978,
+    "pages": 590,
+    "rating": 4.6,
+    "price": 27.01,
+    "publisher": "Random House",
+    "tags": [
+      "space",
+      "field",
+      "popular-science"
+    ],
+    "description": "A companion volume to Cosmos that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9783744628266",
+    "in_stock": false,
+    "stock_count": 191,
+    "pub_date": "1978-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0115",
+    "title": "Crime and Punishment: Companion",
+    "author": "Fyodor Dostoevsky",
+    "genres": [
+      "Fiction",
+      "Psychological"
+    ],
+    "language": "Japanese",
+    "year": 1868,
+    "pages": 625,
+    "rating": 4.3,
+    "price": 23.73,
+    "publisher": "The Russian Messenger",
+    "tags": [
+      "psychology",
+      "companion",
+      "classic",
+      "russian"
+    ],
+    "description": "A companion volume to Crime and Punishment that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9789754461107",
+    "in_stock": true,
+    "stock_count": 16,
+    "pub_date": "1868-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0116",
+    "title": "Domain-Driven Design: Solutions Manual",
+    "author": "Eric Evans",
+    "genres": [
+      "Software Engineering",
+      "Architecture"
+    ],
+    "language": "Spanish",
+    "year": 2003,
+    "pages": 678,
+    "rating": 4.6,
+    "price": 53.33,
+    "publisher": "MIT Press",
+    "tags": [
+      "ddd",
+      "modeling",
+      "solutions",
+      "architecture"
+    ],
+    "description": "A companion volume to Domain-Driven Design that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9788772064086",
+    "in_stock": true,
+    "stock_count": 68,
+    "pub_date": "2003-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0117",
+    "title": "Database System Concepts: Solutions Manual",
+    "author": "Abraham Silberschatz",
+    "genres": [
+      "Databases",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2019,
+    "pages": 1513,
+    "rating": 3.6,
+    "price": 111.3,
+    "publisher": "Knopf",
+    "tags": [
+      "solutions",
+      "academic",
+      "sql",
+      "databases"
+    ],
+    "description": "A companion volume to Database System Concepts that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9788277572185",
+    "in_stock": true,
+    "stock_count": 28,
+    "pub_date": "2019-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0118",
+    "title": "The DevOps Handbook: Annotated Edition",
+    "author": "Gene Kim",
+    "genres": [
+      "DevOps",
+      "Software Engineering"
+    ],
+    "language": "English",
+    "year": 2014,
+    "pages": 588,
+    "rating": 3.9,
+    "price": 37.31,
+    "publisher": "Knopf",
+    "tags": [
+      "culture",
+      "devops",
+      "automation",
+      "annotated"
+    ],
+    "description": "A companion volume to The DevOps Handbook that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9780343984496",
+    "in_stock": true,
+    "stock_count": 169,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0119",
+    "title": "Introduction to Algorithms: Solutions Manual",
+    "author": "Thomas H. Cormen",
+    "genres": [
+      "Algorithms",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2007,
+    "pages": 1411,
+    "rating": 4.8,
+    "price": 96.38,
+    "publisher": "MIT Press",
+    "tags": [
+      "algorithms",
+      "academic",
+      "data-structures",
+      "solutions"
+    ],
+    "description": "A companion volume to Introduction to Algorithms that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9787797311748",
+    "in_stock": false,
+    "stock_count": 20,
+    "pub_date": "2007-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0120",
+    "title": "The Lean Startup: Annotated Edition",
+    "author": "Eric Ries",
+    "genres": [
+      "Non-Fiction",
+      "Business"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 427,
+    "rating": 3.9,
+    "price": 21.95,
+    "publisher": "Crown Business",
+    "tags": [
+      "product",
+      "annotated",
+      "lean",
+      "startup"
+    ],
+    "description": "A companion volume to The Lean Startup that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9782218276347",
+    "in_stock": true,
+    "stock_count": 71,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0121",
+    "title": "Elon Musk: Companion",
+    "author": "Walter Isaacson",
+    "genres": [
+      "Biography",
+      "Business"
+    ],
+    "language": "English",
+    "year": 2023,
+    "pages": 708,
+    "rating": 3.5,
+    "price": 54.85,
+    "publisher": "Simon & Schuster",
+    "tags": [
+      "biography",
+      "spacex",
+      "tech",
+      "companion"
+    ],
+    "description": "A companion volume to Elon Musk that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9784092377363",
+    "in_stock": true,
+    "stock_count": 155,
+    "pub_date": "2023-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0122",
+    "title": "The Pragmatic Programmer: Field Guide",
+    "author": "Andrew Hunt and David Thomas",
+    "genres": [
+      "Programming",
+      "Software Engineering"
+    ],
+    "language": "English",
+    "year": 2001,
+    "pages": 319,
+    "rating": 4.0,
+    "price": 36.59,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "best-practices",
+      "field",
+      "coding",
+      "career"
+    ],
+    "description": "A companion volume to The Pragmatic Programmer that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9786940771996",
+    "in_stock": true,
+    "stock_count": 103,
+    "pub_date": "2001-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0123",
+    "title": "The Great Gatsby: Annotated Edition",
+    "author": "F. Scott Fitzgerald",
+    "genres": [
+      "Fiction",
+      "Classic"
+    ],
+    "language": "English",
+    "year": 1931,
+    "pages": 325,
+    "rating": 3.6,
+    "price": 16.23,
+    "publisher": "Scribner",
+    "tags": [
+      "annotated",
+      "jazz-age",
+      "classic",
+      "tragedy"
+    ],
+    "description": "A companion volume to The Great Gatsby that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9780762382002",
+    "in_stock": false,
+    "stock_count": 65,
+    "pub_date": "1931-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0124",
+    "title": "Zero to One: Field Guide",
+    "author": "Peter Thiel",
+    "genres": [
+      "Non-Fiction",
+      "Business"
+    ],
+    "language": "English",
+    "year": 2012,
+    "pages": 390,
+    "rating": 3.8,
+    "price": 35.95,
+    "publisher": "Crown Business",
+    "tags": [
+      "monopoly",
+      "innovation",
+      "field",
+      "startup"
+    ],
+    "description": "A companion volume to Zero to One that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9780344332876",
+    "in_stock": true,
+    "stock_count": 28,
+    "pub_date": "2012-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0125",
+    "title": "The Lord of the Rings: Field Guide",
+    "author": "J. R. R. Tolkien",
+    "genres": [
+      "Fiction",
+      "Fantasy"
+    ],
+    "language": "English",
+    "year": 1959,
+    "pages": 1161,
+    "rating": 4.4,
+    "price": 32.85,
+    "publisher": "George Allen & Unwin",
+    "tags": [
+      "field",
+      "fantasy",
+      "epic",
+      "middle-earth"
+    ],
+    "description": "A companion volume to The Lord of the Rings that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9784043049035",
+    "in_stock": false,
+    "stock_count": 192,
+    "pub_date": "1959-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0126",
+    "title": "You Don't Know JS Yet: Workbook",
+    "author": "Kyle Simpson",
+    "genres": [
+      "Programming",
+      "JavaScript"
+    ],
+    "language": "English",
+    "year": 2024,
+    "pages": 184,
+    "rating": 3.8,
+    "price": 35.68,
+    "publisher": "Self-Published",
+    "tags": [
+      "workbook",
+      "series",
+      "javascript",
+      "fundamentals"
+    ],
+    "description": "A companion volume to You Don't Know JS Yet that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9784258922123",
+    "in_stock": false,
+    "stock_count": 107,
+    "pub_date": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0127",
+    "title": "Beloved: Workbook",
+    "author": "Toni Morrison",
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "language": "Japanese",
+    "year": 1994,
+    "pages": 461,
+    "rating": 4.0,
+    "price": 13.93,
+    "publisher": "HarperCollins",
+    "tags": [
+      "pulitzer",
+      "history",
+      "workbook",
+      "memory"
+    ],
+    "description": "A companion volume to Beloved that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9784605061895",
+    "in_stock": true,
+    "stock_count": 117,
+    "pub_date": "1994-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0128",
+    "title": "The Art of Computer Programming, Vol. 1: Workbook",
+    "author": "Donald E. Knuth",
+    "genres": [
+      "Algorithms",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2001,
+    "pages": 651,
+    "rating": 4.5,
+    "price": 112.86,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "math",
+      "workbook",
+      "classic",
+      "fundamentals"
+    ],
+    "description": "A companion volume to The Art of Computer Programming, Vol. 1 that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9780510773540",
+    "in_stock": false,
+    "stock_count": 176,
+    "pub_date": "2001-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0129",
+    "title": "The Road: Solutions Manual",
+    "author": "Cormac McCarthy",
+    "genres": [
+      "Fiction",
+      "Post-Apocalyptic"
+    ],
+    "language": "English",
+    "year": 2013,
+    "pages": 398,
+    "rating": 4.1,
+    "price": 8.77,
+    "publisher": "Random House",
+    "tags": [
+      "solutions",
+      "post-apocalyptic",
+      "father-son"
+    ],
+    "description": "A companion volume to The Road that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9789227955676",
+    "in_stock": true,
+    "stock_count": 167,
+    "pub_date": "2013-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0130",
+    "title": "Patterns of Enterprise Application Architecture: Companion",
+    "author": "Martin Fowler",
+    "genres": [
+      "Software Engineering",
+      "Architecture"
+    ],
+    "language": "English",
+    "year": 2004,
+    "pages": 637,
+    "rating": 4.7,
+    "price": 70.14,
+    "publisher": "Random House",
+    "tags": [
+      "enterprise",
+      "patterns",
+      "companion",
+      "architecture"
+    ],
+    "description": "A companion volume to Patterns of Enterprise Application Architecture that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9782799298233",
+    "in_stock": true,
+    "stock_count": 102,
+    "pub_date": "2004-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0131",
+    "title": "The Art of Computer Programming, Vol. 1: Annotated Edition",
+    "author": "Donald E. Knuth",
+    "genres": [
+      "Algorithms",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2000,
+    "pages": 778,
+    "rating": 4.9,
+    "price": 90.0,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "math",
+      "classic",
+      "annotated",
+      "fundamentals"
+    ],
+    "description": "A companion volume to The Art of Computer Programming, Vol. 1 that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9786593066654",
+    "in_stock": true,
+    "stock_count": 118,
+    "pub_date": "2000-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0132",
+    "title": "Kubernetes Up & Running: Workbook",
+    "author": "Brendan Burns",
+    "genres": [
+      "Cloud Computing",
+      "DevOps"
+    ],
+    "language": "English",
+    "year": 2016,
+    "pages": 371,
+    "rating": 4.5,
+    "price": 52.33,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "workbook",
+      "ops",
+      "kubernetes",
+      "containers"
+    ],
+    "description": "A companion volume to Kubernetes Up & Running that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9785847870795",
+    "in_stock": false,
+    "stock_count": 166,
+    "pub_date": "2016-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0133",
+    "title": "Anna Karenina: Field Guide",
+    "author": "Leo Tolstoy",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "language": "Russian",
+    "year": 1881,
+    "pages": 920,
+    "rating": 4.4,
+    "price": 25.5,
+    "publisher": "Random House",
+    "tags": [
+      "field",
+      "tragedy",
+      "classic",
+      "russian"
+    ],
+    "description": "A companion volume to Anna Karenina that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9789629091934",
+    "in_stock": true,
+    "stock_count": 172,
+    "pub_date": "1881-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0134",
+    "title": "The Great Gatsby: Annotated Edition",
+    "author": "F. Scott Fitzgerald",
+    "genres": [
+      "Fiction",
+      "Classic"
+    ],
+    "language": "English",
+    "year": 1930,
+    "pages": 80,
+    "rating": 4.3,
+    "price": 5.0,
+    "publisher": "MIT Press",
+    "tags": [
+      "annotated",
+      "jazz-age",
+      "classic",
+      "tragedy"
+    ],
+    "description": "A companion volume to The Great Gatsby that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9780762382002",
+    "in_stock": true,
+    "stock_count": 186,
+    "pub_date": "1930-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0135",
+    "title": "Cracking the Coding Interview: Workbook",
+    "author": "Gayle Laakmann McDowell",
+    "genres": [
+      "Algorithms",
+      "Career"
+    ],
+    "language": "English",
+    "year": 2020,
+    "pages": 853,
+    "rating": 4.2,
+    "price": 34.28,
+    "publisher": "CareerCup",
+    "tags": [
+      "workbook",
+      "algorithms",
+      "career",
+      "interview"
+    ],
+    "description": "A companion volume to Cracking the Coding Interview that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9781647297893",
+    "in_stock": true,
+    "stock_count": 174,
+    "pub_date": "2020-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0136",
+    "title": "JavaScript: The Good Parts: Annotated Edition",
+    "author": "Douglas Crockford",
+    "genres": [
+      "Programming",
+      "JavaScript"
+    ],
+    "language": "Arabic",
+    "year": 2013,
+    "pages": 247,
+    "rating": 4.4,
+    "price": 43.8,
+    "publisher": "Random House",
+    "tags": [
+      "annotated",
+      "javascript",
+      "language-design"
+    ],
+    "description": "A companion volume to JavaScript: The Good Parts that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9781463166526",
+    "in_stock": true,
+    "stock_count": 100,
+    "pub_date": "2013-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0137",
+    "title": "The Art of Computer Programming, Vol. 1: Field Guide",
+    "author": "Donald E. Knuth",
+    "genres": [
+      "Algorithms",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2001,
+    "pages": 753,
+    "rating": 4.7,
+    "price": 115.07,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "math",
+      "field",
+      "classic",
+      "fundamentals"
+    ],
+    "description": "A companion volume to The Art of Computer Programming, Vol. 1 that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9788148920831",
+    "in_stock": false,
+    "stock_count": 31,
+    "pub_date": "2001-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0138",
+    "title": "Programming Pearls: Companion",
+    "author": "Jon Bentley",
+    "genres": [
+      "Programming",
+      "Algorithms"
+    ],
+    "language": "English",
+    "year": 2001,
+    "pages": 298,
+    "rating": 4.8,
+    "price": 40.49,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "problem-solving",
+      "companion",
+      "essays",
+      "classic"
+    ],
+    "description": "A companion volume to Programming Pearls that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9788233394554",
+    "in_stock": true,
+    "stock_count": 20,
+    "pub_date": "2001-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0139",
+    "title": "Structure and Interpretation of Computer Programs: Annotated Edition",
+    "author": "Harold Abelson and Gerald Jay Sussman",
+    "genres": [
+      "Programming",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2003,
+    "pages": 726,
+    "rating": 4.3,
+    "price": 62.75,
+    "publisher": "MIT Press",
+    "tags": [
+      "annotated",
+      "scheme",
+      "functional",
+      "classic"
+    ],
+    "description": "A companion volume to Structure and Interpretation of Computer Programs that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9785469089520",
+    "in_stock": true,
+    "stock_count": 111,
+    "pub_date": "2003-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0140",
+    "title": "The Brothers Karamazov: Field Guide",
+    "author": "Fyodor Dostoevsky",
+    "genres": [
+      "Fiction",
+      "Philosophy"
+    ],
+    "language": "Russian",
+    "year": 1882,
+    "pages": 964,
+    "rating": 4.6,
+    "price": 15.77,
+    "publisher": "The Russian Messenger",
+    "tags": [
+      "field",
+      "philosophy",
+      "classic",
+      "russian"
+    ],
+    "description": "A companion volume to The Brothers Karamazov that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9789242251654",
+    "in_stock": true,
+    "stock_count": 148,
+    "pub_date": "1882-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0141",
+    "title": "The Diary of a Young Girl: Workbook",
+    "author": "Anne Frank",
+    "genres": [
+      "Biography",
+      "History"
+    ],
+    "language": "Dutch",
+    "year": 1949,
+    "pages": 227,
+    "rating": 4.4,
+    "price": 12.44,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "workbook",
+      "memoir",
+      "wwii",
+      "classic"
+    ],
+    "description": "A companion volume to The Diary of a Young Girl that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9783186130976",
+    "in_stock": true,
+    "stock_count": 58,
+    "pub_date": "1949-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0142",
+    "title": "The Design of Everyday Things: Field Guide",
+    "author": "Don Norman",
+    "genres": [
+      "UX Design",
+      "Psychology"
+    ],
+    "language": "English",
+    "year": 2012,
+    "pages": 467,
+    "rating": 4.2,
+    "price": 32.81,
+    "publisher": "Basic Books",
+    "tags": [
+      "field",
+      "cognition",
+      "design",
+      "affordance"
+    ],
+    "description": "A companion volume to The Design of Everyday Things that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9789209819064",
+    "in_stock": true,
+    "stock_count": 57,
+    "pub_date": "2012-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0143",
+    "title": "Sapiens: Solutions Manual",
+    "author": "Yuval Noah Harari",
+    "genres": [
+      "Non-Fiction",
+      "History"
+    ],
+    "language": "English",
+    "year": 2016,
+    "pages": 572,
+    "rating": 4.7,
+    "price": 32.94,
+    "publisher": "Harper",
+    "tags": [
+      "history",
+      "solutions",
+      "anthropology"
+    ],
+    "description": "A companion volume to Sapiens that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9789565252628",
+    "in_stock": true,
+    "stock_count": 145,
+    "pub_date": "2016-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0144",
+    "title": "Neuromancer: Solutions Manual",
+    "author": "William Gibson",
+    "genres": [
+      "Fiction",
+      "Science Fiction"
+    ],
+    "language": "French",
+    "year": 1984,
+    "pages": 360,
+    "rating": 3.4,
+    "price": 11.58,
+    "publisher": "Ace Books",
+    "tags": [
+      "solutions",
+      "classic",
+      "ai",
+      "cyberpunk"
+    ],
+    "description": "A companion volume to Neuromancer that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9783778983799",
+    "in_stock": false,
+    "stock_count": 82,
+    "pub_date": "1984-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0145",
+    "title": "Foundation: Annotated Edition",
+    "author": "Isaac Asimov",
+    "genres": [
+      "Fiction",
+      "Science Fiction"
+    ],
+    "language": "English",
+    "year": 1953,
+    "pages": 361,
+    "rating": 4.4,
+    "price": 5.67,
+    "publisher": "HarperCollins",
+    "tags": [
+      "sci-fi",
+      "psychohistory",
+      "annotated",
+      "classic"
+    ],
+    "description": "A companion volume to Foundation that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9786242554488",
+    "in_stock": true,
+    "stock_count": 120,
+    "pub_date": "1953-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0146",
+    "title": "Kubernetes Up & Running: Workbook",
+    "author": "Brendan Burns",
+    "genres": [
+      "Cloud Computing",
+      "DevOps"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 187,
+    "rating": 4.7,
+    "price": 39.12,
+    "publisher": "Random House",
+    "tags": [
+      "workbook",
+      "ops",
+      "kubernetes",
+      "containers"
+    ],
+    "description": "A companion volume to Kubernetes Up & Running that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9785847870795",
+    "in_stock": true,
+    "stock_count": 190,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0147",
+    "title": "Site Reliability Engineering: Companion",
+    "author": "Niall Richard Murphy and Betsy Beyer",
+    "genres": [
+      "DevOps",
+      "Operations"
+    ],
+    "language": "English",
+    "year": 2023,
+    "pages": 621,
+    "rating": 4.1,
+    "price": 62.98,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "operations",
+      "sre",
+      "companion",
+      "google"
+    ],
+    "description": "A companion volume to Site Reliability Engineering that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9785841523215",
+    "in_stock": true,
+    "stock_count": 157,
+    "pub_date": "2023-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0148",
+    "title": "The Origin of Species: Solutions Manual",
+    "author": "Charles Darwin",
+    "genres": [
+      "Non-Fiction",
+      "Biology"
+    ],
+    "language": "English",
+    "year": 1867,
+    "pages": 575,
+    "rating": 3.7,
+    "price": 34.56,
+    "publisher": "John Murray",
+    "tags": [
+      "science",
+      "solutions",
+      "evolution",
+      "classic"
+    ],
+    "description": "A companion volume to The Origin of Species that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9784411962393",
+    "in_stock": true,
+    "stock_count": 131,
+    "pub_date": "1867-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0149",
+    "title": "The Great Gatsby: Field Guide",
+    "author": "F. Scott Fitzgerald",
+    "genres": [
+      "Fiction",
+      "Classic"
+    ],
+    "language": "English",
+    "year": 1933,
+    "pages": 128,
+    "rating": 4.4,
+    "price": 5.0,
+    "publisher": "Scribner",
+    "tags": [
+      "field",
+      "jazz-age",
+      "classic",
+      "tragedy"
+    ],
+    "description": "A companion volume to The Great Gatsby that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9780937613528",
+    "in_stock": true,
+    "stock_count": 27,
+    "pub_date": "1933-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0150",
+    "title": "Deep Learning: Field Guide",
+    "author": "Ian Goodfellow",
+    "genres": [
+      "Machine Learning",
+      "Artificial Intelligence"
+    ],
+    "language": "Chinese",
+    "year": 2014,
+    "pages": 969,
+    "rating": 4.0,
+    "price": 63.7,
+    "publisher": "MIT Press",
+    "tags": [
+      "neural-networks",
+      "deep-learning",
+      "field",
+      "theory"
+    ],
+    "description": "A companion volume to Deep Learning that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9788126494521",
+    "in_stock": false,
+    "stock_count": 126,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0151",
+    "title": "Computer Systems: A Programmer's Perspective: Companion",
+    "author": "Randal E. Bryant and David R. O'Hallaron",
+    "genres": [
+      "Computer Architecture",
+      "Operating Systems"
+    ],
+    "language": "English",
+    "year": 2017,
+    "pages": 1054,
+    "rating": 4.6,
+    "price": 81.69,
+    "publisher": "Pearson",
+    "tags": [
+      "x86",
+      "systems",
+      "companion",
+      "linking"
+    ],
+    "description": "A companion volume to Computer Systems: A Programmer's Perspective that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9783016137373",
+    "in_stock": true,
+    "stock_count": 147,
+    "pub_date": "2017-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0152",
+    "title": "Software Engineering at Google: Companion",
+    "author": "Titus Winters",
+    "genres": [
+      "Software Engineering",
+      "Engineering Culture"
+    ],
+    "language": "English",
+    "year": 2022,
+    "pages": 611,
+    "rating": 4.1,
+    "price": 40.09,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "culture",
+      "scale",
+      "process",
+      "companion"
+    ],
+    "description": "A companion volume to Software Engineering at Google that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9785665244792",
+    "in_stock": true,
+    "stock_count": 122,
+    "pub_date": "2022-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0153",
+    "title": "Introduction to Algorithms: Annotated Edition",
+    "author": "Thomas H. Cormen",
+    "genres": [
+      "Algorithms",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2008,
+    "pages": 1504,
+    "rating": 4.7,
+    "price": 99.67,
+    "publisher": "Simon & Schuster",
+    "tags": [
+      "algorithms",
+      "academic",
+      "data-structures",
+      "annotated"
+    ],
+    "description": "A companion volume to Introduction to Algorithms that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9789682416699",
+    "in_stock": true,
+    "stock_count": 131,
+    "pub_date": "2008-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0154",
+    "title": "Building Microservices: Companion",
+    "author": "Sam Newman",
+    "genres": [
+      "Software Engineering",
+      "Architecture"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 751,
+    "rating": 4.2,
+    "price": 55.54,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "companion",
+      "patterns",
+      "architecture",
+      "microservices"
+    ],
+    "description": "A companion volume to Building Microservices that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9787047587220",
+    "in_stock": false,
+    "stock_count": 82,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0155",
+    "title": "Code Complete: Annotated Edition",
+    "author": "Steve McConnell",
+    "genres": [
+      "Programming",
+      "Software Engineering"
+    ],
+    "language": "English",
+    "year": 2004,
+    "pages": 881,
+    "rating": 4.4,
+    "price": 56.9,
+    "publisher": "Microsoft Press",
+    "tags": [
+      "annotated",
+      "best-practices",
+      "construction"
+    ],
+    "description": "A companion volume to Code Complete that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9780392208116",
+    "in_stock": true,
+    "stock_count": 127,
+    "pub_date": "2004-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0156",
+    "title": "Zero to One: Companion",
+    "author": "Peter Thiel",
+    "genres": [
+      "Non-Fiction",
+      "Business"
+    ],
+    "language": "French",
+    "year": 2021,
+    "pages": 214,
+    "rating": 4.2,
+    "price": 39.11,
+    "publisher": "Manning",
+    "tags": [
+      "monopoly",
+      "innovation",
+      "companion",
+      "startup"
+    ],
+    "description": "A companion volume to Zero to One that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9782923579696",
+    "in_stock": true,
+    "stock_count": 50,
+    "pub_date": "2021-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0157",
+    "title": "Domain-Driven Design: Workbook",
+    "author": "Eric Evans",
+    "genres": [
+      "Software Engineering",
+      "Architecture"
+    ],
+    "language": "French",
+    "year": 2003,
+    "pages": 617,
+    "rating": 4.0,
+    "price": 51.53,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "ddd",
+      "workbook",
+      "modeling",
+      "architecture"
+    ],
+    "description": "A companion volume to Domain-Driven Design that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9787757378590",
+    "in_stock": true,
+    "stock_count": 110,
+    "pub_date": "2003-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0158",
+    "title": "Designing Distributed Systems: Workbook",
+    "author": "Brendan Burns",
+    "genres": [
+      "Distributed Systems",
+      "Cloud Computing"
+    ],
+    "language": "English",
+    "year": 2016,
+    "pages": 135,
+    "rating": 4.0,
+    "price": 44.72,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "workbook",
+      "patterns",
+      "kubernetes",
+      "microservices"
+    ],
+    "description": "A companion volume to Designing Distributed Systems that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9787950400074",
+    "in_stock": true,
+    "stock_count": 82,
+    "pub_date": "2016-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0159",
+    "title": "When Breath Becomes Air: Workbook",
+    "author": "Paul Kalanithi",
+    "genres": [
+      "Biography",
+      "Memoir"
+    ],
+    "language": "English",
+    "year": 2015,
+    "pages": 346,
+    "rating": 4.6,
+    "price": 36.1,
+    "publisher": "Random House",
+    "tags": [
+      "medicine",
+      "mortality",
+      "memoir",
+      "workbook"
+    ],
+    "description": "A companion volume to When Breath Becomes Air that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9785526540414",
+    "in_stock": false,
+    "stock_count": 160,
+    "pub_date": "2015-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0160",
+    "title": "Foundation: Field Guide",
+    "author": "Isaac Asimov",
+    "genres": [
+      "Fiction",
+      "Science Fiction"
+    ],
+    "language": "English",
+    "year": 1951,
+    "pages": 189,
+    "rating": 3.9,
+    "price": 27.58,
+    "publisher": "Gnome Press",
+    "tags": [
+      "field",
+      "sci-fi",
+      "psychohistory",
+      "classic"
+    ],
+    "description": "A companion volume to Foundation that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9783594949818",
+    "in_stock": true,
+    "stock_count": 112,
+    "pub_date": "1951-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0161",
+    "title": "Pride and Prejudice: Solutions Manual",
+    "author": "Jane Austen",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "language": "English",
+    "year": 1820,
+    "pages": 467,
+    "rating": 4.7,
+    "price": 5.0,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "solutions",
+      "regency",
+      "classic",
+      "romance"
+    ],
+    "description": "A companion volume to Pride and Prejudice that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9782223716289",
+    "in_stock": false,
+    "stock_count": 169,
+    "pub_date": "1820-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0162",
+    "title": "Patterns of Enterprise Application Architecture: Companion",
+    "author": "Martin Fowler",
+    "genres": [
+      "Software Engineering",
+      "Architecture"
+    ],
+    "language": "English",
+    "year": 2004,
+    "pages": 752,
+    "rating": 4.4,
+    "price": 66.37,
+    "publisher": "Vintage",
+    "tags": [
+      "enterprise",
+      "patterns",
+      "companion",
+      "architecture"
+    ],
+    "description": "A companion volume to Patterns of Enterprise Application Architecture that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9782799298233",
+    "in_stock": false,
+    "stock_count": 110,
+    "pub_date": "2004-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0163",
+    "title": "Zero to One: Workbook",
+    "author": "Peter Thiel",
+    "genres": [
+      "Non-Fiction",
+      "Business"
+    ],
+    "language": "German",
+    "year": 2018,
+    "pages": 281,
+    "rating": 3.9,
+    "price": 38.97,
+    "publisher": "HarperCollins",
+    "tags": [
+      "monopoly",
+      "innovation",
+      "workbook",
+      "startup"
+    ],
+    "description": "A companion volume to Zero to One that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9788280774248",
+    "in_stock": true,
+    "stock_count": 161,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0164",
+    "title": "The Wealth of Nations: Companion",
+    "author": "Adam Smith",
+    "genres": [
+      "Non-Fiction",
+      "Economics"
+    ],
+    "language": "English",
+    "year": 1784,
+    "pages": 1182,
+    "rating": 3.9,
+    "price": 31.21,
+    "publisher": "W. Strahan",
+    "tags": [
+      "economics",
+      "companion",
+      "philosophy",
+      "classic"
+    ],
+    "description": "A companion volume to The Wealth of Nations that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9784246710862",
+    "in_stock": true,
+    "stock_count": 32,
+    "pub_date": "1784-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0165",
+    "title": "Solr in Action: Annotated Edition",
+    "author": "Trey Grainger",
+    "genres": [
+      "Information Retrieval",
+      "Search"
+    ],
+    "language": "English",
+    "year": 2020,
+    "pages": 633,
+    "rating": 4.5,
+    "price": 51.42,
+    "publisher": "Manning",
+    "tags": [
+      "solr",
+      "annotated",
+      "lucene",
+      "search"
+    ],
+    "description": "A companion volume to Solr in Action that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9787610854629",
+    "in_stock": false,
+    "stock_count": 69,
+    "pub_date": "2020-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0166",
+    "title": "Solr in Action: Annotated Edition",
+    "author": "Trey Grainger",
+    "genres": [
+      "Information Retrieval",
+      "Search"
+    ],
+    "language": "German",
+    "year": 2021,
+    "pages": 696,
+    "rating": 4.3,
+    "price": 59.79,
+    "publisher": "Manning",
+    "tags": [
+      "solr",
+      "annotated",
+      "lucene",
+      "search"
+    ],
+    "description": "A companion volume to Solr in Action that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9787610854629",
+    "in_stock": true,
+    "stock_count": 173,
+    "pub_date": "2021-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0167",
+    "title": "Spark: The Definitive Guide: Field Guide",
+    "author": "Bill Chambers and Matei Zaharia",
+    "genres": [
+      "Big Data",
+      "Distributed Systems"
+    ],
+    "language": "English",
+    "year": 2024,
+    "pages": 625,
+    "rating": 4.2,
+    "price": 42.27,
+    "publisher": "Vintage",
+    "tags": [
+      "data-processing",
+      "spark",
+      "field",
+      "scala"
+    ],
+    "description": "A companion volume to Spark: The Definitive Guide that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9789657796245",
+    "in_stock": true,
+    "stock_count": 36,
+    "pub_date": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0168",
+    "title": "The Great Gatsby: Annotated Edition",
+    "author": "F. Scott Fitzgerald",
+    "genres": [
+      "Fiction",
+      "Classic"
+    ],
+    "language": "English",
+    "year": 1928,
+    "pages": 350,
+    "rating": 3.5,
+    "price": 20.29,
+    "publisher": "Scribner",
+    "tags": [
+      "annotated",
+      "jazz-age",
+      "classic",
+      "tragedy"
+    ],
+    "description": "A companion volume to The Great Gatsby that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9780762382002",
+    "in_stock": true,
+    "stock_count": 31,
+    "pub_date": "1928-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0169",
+    "title": "Working Effectively with Legacy Code: Annotated Edition",
+    "author": "Michael C. Feathers",
+    "genres": [
+      "Software Engineering",
+      "Refactoring"
+    ],
+    "language": "English",
+    "year": 2004,
+    "pages": 567,
+    "rating": 4.7,
+    "price": 45.18,
+    "publisher": "HarperCollins",
+    "tags": [
+      "legacy",
+      "testing",
+      "annotated",
+      "refactoring"
+    ],
+    "description": "A companion volume to Working Effectively with Legacy Code that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9786621914827",
+    "in_stock": false,
+    "stock_count": 26,
+    "pub_date": "2004-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0170",
+    "title": "Thinking, Fast and Slow: Workbook",
+    "author": "Daniel Kahneman",
+    "genres": [
+      "Non-Fiction",
+      "Psychology"
+    ],
+    "language": "English",
+    "year": 2014,
+    "pages": 667,
+    "rating": 4.3,
+    "price": 38.88,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "workbook",
+      "cognition",
+      "decision-making"
+    ],
+    "description": "A companion volume to Thinking, Fast and Slow that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9784418454358",
+    "in_stock": true,
+    "stock_count": 191,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0171",
+    "title": "Beloved: Solutions Manual",
+    "author": "Toni Morrison",
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "language": "English",
+    "year": 1989,
+    "pages": 315,
+    "rating": 4.3,
+    "price": 20.96,
+    "publisher": "Knopf",
+    "tags": [
+      "pulitzer",
+      "history",
+      "solutions",
+      "memory"
+    ],
+    "description": "A companion volume to Beloved that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9784275853882",
+    "in_stock": true,
+    "stock_count": 92,
+    "pub_date": "1989-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0172",
+    "title": "Effective Java: Workbook",
+    "author": "Joshua Bloch",
+    "genres": [
+      "Programming",
+      "Java"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 488,
+    "rating": 4.4,
+    "price": 60.87,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "workbook",
+      "java",
+      "design",
+      "best-practices"
+    ],
+    "description": "A companion volume to Effective Java that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9788902463512",
+    "in_stock": false,
+    "stock_count": 83,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0173",
+    "title": "Kubernetes Up & Running: Annotated Edition",
+    "author": "Brendan Burns",
+    "genres": [
+      "Cloud Computing",
+      "DevOps"
+    ],
+    "language": "English",
+    "year": 2027,
+    "pages": 368,
+    "rating": 4.2,
+    "price": 43.6,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "annotated",
+      "ops",
+      "kubernetes",
+      "containers"
+    ],
+    "description": "A companion volume to Kubernetes Up & Running that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9780227015681",
+    "in_stock": true,
+    "stock_count": 94,
+    "pub_date": "2027-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0174",
+    "title": "Steve Jobs: Companion",
+    "author": "Walter Isaacson",
+    "genres": [
+      "Biography",
+      "Business"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 829,
+    "rating": 4.3,
+    "price": 23.75,
+    "publisher": "MIT Press",
+    "tags": [
+      "biography",
+      "apple",
+      "tech",
+      "companion"
+    ],
+    "description": "A companion volume to Steve Jobs that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9788746355899",
+    "in_stock": true,
+    "stock_count": 40,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0175",
+    "title": "The Phoenix Project: Companion",
+    "author": "Gene Kim",
+    "genres": [
+      "DevOps",
+      "Fiction"
+    ],
+    "language": "English",
+    "year": 2021,
+    "pages": 457,
+    "rating": 4.9,
+    "price": 31.45,
+    "publisher": "IT Revolution Press",
+    "tags": [
+      "companion",
+      "devops",
+      "lean",
+      "novel"
+    ],
+    "description": "A companion volume to The Phoenix Project that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9788846590992",
+    "in_stock": false,
+    "stock_count": 114,
+    "pub_date": "2021-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0176",
+    "title": "Silent Spring: Companion",
+    "author": "Rachel Carson",
+    "genres": [
+      "Non-Fiction",
+      "Environment"
+    ],
+    "language": "English",
+    "year": 1962,
+    "pages": 486,
+    "rating": 4.1,
+    "price": 13.76,
+    "publisher": "Houghton Mifflin",
+    "tags": [
+      "companion",
+      "pesticides",
+      "classic",
+      "environment"
+    ],
+    "description": "A companion volume to Silent Spring that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9784039119063",
+    "in_stock": true,
+    "stock_count": 104,
+    "pub_date": "1962-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0177",
+    "title": "Hands-On Machine Learning: Annotated Edition",
+    "author": "Aurelien Geron",
+    "genres": [
+      "Machine Learning",
+      "Data Science"
+    ],
+    "language": "English",
+    "year": 2019,
+    "pages": 827,
+    "rating": 4.7,
+    "price": 50.18,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "tensorflow",
+      "ml",
+      "annotated",
+      "scikit-learn"
+    ],
+    "description": "A companion volume to Hands-On Machine Learning that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9781310672972",
+    "in_stock": true,
+    "stock_count": 78,
+    "pub_date": "2019-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0178",
+    "title": "Refactoring: Annotated Edition",
+    "author": "Martin Fowler",
+    "genres": [
+      "Programming",
+      "Software Engineering"
+    ],
+    "language": "English",
+    "year": 2022,
+    "pages": 350,
+    "rating": 4.3,
+    "price": 44.36,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "design",
+      "patterns",
+      "annotated",
+      "refactoring"
+    ],
+    "description": "A companion volume to Refactoring that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9780095067256",
+    "in_stock": true,
+    "stock_count": 23,
+    "pub_date": "2022-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0179",
+    "title": "Educated: Annotated Edition",
+    "author": "Tara Westover",
+    "genres": [
+      "Biography",
+      "Memoir"
+    ],
+    "language": "English",
+    "year": 2024,
+    "pages": 473,
+    "rating": 4.2,
+    "price": 14.26,
+    "publisher": "Vintage",
+    "tags": [
+      "education",
+      "memoir",
+      "family",
+      "annotated"
+    ],
+    "description": "A companion volume to Educated that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9780797186651",
+    "in_stock": true,
+    "stock_count": 141,
+    "pub_date": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0180",
+    "title": "Blink: Annotated Edition",
+    "author": "Malcolm Gladwell",
+    "genres": [
+      "Non-Fiction",
+      "Psychology"
+    ],
+    "language": "Japanese",
+    "year": 2013,
+    "pages": 433,
+    "rating": 4.0,
+    "price": 20.62,
+    "publisher": "Little, Brown",
+    "tags": [
+      "decision-making",
+      "annotated",
+      "psychology"
+    ],
+    "description": "A companion volume to Blink that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9785353042013",
+    "in_stock": false,
+    "stock_count": 47,
+    "pub_date": "2013-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0181",
+    "title": "Pride and Prejudice: Solutions Manual",
+    "author": "Jane Austen",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "language": "English",
+    "year": 1813,
+    "pages": 627,
+    "rating": 4.6,
+    "price": 27.11,
+    "publisher": "T. Egerton",
+    "tags": [
+      "solutions",
+      "regency",
+      "classic",
+      "romance"
+    ],
+    "description": "A companion volume to Pride and Prejudice that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9782223716289",
+    "in_stock": true,
+    "stock_count": 179,
+    "pub_date": "1813-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0182",
+    "title": "Outliers: Companion",
+    "author": "Malcolm Gladwell",
+    "genres": [
+      "Non-Fiction",
+      "Psychology"
+    ],
+    "language": "English",
+    "year": 2014,
+    "pages": 366,
+    "rating": 4.1,
+    "price": 34.94,
+    "publisher": "Little, Brown",
+    "tags": [
+      "sociology",
+      "companion",
+      "success"
+    ],
+    "description": "A companion volume to Outliers that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9789014713212",
+    "in_stock": true,
+    "stock_count": 49,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0183",
+    "title": "Structure and Interpretation of Computer Programs: Annotated Edition",
+    "author": "Harold Abelson and Gerald Jay Sussman",
+    "genres": [
+      "Programming",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2001,
+    "pages": 656,
+    "rating": 4.4,
+    "price": 72.64,
+    "publisher": "MIT Press",
+    "tags": [
+      "annotated",
+      "scheme",
+      "functional",
+      "classic"
+    ],
+    "description": "A companion volume to Structure and Interpretation of Computer Programs that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9785469089520",
+    "in_stock": true,
+    "stock_count": 102,
+    "pub_date": "2001-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0184",
+    "title": "Elon Musk: Solutions Manual",
+    "author": "Walter Isaacson",
+    "genres": [
+      "Biography",
+      "Business"
+    ],
+    "language": "English",
+    "year": 2025,
+    "pages": 782,
+    "rating": 3.5,
+    "price": 26.63,
+    "publisher": "Simon & Schuster",
+    "tags": [
+      "biography",
+      "spacex",
+      "tech",
+      "solutions"
+    ],
+    "description": "A companion volume to Elon Musk that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9780209291300",
+    "in_stock": true,
+    "stock_count": 108,
+    "pub_date": "2025-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0185",
+    "title": "The Wealth of Nations: Annotated Edition",
+    "author": "Adam Smith",
+    "genres": [
+      "Non-Fiction",
+      "Economics"
+    ],
+    "language": "English",
+    "year": 1781,
+    "pages": 1348,
+    "rating": 4.0,
+    "price": 41.72,
+    "publisher": "W. Strahan",
+    "tags": [
+      "economics",
+      "philosophy",
+      "annotated",
+      "classic"
+    ],
+    "description": "A companion volume to The Wealth of Nations that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9784914270421",
+    "in_stock": true,
+    "stock_count": 193,
+    "pub_date": "1781-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0186",
+    "title": "War and Peace: Companion",
+    "author": "Leo Tolstoy",
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "language": "Japanese",
+    "year": 1877,
+    "pages": 1364,
+    "rating": 4.6,
+    "price": 23.27,
+    "publisher": "MIT Press",
+    "tags": [
+      "history",
+      "epic",
+      "companion",
+      "napoleonic"
+    ],
+    "description": "A companion volume to War and Peace that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9781483114255",
+    "in_stock": false,
+    "stock_count": 1,
+    "pub_date": "1877-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0187",
+    "title": "The C Programming Language: Workbook",
+    "author": "Brian W. Kernighan and Dennis M. Ritchie",
+    "genres": [
+      "Programming",
+      "C"
+    ],
+    "language": "English",
+    "year": 1985,
+    "pages": 167,
+    "rating": 4.4,
+    "price": 57.95,
+    "publisher": "Prentice Hall",
+    "tags": [
+      "workbook",
+      "fundamentals",
+      "classic",
+      "c"
+    ],
+    "description": "A companion volume to The C Programming Language that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9784209548211",
+    "in_stock": false,
+    "stock_count": 181,
+    "pub_date": "1985-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0188",
+    "title": "The Power of Habit: Workbook",
+    "author": "Charles Duhigg",
+    "genres": [
+      "Non-Fiction",
+      "Psychology"
+    ],
+    "language": "English",
+    "year": 2017,
+    "pages": 478,
+    "rating": 3.7,
+    "price": 36.22,
+    "publisher": "Random House",
+    "tags": [
+      "productivity",
+      "workbook",
+      "habits",
+      "psychology"
+    ],
+    "description": "A companion volume to The Power of Habit that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9782369552154",
+    "in_stock": true,
+    "stock_count": 0,
+    "pub_date": "2017-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0189",
+    "title": "Cracking the Coding Interview: Solutions Manual",
+    "author": "Gayle Laakmann McDowell",
+    "genres": [
+      "Algorithms",
+      "Career"
+    ],
+    "language": "English",
+    "year": 2017,
+    "pages": 579,
+    "rating": 4.3,
+    "price": 27.97,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "algorithms",
+      "solutions",
+      "career",
+      "interview"
+    ],
+    "description": "A companion volume to Cracking the Coding Interview that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9784576083711",
+    "in_stock": true,
+    "stock_count": 58,
+    "pub_date": "2017-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0190",
+    "title": "The Lean Startup: Field Guide",
+    "author": "Eric Ries",
+    "genres": [
+      "Non-Fiction",
+      "Business"
+    ],
+    "language": "French",
+    "year": 2011,
+    "pages": 366,
+    "rating": 3.9,
+    "price": 33.83,
+    "publisher": "Crown Business",
+    "tags": [
+      "product",
+      "field",
+      "lean",
+      "startup"
+    ],
+    "description": "A companion volume to The Lean Startup that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9783767070424",
+    "in_stock": true,
+    "stock_count": 187,
+    "pub_date": "2011-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0191",
+    "title": "Zero to One: Field Guide",
+    "author": "Peter Thiel",
+    "genres": [
+      "Non-Fiction",
+      "Business"
+    ],
+    "language": "English",
+    "year": 2018,
+    "pages": 121,
+    "rating": 4.0,
+    "price": 33.99,
+    "publisher": "Crown Business",
+    "tags": [
+      "monopoly",
+      "innovation",
+      "field",
+      "startup"
+    ],
+    "description": "A companion volume to Zero to One that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9780344332876",
+    "in_stock": true,
+    "stock_count": 53,
+    "pub_date": "2018-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0192",
+    "title": "Introduction to Algorithms: Annotated Edition",
+    "author": "Thomas H. Cormen",
+    "genres": [
+      "Algorithms",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2014,
+    "pages": 1298,
+    "rating": 4.8,
+    "price": 97.26,
+    "publisher": "MIT Press",
+    "tags": [
+      "algorithms",
+      "academic",
+      "data-structures",
+      "annotated"
+    ],
+    "description": "A companion volume to Introduction to Algorithms that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9789682416699",
+    "in_stock": true,
+    "stock_count": 140,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0193",
+    "title": "Sapiens: Field Guide",
+    "author": "Yuval Noah Harari",
+    "genres": [
+      "Non-Fiction",
+      "History"
+    ],
+    "language": "English",
+    "year": 2012,
+    "pages": 482,
+    "rating": 3.9,
+    "price": 16.76,
+    "publisher": "Harper",
+    "tags": [
+      "history",
+      "field",
+      "anthropology"
+    ],
+    "description": "A companion volume to Sapiens that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9782581932024",
+    "in_stock": false,
+    "stock_count": 53,
+    "pub_date": "2012-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0194",
+    "title": "The Wealth of Nations: Solutions Manual",
+    "author": "Adam Smith",
+    "genres": [
+      "Non-Fiction",
+      "Economics"
+    ],
+    "language": "English",
+    "year": 1783,
+    "pages": 1279,
+    "rating": 3.7,
+    "price": 25.59,
+    "publisher": "W. Strahan",
+    "tags": [
+      "economics",
+      "solutions",
+      "philosophy",
+      "classic"
+    ],
+    "description": "A companion volume to The Wealth of Nations that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9785246941126",
+    "in_stock": false,
+    "stock_count": 165,
+    "pub_date": "1783-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0195",
+    "title": "Cracking the Coding Interview: Workbook",
+    "author": "Gayle Laakmann McDowell",
+    "genres": [
+      "Algorithms",
+      "Career"
+    ],
+    "language": "English",
+    "year": 2021,
+    "pages": 812,
+    "rating": 4.6,
+    "price": 46.95,
+    "publisher": "CareerCup",
+    "tags": [
+      "workbook",
+      "algorithms",
+      "career",
+      "interview"
+    ],
+    "description": "A companion volume to Cracking the Coding Interview that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9781647297893",
+    "in_stock": true,
+    "stock_count": 170,
+    "pub_date": "2021-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0196",
+    "title": "Cosmos: Companion",
+    "author": "Carl Sagan",
+    "genres": [
+      "Non-Fiction",
+      "Astronomy"
+    ],
+    "language": "English",
+    "year": 1977,
+    "pages": 381,
+    "rating": 4.7,
+    "price": 27.14,
+    "publisher": "Random House",
+    "tags": [
+      "space",
+      "companion",
+      "popular-science"
+    ],
+    "description": "A companion volume to Cosmos that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9781208476460",
+    "in_stock": true,
+    "stock_count": 3,
+    "pub_date": "1977-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0197",
+    "title": "Clean Code: Companion",
+    "author": "Robert C. Martin",
+    "genres": [
+      "Programming",
+      "Software Engineering"
+    ],
+    "language": "English",
+    "year": 2014,
+    "pages": 532,
+    "rating": 4.1,
+    "price": 30.33,
+    "publisher": "Random House",
+    "tags": [
+      "design",
+      "coding",
+      "companion",
+      "refactoring"
+    ],
+    "description": "A companion volume to Clean Code that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9781399229449",
+    "in_stock": true,
+    "stock_count": 94,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0198",
+    "title": "Operating System Concepts: Annotated Edition",
+    "author": "Abraham Silberschatz",
+    "genres": [
+      "Operating Systems",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2017,
+    "pages": 995,
+    "rating": 4.1,
+    "price": 98.03,
+    "publisher": "Penguin Classics",
+    "tags": [
+      "os",
+      "academic",
+      "annotated",
+      "kernel"
+    ],
+    "description": "A companion volume to Operating System Concepts that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9781363290734",
+    "in_stock": false,
+    "stock_count": 143,
+    "pub_date": "2017-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0199",
+    "title": "Pride and Prejudice: Companion",
+    "author": "Jane Austen",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "language": "English",
+    "year": 1816,
+    "pages": 621,
+    "rating": 4.5,
+    "price": 5.0,
+    "publisher": "Penguin Classics",
+    "tags": [
+      "companion",
+      "regency",
+      "classic",
+      "romance"
+    ],
+    "description": "A companion volume to Pride and Prejudice that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9785614070229",
+    "in_stock": true,
+    "stock_count": 137,
+    "pub_date": "1816-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0200",
+    "title": "Refactoring: Solutions Manual",
+    "author": "Martin Fowler",
+    "genres": [
+      "Programming",
+      "Software Engineering"
+    ],
+    "language": "English",
+    "year": 2022,
+    "pages": 343,
+    "rating": 4.4,
+    "price": 56.3,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "solutions",
+      "design",
+      "patterns",
+      "refactoring"
+    ],
+    "description": "A companion volume to Refactoring that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9780636541689",
+    "in_stock": false,
+    "stock_count": 121,
+    "pub_date": "2022-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0201",
+    "title": "The Lord of the Rings: Field Guide",
+    "author": "J. R. R. Tolkien",
+    "genres": [
+      "Fiction",
+      "Fantasy"
+    ],
+    "language": "English",
+    "year": 1959,
+    "pages": 1207,
+    "rating": 5.0,
+    "price": 31.83,
+    "publisher": "George Allen & Unwin",
+    "tags": [
+      "field",
+      "fantasy",
+      "epic",
+      "middle-earth"
+    ],
+    "description": "A companion volume to The Lord of the Rings that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9784043049035",
+    "in_stock": true,
+    "stock_count": 103,
+    "pub_date": "1959-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0202",
+    "title": "Programming Pearls: Companion",
+    "author": "Jon Bentley",
+    "genres": [
+      "Programming",
+      "Algorithms"
+    ],
+    "language": "English",
+    "year": 2003,
+    "pages": 428,
+    "rating": 4.6,
+    "price": 40.87,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "problem-solving",
+      "companion",
+      "essays",
+      "classic"
+    ],
+    "description": "A companion volume to Programming Pearls that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9788233394554",
+    "in_stock": true,
+    "stock_count": 70,
+    "pub_date": "2003-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0203",
+    "title": "Kubernetes Up & Running: Solutions Manual",
+    "author": "Brendan Burns",
+    "genres": [
+      "Cloud Computing",
+      "DevOps"
+    ],
+    "language": "Japanese",
+    "year": 2025,
+    "pages": 416,
+    "rating": 4.2,
+    "price": 35.85,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "solutions",
+      "ops",
+      "kubernetes",
+      "containers"
+    ],
+    "description": "A companion volume to Kubernetes Up & Running that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9780783571379",
+    "in_stock": true,
+    "stock_count": 35,
+    "pub_date": "2025-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0204",
+    "title": "Capital in the Twenty-First Century: Field Guide",
+    "author": "Thomas Piketty",
+    "genres": [
+      "Non-Fiction",
+      "Economics"
+    ],
+    "language": "French",
+    "year": 2020,
+    "pages": 878,
+    "rating": 4.3,
+    "price": 31.21,
+    "publisher": "Belknap Press",
+    "tags": [
+      "economics",
+      "inequality",
+      "field"
+    ],
+    "description": "A companion volume to Capital in the Twenty-First Century that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9786700064375",
+    "in_stock": true,
+    "stock_count": 94,
+    "pub_date": "2020-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0205",
+    "title": "You Don't Know JS Yet: Annotated Edition",
+    "author": "Kyle Simpson",
+    "genres": [
+      "Programming",
+      "JavaScript"
+    ],
+    "language": "English",
+    "year": 2028,
+    "pages": 206,
+    "rating": 4.2,
+    "price": 26.25,
+    "publisher": "Penguin Classics",
+    "tags": [
+      "annotated",
+      "series",
+      "javascript",
+      "fundamentals"
+    ],
+    "description": "A companion volume to You Don't Know JS Yet that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9789614948724",
+    "in_stock": true,
+    "stock_count": 42,
+    "pub_date": "2028-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0206",
+    "title": "The Hobbit: Companion",
+    "author": "J. R. R. Tolkien",
+    "genres": [
+      "Fiction",
+      "Fantasy"
+    ],
+    "language": "English",
+    "year": 1943,
+    "pages": 441,
+    "rating": 4.9,
+    "price": 23.23,
+    "publisher": "Simon & Schuster",
+    "tags": [
+      "adventure",
+      "fantasy",
+      "middle-earth",
+      "companion"
+    ],
+    "description": "A companion volume to The Hobbit that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9780102201673",
+    "in_stock": true,
+    "stock_count": 116,
+    "pub_date": "1943-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0207",
+    "title": "Computer Networking: A Top-Down Approach: Solutions Manual",
+    "author": "James F. Kurose and Keith W. Ross",
+    "genres": [
+      "Networking",
+      "Computer Science"
+    ],
+    "language": "English",
+    "year": 2017,
+    "pages": 1017,
+    "rating": 3.9,
+    "price": 98.56,
+    "publisher": "Pearson",
+    "tags": [
+      "solutions",
+      "tcp",
+      "networking",
+      "academic"
+    ],
+    "description": "A companion volume to Computer Networking: A Top-Down Approach that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9789683403131",
+    "in_stock": true,
+    "stock_count": 63,
+    "pub_date": "2017-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0208",
+    "title": "Structure and Interpretation of Computer Programs: Companion",
+    "author": "Harold Abelson and Gerald Jay Sussman",
+    "genres": [
+      "Programming",
+      "Computer Science"
+    ],
+    "language": "Spanish",
+    "year": 1994,
+    "pages": 820,
+    "rating": 4.9,
+    "price": 70.07,
+    "publisher": "MIT Press",
+    "tags": [
+      "companion",
+      "scheme",
+      "functional",
+      "classic"
+    ],
+    "description": "A companion volume to Structure and Interpretation of Computer Programs that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9782724455700",
+    "in_stock": false,
+    "stock_count": 190,
+    "pub_date": "1994-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0209",
+    "title": "The Tipping Point: Field Guide",
+    "author": "Malcolm Gladwell",
+    "genres": [
+      "Non-Fiction",
+      "Sociology"
+    ],
+    "language": "English",
+    "year": 2002,
+    "pages": 340,
+    "rating": 3.4,
+    "price": 31.55,
+    "publisher": "Little, Brown",
+    "tags": [
+      "trends",
+      "sociology",
+      "field"
+    ],
+    "description": "A companion volume to The Tipping Point that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9789225710017",
+    "in_stock": true,
+    "stock_count": 171,
+    "pub_date": "2002-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0210",
+    "title": "Cosmos: Solutions Manual",
+    "author": "Carl Sagan",
+    "genres": [
+      "Non-Fiction",
+      "Astronomy"
+    ],
+    "language": "English",
+    "year": 1987,
+    "pages": 556,
+    "rating": 4.1,
+    "price": 38.28,
+    "publisher": "Random House",
+    "tags": [
+      "space",
+      "solutions",
+      "popular-science"
+    ],
+    "description": "A companion volume to Cosmos that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9789282912706",
+    "in_stock": true,
+    "stock_count": 46,
+    "pub_date": "1987-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0211",
+    "title": "Kubernetes Up & Running: Solutions Manual",
+    "author": "Brendan Burns",
+    "genres": [
+      "Cloud Computing",
+      "DevOps"
+    ],
+    "language": "English",
+    "year": 2027,
+    "pages": 379,
+    "rating": 4.6,
+    "price": 50.5,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "solutions",
+      "ops",
+      "kubernetes",
+      "containers"
+    ],
+    "description": "A companion volume to Kubernetes Up & Running that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9780783571379",
+    "in_stock": true,
+    "stock_count": 120,
+    "pub_date": "2027-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0212",
+    "title": "Designing Distributed Systems: Workbook",
+    "author": "Brendan Burns",
+    "genres": [
+      "Distributed Systems",
+      "Cloud Computing"
+    ],
+    "language": "English",
+    "year": 2020,
+    "pages": 184,
+    "rating": 4.1,
+    "price": 33.4,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "workbook",
+      "patterns",
+      "kubernetes",
+      "microservices"
+    ],
+    "description": "A companion volume to Designing Distributed Systems that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9787950400074",
+    "in_stock": true,
+    "stock_count": 144,
+    "pub_date": "2020-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0213",
+    "title": "Fluent Python: Workbook",
+    "author": "Luciano Ramalho",
+    "genres": [
+      "Programming",
+      "Python"
+    ],
+    "language": "English",
+    "year": 2024,
+    "pages": 894,
+    "rating": 4.7,
+    "price": 62.2,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "advanced",
+      "workbook",
+      "idioms",
+      "python"
+    ],
+    "description": "A companion volume to Fluent Python that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9786864464462",
+    "in_stock": false,
+    "stock_count": 129,
+    "pub_date": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0214",
+    "title": "The Hobbit: Field Guide",
+    "author": "J. R. R. Tolkien",
+    "genres": [
+      "Fiction",
+      "Fantasy"
+    ],
+    "language": "English",
+    "year": 1937,
+    "pages": 364,
+    "rating": 4.6,
+    "price": 14.44,
+    "publisher": "George Allen & Unwin",
+    "tags": [
+      "adventure",
+      "fantasy",
+      "middle-earth",
+      "field"
+    ],
+    "description": "A companion volume to The Hobbit that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9782501476867",
+    "in_stock": false,
+    "stock_count": 164,
+    "pub_date": "1937-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0215",
+    "title": "Code Complete: Companion",
+    "author": "Steve McConnell",
+    "genres": [
+      "Programming",
+      "Software Engineering"
+    ],
+    "language": "English",
+    "year": 2009,
+    "pages": 1150,
+    "rating": 4.6,
+    "price": 39.2,
+    "publisher": "Microsoft Press",
+    "tags": [
+      "companion",
+      "best-practices",
+      "construction"
+    ],
+    "description": "A companion volume to Code Complete that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9782707243638",
+    "in_stock": false,
+    "stock_count": 107,
+    "pub_date": "2009-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0216",
+    "title": "Deep Learning: Workbook",
+    "author": "Ian Goodfellow",
+    "genres": [
+      "Machine Learning",
+      "Artificial Intelligence"
+    ],
+    "language": "English",
+    "year": 2014,
+    "pages": 851,
+    "rating": 4.5,
+    "price": 76.1,
+    "publisher": "MIT Press",
+    "tags": [
+      "neural-networks",
+      "deep-learning",
+      "workbook",
+      "theory"
+    ],
+    "description": "A companion volume to Deep Learning that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9780917565649",
+    "in_stock": true,
+    "stock_count": 11,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0217",
+    "title": "The Mythical Man-Month: Companion",
+    "author": "Frederick P. Brooks Jr.",
+    "genres": [
+      "Software Engineering",
+      "Project Management"
+    ],
+    "language": "English",
+    "year": 1995,
+    "pages": 354,
+    "rating": 3.8,
+    "price": 47.75,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "history",
+      "project-management",
+      "essays",
+      "companion"
+    ],
+    "description": "A companion volume to The Mythical Man-Month that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9789806951587",
+    "in_stock": true,
+    "stock_count": 184,
+    "pub_date": "1995-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0218",
+    "title": "JavaScript: The Good Parts: Solutions Manual",
+    "author": "Douglas Crockford",
+    "genres": [
+      "Programming",
+      "JavaScript"
+    ],
+    "language": "English",
+    "year": 2006,
+    "pages": 106,
+    "rating": 4.0,
+    "price": 26.89,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "solutions",
+      "javascript",
+      "language-design"
+    ],
+    "description": "A companion volume to JavaScript: The Good Parts that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9785407845065",
+    "in_stock": true,
+    "stock_count": 126,
+    "pub_date": "2006-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0219",
+    "title": "Educated: Field Guide",
+    "author": "Tara Westover",
+    "genres": [
+      "Biography",
+      "Memoir"
+    ],
+    "language": "German",
+    "year": 2015,
+    "pages": 222,
+    "rating": 3.9,
+    "price": 34.33,
+    "publisher": "Random House",
+    "tags": [
+      "education",
+      "memoir",
+      "field",
+      "family"
+    ],
+    "description": "A companion volume to Educated that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9782943334039",
+    "in_stock": true,
+    "stock_count": 60,
+    "pub_date": "2015-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0220",
+    "title": "Silent Spring: Field Guide",
+    "author": "Rachel Carson",
+    "genres": [
+      "Non-Fiction",
+      "Environment"
+    ],
+    "language": "German",
+    "year": 1963,
+    "pages": 504,
+    "rating": 3.8,
+    "price": 27.11,
+    "publisher": "Houghton Mifflin",
+    "tags": [
+      "pesticides",
+      "field",
+      "classic",
+      "environment"
+    ],
+    "description": "A companion volume to Silent Spring that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9786667184154",
+    "in_stock": false,
+    "stock_count": 84,
+    "pub_date": "1963-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0221",
+    "title": "Capital in the Twenty-First Century: Annotated Edition",
+    "author": "Thomas Piketty",
+    "genres": [
+      "Non-Fiction",
+      "Economics"
+    ],
+    "language": "French",
+    "year": 2014,
+    "pages": 889,
+    "rating": 3.9,
+    "price": 41.13,
+    "publisher": "Belknap Press",
+    "tags": [
+      "economics",
+      "inequality",
+      "annotated"
+    ],
+    "description": "A companion volume to Capital in the Twenty-First Century that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9781968009632",
+    "in_stock": true,
+    "stock_count": 20,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0222",
+    "title": "Cosmos: Solutions Manual",
+    "author": "Carl Sagan",
+    "genres": [
+      "Non-Fiction",
+      "Astronomy"
+    ],
+    "language": "English",
+    "year": 1985,
+    "pages": 392,
+    "rating": 3.8,
+    "price": 37.97,
+    "publisher": "Random House",
+    "tags": [
+      "space",
+      "solutions",
+      "popular-science"
+    ],
+    "description": "A companion volume to Cosmos that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9789282912706",
+    "in_stock": true,
+    "stock_count": 4,
+    "pub_date": "1985-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0223",
+    "title": "Outliers: Annotated Edition",
+    "author": "Malcolm Gladwell",
+    "genres": [
+      "Non-Fiction",
+      "Psychology"
+    ],
+    "language": "English",
+    "year": 2007,
+    "pages": 488,
+    "rating": 4.3,
+    "price": 19.03,
+    "publisher": "Little, Brown",
+    "tags": [
+      "sociology",
+      "annotated",
+      "success"
+    ],
+    "description": "A companion volume to Outliers that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9781035653256",
+    "in_stock": false,
+    "stock_count": 14,
+    "pub_date": "2007-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0224",
+    "title": "Silent Spring: Workbook",
+    "author": "Rachel Carson",
+    "genres": [
+      "Non-Fiction",
+      "Environment"
+    ],
+    "language": "English",
+    "year": 1962,
+    "pages": 412,
+    "rating": 4.6,
+    "price": 33.45,
+    "publisher": "Houghton Mifflin",
+    "tags": [
+      "workbook",
+      "pesticides",
+      "classic",
+      "environment"
+    ],
+    "description": "A companion volume to Silent Spring that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9782584746147",
+    "in_stock": true,
+    "stock_count": 54,
+    "pub_date": "1962-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0225",
+    "title": "Educated: Workbook",
+    "author": "Tara Westover",
+    "genres": [
+      "Biography",
+      "Memoir"
+    ],
+    "language": "English",
+    "year": 2025,
+    "pages": 297,
+    "rating": 4.6,
+    "price": 33.66,
+    "publisher": "Random House",
+    "tags": [
+      "education",
+      "memoir",
+      "workbook",
+      "family"
+    ],
+    "description": "A companion volume to Educated that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9780602692667",
+    "in_stock": true,
+    "stock_count": 162,
+    "pub_date": "2025-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0226",
+    "title": "Accelerate: Solutions Manual",
+    "author": "Nicole Forsgren",
+    "genres": [
+      "DevOps",
+      "Research"
+    ],
+    "language": "English",
+    "year": 2021,
+    "pages": 258,
+    "rating": 4.1,
+    "price": 18.28,
+    "publisher": "IT Revolution Press",
+    "tags": [
+      "metrics",
+      "devops",
+      "solutions",
+      "research"
+    ],
+    "description": "A companion volume to Accelerate that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9781980360650",
+    "in_stock": true,
+    "stock_count": 190,
+    "pub_date": "2021-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0227",
+    "title": "The Diary of a Young Girl: Workbook",
+    "author": "Anne Frank",
+    "genres": [
+      "Biography",
+      "History"
+    ],
+    "language": "Arabic",
+    "year": 1955,
+    "pages": 402,
+    "rating": 4.5,
+    "price": 20.86,
+    "publisher": "Contact Publishing",
+    "tags": [
+      "workbook",
+      "memoir",
+      "wwii",
+      "classic"
+    ],
+    "description": "A companion volume to The Diary of a Young Girl that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9783186130976",
+    "in_stock": false,
+    "stock_count": 125,
+    "pub_date": "1955-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0228",
+    "title": "Compilers: Principles, Techniques, and Tools: Workbook",
+    "author": "Alfred V. Aho",
+    "genres": [
+      "Compilers",
+      "Computer Science"
+    ],
+    "language": "Chinese",
+    "year": 2010,
+    "pages": 1013,
+    "rating": 4.4,
+    "price": 102.49,
+    "publisher": "Pearson",
+    "tags": [
+      "dragon",
+      "workbook",
+      "compilers",
+      "academic"
+    ],
+    "description": "A companion volume to Compilers: Principles, Techniques, and Tools that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9788601586116",
+    "in_stock": true,
+    "stock_count": 105,
+    "pub_date": "2010-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0229",
+    "title": "Beloved: Solutions Manual",
+    "author": "Toni Morrison",
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "language": "English",
+    "year": 1987,
+    "pages": 274,
+    "rating": 3.6,
+    "price": 18.6,
+    "publisher": "Knopf",
+    "tags": [
+      "pulitzer",
+      "history",
+      "solutions",
+      "memory"
+    ],
+    "description": "A companion volume to Beloved that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9784275853882",
+    "in_stock": true,
+    "stock_count": 26,
+    "pub_date": "1987-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0230",
+    "title": "Effective Java: Solutions Manual",
+    "author": "Joshua Bloch",
+    "genres": [
+      "Programming",
+      "Java"
+    ],
+    "language": "English",
+    "year": 2017,
+    "pages": 316,
+    "rating": 4.9,
+    "price": 60.51,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "java",
+      "design",
+      "best-practices",
+      "solutions"
+    ],
+    "description": "A companion volume to Effective Java that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9788024659398",
+    "in_stock": true,
+    "stock_count": 183,
+    "pub_date": "2017-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0231",
+    "title": "The Selfish Gene: Solutions Manual",
+    "author": "Richard Dawkins",
+    "genres": [
+      "Non-Fiction",
+      "Biology"
+    ],
+    "language": "English",
+    "year": 1977,
+    "pages": 479,
+    "rating": 3.7,
+    "price": 13.81,
+    "publisher": "Oxford University Press",
+    "tags": [
+      "solutions",
+      "evolution",
+      "biology"
+    ],
+    "description": "A companion volume to The Selfish Gene that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9780941151894",
+    "in_stock": false,
+    "stock_count": 170,
+    "pub_date": "1977-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0232",
+    "title": "Cloud Native Patterns: Workbook",
+    "author": "Cornelia Davis",
+    "genres": [
+      "Cloud Computing",
+      "Architecture"
+    ],
+    "language": "English",
+    "year": 2019,
+    "pages": 384,
+    "rating": 3.6,
+    "price": 54.93,
+    "publisher": "Manning",
+    "tags": [
+      "cloud",
+      "workbook",
+      "12-factor",
+      "patterns"
+    ],
+    "description": "A companion volume to Cloud Native Patterns that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9783634186869",
+    "in_stock": true,
+    "stock_count": 187,
+    "pub_date": "2019-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0233",
+    "title": "You Don't Know JS Yet: Field Guide",
+    "author": "Kyle Simpson",
+    "genres": [
+      "Programming",
+      "JavaScript"
+    ],
+    "language": "English",
+    "year": 2026,
+    "pages": 268,
+    "rating": 4.3,
+    "price": 48.84,
+    "publisher": "Self-Published",
+    "tags": [
+      "field",
+      "series",
+      "javascript",
+      "fundamentals"
+    ],
+    "description": "A companion volume to You Don't Know JS Yet that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9789430929587",
+    "in_stock": false,
+    "stock_count": 137,
+    "pub_date": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0234",
+    "title": "The Pragmatic Programmer: Annotated Edition",
+    "author": "Andrew Hunt and David Thomas",
+    "genres": [
+      "Programming",
+      "Software Engineering"
+    ],
+    "language": "English",
+    "year": 2003,
+    "pages": 508,
+    "rating": 4.0,
+    "price": 54.3,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "best-practices",
+      "coding",
+      "career",
+      "annotated"
+    ],
+    "description": "A companion volume to The Pragmatic Programmer that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9782316140991",
+    "in_stock": false,
+    "stock_count": 179,
+    "pub_date": "2003-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0235",
+    "title": "Building Microservices: Field Guide",
+    "author": "Sam Newman",
+    "genres": [
+      "Software Engineering",
+      "Architecture"
+    ],
+    "language": "English",
+    "year": 2026,
+    "pages": 622,
+    "rating": 4.6,
+    "price": 59.1,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "field",
+      "patterns",
+      "architecture",
+      "microservices"
+    ],
+    "description": "A companion volume to Building Microservices that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9784570540654",
+    "in_stock": true,
+    "stock_count": 107,
+    "pub_date": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0236",
+    "title": "The Phoenix Project: Solutions Manual",
+    "author": "Gene Kim",
+    "genres": [
+      "DevOps",
+      "Fiction"
+    ],
+    "language": "English",
+    "year": 2011,
+    "pages": 618,
+    "rating": 4.8,
+    "price": 36.96,
+    "publisher": "IT Revolution Press",
+    "tags": [
+      "solutions",
+      "devops",
+      "lean",
+      "novel"
+    ],
+    "description": "A companion volume to The Phoenix Project that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9788604687896",
+    "in_stock": true,
+    "stock_count": 174,
+    "pub_date": "2011-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0237",
+    "title": "The Mythical Man-Month: Solutions Manual",
+    "author": "Frederick P. Brooks Jr.",
+    "genres": [
+      "Software Engineering",
+      "Project Management"
+    ],
+    "language": "English",
+    "year": 1999,
+    "pages": 342,
+    "rating": 3.8,
+    "price": 50.47,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "history",
+      "solutions",
+      "project-management",
+      "essays"
+    ],
+    "description": "A companion volume to The Mythical Man-Month that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9787035994474",
+    "in_stock": true,
+    "stock_count": 38,
+    "pub_date": "1999-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0238",
+    "title": "The Wealth of Nations: Companion",
+    "author": "Adam Smith",
+    "genres": [
+      "Non-Fiction",
+      "Economics"
+    ],
+    "language": "Spanish",
+    "year": 1773,
+    "pages": 1241,
+    "rating": 4.2,
+    "price": 34.79,
+    "publisher": "W. Strahan",
+    "tags": [
+      "economics",
+      "companion",
+      "philosophy",
+      "classic"
+    ],
+    "description": "A companion volume to The Wealth of Nations that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9784246710862",
+    "in_stock": false,
+    "stock_count": 194,
+    "pub_date": "1773-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0239",
+    "title": "The Wealth of Nations: Solutions Manual",
+    "author": "Adam Smith",
+    "genres": [
+      "Non-Fiction",
+      "Economics"
+    ],
+    "language": "English",
+    "year": 1773,
+    "pages": 1292,
+    "rating": 3.6,
+    "price": 26.95,
+    "publisher": "W. Strahan",
+    "tags": [
+      "economics",
+      "solutions",
+      "philosophy",
+      "classic"
+    ],
+    "description": "A companion volume to The Wealth of Nations that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9785246941126",
+    "in_stock": true,
+    "stock_count": 183,
+    "pub_date": "1773-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0240",
+    "title": "Designing Data-Intensive Applications: Workbook",
+    "author": "Martin Kleppmann",
+    "genres": [
+      "Distributed Systems",
+      "Databases"
+    ],
+    "language": "English",
+    "year": 2014,
+    "pages": 504,
+    "rating": 4.2,
+    "price": 51.43,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "workbook",
+      "scalability",
+      "databases",
+      "architecture"
+    ],
+    "description": "A companion volume to Designing Data-Intensive Applications that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9781952833786",
+    "in_stock": false,
+    "stock_count": 54,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0241",
+    "title": "Programming Pearls: Annotated Edition",
+    "author": "Jon Bentley",
+    "genres": [
+      "Programming",
+      "Algorithms"
+    ],
+    "language": "German",
+    "year": 1997,
+    "pages": 357,
+    "rating": 4.2,
+    "price": 44.67,
+    "publisher": "Addison-Wesley",
+    "tags": [
+      "problem-solving",
+      "annotated",
+      "essays",
+      "classic"
+    ],
+    "description": "A companion volume to Programming Pearls that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
+    "isbn": "9781879781849",
+    "in_stock": true,
+    "stock_count": 20,
+    "pub_date": "1997-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0242",
+    "title": "Cracking the Coding Interview: Companion",
+    "author": "Gayle Laakmann McDowell",
+    "genres": [
+      "Algorithms",
+      "Career"
+    ],
+    "language": "English",
+    "year": 2017,
+    "pages": 892,
+    "rating": 4.8,
+    "price": 52.68,
+    "publisher": "O'Reilly Media",
+    "tags": [
+      "companion",
+      "algorithms",
+      "career",
+      "interview"
+    ],
+    "description": "A companion volume to Cracking the Coding Interview that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9785527558463",
+    "in_stock": false,
+    "stock_count": 147,
+    "pub_date": "2017-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0243",
+    "title": "Code Complete: Solutions Manual",
+    "author": "Steve McConnell",
+    "genres": [
+      "Programming",
+      "Software Engineering"
+    ],
+    "language": "English",
+    "year": 2012,
+    "pages": 1102,
+    "rating": 4.3,
+    "price": 40.89,
+    "publisher": "Microsoft Press",
+    "tags": [
+      "solutions",
+      "best-practices",
+      "construction"
+    ],
+    "description": "A companion volume to Code Complete that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9786147659646",
+    "in_stock": true,
+    "stock_count": 117,
+    "pub_date": "2012-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0244",
+    "title": "Capital in the Twenty-First Century: Field Guide",
+    "author": "Thomas Piketty",
+    "genres": [
+      "Non-Fiction",
+      "Economics"
+    ],
+    "language": "French",
+    "year": 2014,
+    "pages": 784,
+    "rating": 4.1,
+    "price": 47.7,
+    "publisher": "Belknap Press",
+    "tags": [
+      "economics",
+      "inequality",
+      "field"
+    ],
+    "description": "A companion volume to Capital in the Twenty-First Century that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9786700064375",
+    "in_stock": true,
+    "stock_count": 116,
+    "pub_date": "2014-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0245",
+    "title": "Anna Karenina: Workbook",
+    "author": "Leo Tolstoy",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "language": "Russian",
+    "year": 1881,
+    "pages": 992,
+    "rating": 4.3,
+    "price": 31.14,
+    "publisher": "Vintage",
+    "tags": [
+      "workbook",
+      "tragedy",
+      "classic",
+      "russian"
+    ],
+    "description": "A companion volume to Anna Karenina that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9780771438066",
+    "in_stock": true,
+    "stock_count": 143,
+    "pub_date": "1881-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0246",
+    "title": "The Lord of the Rings: Solutions Manual",
+    "author": "J. R. R. Tolkien",
+    "genres": [
+      "Fiction",
+      "Fantasy"
+    ],
+    "language": "English",
+    "year": 1952,
+    "pages": 1124,
+    "rating": 5.0,
+    "price": 38.18,
+    "publisher": "George Allen & Unwin",
+    "tags": [
+      "solutions",
+      "fantasy",
+      "epic",
+      "middle-earth"
+    ],
+    "description": "A companion volume to The Lord of the Rings that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
+    "isbn": "9782753958265",
+    "in_stock": true,
+    "stock_count": 11,
+    "pub_date": "1952-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0247",
+    "title": "The Lord of the Rings: Field Guide",
+    "author": "J. R. R. Tolkien",
+    "genres": [
+      "Fiction",
+      "Fantasy"
+    ],
+    "language": "Chinese",
+    "year": 1960,
+    "pages": 1066,
+    "rating": 4.6,
+    "price": 40.96,
+    "publisher": "George Allen & Unwin",
+    "tags": [
+      "field",
+      "fantasy",
+      "epic",
+      "middle-earth"
+    ],
+    "description": "A companion volume to The Lord of the Rings that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
+    "isbn": "9784043049035",
+    "in_stock": true,
+    "stock_count": 103,
+    "pub_date": "1960-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0248",
+    "title": "Elon Musk: Workbook",
+    "author": "Walter Isaacson",
+    "genres": [
+      "Biography",
+      "Business"
+    ],
+    "language": "English",
+    "year": 2022,
+    "pages": 637,
+    "rating": 3.5,
+    "price": 38.89,
+    "publisher": "Simon & Schuster",
+    "tags": [
+      "workbook",
+      "biography",
+      "spacex",
+      "tech"
+    ],
+    "description": "A companion volume to Elon Musk that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
+    "isbn": "9788525000835",
+    "in_stock": true,
+    "stock_count": 28,
+    "pub_date": "2022-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0249",
+    "title": "The Brothers Karamazov: Companion",
+    "author": "Fyodor Dostoevsky",
+    "genres": [
+      "Fiction",
+      "Philosophy"
+    ],
+    "language": "Russian",
+    "year": 1883,
+    "pages": 735,
+    "rating": 4.7,
+    "price": 19.23,
+    "publisher": "The Russian Messenger",
+    "tags": [
+      "companion",
+      "philosophy",
+      "classic",
+      "russian"
+    ],
+    "description": "A companion volume to The Brothers Karamazov that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9785936029523",
+    "in_stock": true,
+    "stock_count": 9,
+    "pub_date": "1883-01-01T00:00:00Z"
+  },
+  {
+    "id": "book_0250",
+    "title": "The Design of Everyday Things: Companion",
+    "author": "Don Norman",
+    "genres": [
+      "UX Design",
+      "Psychology"
+    ],
+    "language": "Russian",
+    "year": 2010,
+    "pages": 555,
+    "rating": 4.5,
+    "price": 25.44,
+    "publisher": "Basic Books",
+    "tags": [
+      "cognition",
+      "design",
+      "affordance",
+      "companion"
+    ],
+    "description": "A companion volume to The Design of Everyday Things that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
+    "isbn": "9789585204157",
+    "in_stock": true,
+    "stock_count": 37,
+    "pub_date": "2010-01-01T00:00:00Z"
+  }
+]
