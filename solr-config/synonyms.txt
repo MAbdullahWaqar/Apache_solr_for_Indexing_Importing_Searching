@@ -1,0 +1,26 @@
+# Domain-specific synonyms used at query time.
+# Format:  comma,separated,list  ->  expanded,terms
+# (a single line with no '=>' is symmetric expansion)
+
+# Programming language nicknames
+js, javascript, ecmascript
+py, python
+ts, typescript
+ml, machine learning
+ai, artificial intelligence
+db, database
+
+# Genres
+sci-fi, science fiction, scifi, sf
+post-apocalyptic, postapocalyptic, post apocalyptic
+non-fiction, nonfiction
+
+# Common author shorthand
+tolkien, j r r tolkien, j.r.r. tolkien
+dostoevsky, fyodor dostoevsky
+gladwell, malcolm gladwell
+
+# Tech topics
+k8s, kubernetes
+distributed systems, distributed computing
+search engine, full text search, information retrieval

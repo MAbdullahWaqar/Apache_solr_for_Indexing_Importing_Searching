@@ -22,9 +22,12 @@ Thumbs.db
 *~
 
 # --- Solr / runtime ---
-solr-*/
+# Ignore an unpacked Solr installation if developers extract the tarball here,
+# but explicitly keep our project's solr-config/ directory.
+solr-[0-9]*/
 solr-*.tgz
 solr-*.zip
+!solr-config/
 *.log
 logs/
 
