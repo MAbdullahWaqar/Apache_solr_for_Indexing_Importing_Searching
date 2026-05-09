@@ -149,6 +149,14 @@ def index() -> Any:
     return send_from_directory(FRONTEND_DIR, "index.html")
 
 
+@app.get("/favicon.ico")
+def favicon() -> Any:
+    favicon_path = FRONTEND_DIR / "favicon.ico"
+    if favicon_path.exists():
+        return send_from_directory(FRONTEND_DIR, "favicon.ico")
+    return ("", 204)
+
+
 @app.get("/<path:filename>")
 def static_passthrough(filename: str) -> Any:
     target = FRONTEND_DIR / filename
@@ -160,5 +168,5 @@ def static_passthrough(filename: str) -> Any:
 if __name__ == "__main__":
     print(f"Solr base : {config.solr_base}")
     print(f"Flask API : http://{config.flask_host}:{config.flask_port}")
-    print("Open       http://localhost:5000/  for the bundled UI")
+    print(f"Open       http://localhost:{config.flask_port}/  for the bundled UI")
     app.run(host=config.flask_host, port=config.flask_port, debug=config.debug)

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="color-scheme" content="dark light" />
   <title>BookFinder &mdash; Solr-powered Search</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=9" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -30,6 +30,18 @@
 
   <!-- =================== SEARCH BAR =================== -->
   <section class="search-shell">
+    <button
+      type="button"
+      id="sidebar-toggle"
+      class="sidebar-toggle"
+      aria-expanded="false"
+      aria-controls="sidebar"
+    >
+      <svg class="sidebar-toggle-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>
+      </svg>
+      Filters &amp; facets
+    </button>
     <div class="search-row">
       <div class="search-input-wrap">
         <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -60,10 +72,14 @@
   </section>
 
   <!-- =================== MAIN LAYOUT =================== -->
-  <main class="layout">
+  <main class="layout" id="main-layout">
 
     <!-- ========== Sidebar facets ========== -->
     <aside class="sidebar" id="sidebar">
+      <div class="sidebar-mobile-bar">
+        <span class="sidebar-mobile-title">Filters</span>
+        <button type="button" id="sidebar-close" class="sidebar-close-btn">Done</button>
+      </div>
       <div class="sidebar-section">
         <h3>Quick filters</h3>
         <label class="check-row">
@@ -132,6 +148,8 @@
     </section>
   </main>
 
+  <div id="sidebar-backdrop" class="sidebar-backdrop" aria-hidden="true"></div>
+
   <!-- =================== DETAIL MODAL =================== -->
   <div id="modal" class="modal" hidden>
     <div class="modal-backdrop" data-close></div>
@@ -146,6 +164,6 @@
     <span><a href="https://solr.apache.org/" target="_blank" rel="noopener">solr.apache.org</a></span>
   </footer>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=8"></script>
 </body>
 </html>

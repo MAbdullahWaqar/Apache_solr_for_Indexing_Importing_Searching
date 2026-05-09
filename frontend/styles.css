@@ -54,6 +54,7 @@ html, body {
   font-size: 15px;
   line-height: 1.5;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 a { color: var(--accent); text-decoration: none; }
@@ -96,7 +97,12 @@ mark {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 28px;
+  flex-wrap: wrap;
+  gap: 12px 16px;
+  padding: max(18px, env(safe-area-inset-top, 0px))
+    max(16px, env(safe-area-inset-right, 0px))
+    18px
+    max(16px, env(safe-area-inset-left, 0px));
   background: var(--bg-elev);
   border-bottom: 1px solid var(--border-soft);
   position: sticky;
@@ -154,12 +160,49 @@ mark {
 .health-pill.ok    .dot { background: var(--good); box-shadow: 0 0 0 4px rgba(74, 222, 128, 0.18); }
 .health-pill.bad   .dot { background: var(--bad);  box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.18); }
 
+@media (min-width: 720px) {
+  .topbar {
+    padding-left: max(28px, env(safe-area-inset-left, 0px));
+    padding-right: max(28px, env(safe-area-inset-right, 0px));
+  }
+}
+
 /* ============================ SEARCH BAR ============================ */
 .search-shell {
   padding: 22px 28px 0;
   max-width: 1400px;
   margin: 0 auto;
   width: 100%;
+}
+
+.sidebar-toggle {
+  display: none;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+}
+.sidebar-toggle:hover {
+  background: var(--accent);
+  color: #fff;
+}
+.sidebar-toggle-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.sidebar-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .search-row {
@@ -250,7 +293,8 @@ mark {
 /* ============================ LAYOUT ============================ */
 .layout {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  /* minmax(0,1fr) lets the results column shrink instead of forcing overflow off-screen beside a fixed 280px rail */
+  grid-template-columns: 280px minmax(0, 1fr);
   gap: 28px;
   padding: 24px 28px 64px;
   max-width: 1400px;
@@ -258,22 +302,162 @@ mark {
   width: 100%;
 }
 
+.results {
+  min-width: 0;
+}
+
+.sidebar-backdrop {
+  display: none;
+}
+
+@media (min-width: 961px) {
+  .sidebar-backdrop {
+    display: none !important;
+  }
+}
+
 @media (max-width: 960px) {
+  .sidebar-toggle {
+    display: flex;
+  }
   .search-row { grid-template-columns: 1fr; }
-  .layout { grid-template-columns: 1fr; }
+  .layout {
+    grid-template-columns: 1fr;
+    padding: 20px 20px 56px;
+    gap: 22px;
+    position: relative;
+  }
+  /* Book cards first; filters open from the drawer (body.sidebar-drawer-open). */
+  .results { order: -1; }
+  .sidebar-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 60;
+    background: rgba(2, 6, 23, 0.55);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.2s ease, visibility 0.2s;
+  }
+  body.sidebar-drawer-open .sidebar-backdrop {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  @media (prefers-color-scheme: light) {
+    .sidebar-backdrop {
+      background: rgba(15, 23, 42, 0.35);
+    }
+  }
+  .sidebar {
+    order: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: min(320px, 90vw);
+    max-height: none;
+    z-index: 65;
+    margin: 0;
+    border-radius: 0 var(--radius) var(--radius) 0;
+    transform: translateX(-105%);
+    transition: transform 0.22s ease;
+    box-shadow: none;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-top: max(18px, env(safe-area-inset-top, 0px));
+    padding-bottom: max(18px, env(safe-area-inset-bottom, 0px));
+  }
+  body.sidebar-drawer-open .sidebar {
+    transform: translateX(0);
+    box-shadow: var(--shadow);
+  }
+  .sidebar-mobile-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-shrink: 0;
+    margin-bottom: 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .sidebar-mobile-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .sidebar-close-btn {
+    padding: 8px 14px;
+    border-radius: var(--radius-sm);
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 13px;
+    border: 1px solid var(--border);
+  }
+  .sidebar-close-btn:hover {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+}
+
+@media (max-width: 640px) {
+  .search-shell { padding: 16px 16px 0; }
+  .layout {
+    padding: 16px 14px 48px;
+    gap: 18px;
+  }
+  .brand-sub {
+    display: none;
+  }
+  .brand h1 {
+    font-size: 17px;
+  }
+  .health-pill {
+    font-size: 11px;
+    padding: 6px 10px;
+    max-width: 100%;
+  }
+  .results-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  .results-time {
+    white-space: normal;
+    word-break: break-word;
+  }
+  .footer {
+    padding-left: max(16px, env(safe-area-inset-left));
+    padding-right: max(16px, env(safe-area-inset-right));
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+  }
 }
 
 /* ============================ SIDEBAR ============================ */
+.sidebar-mobile-bar {
+  display: none;
+}
+
+/* Shared look; position is set per breakpoint (do not put sticky here — it would override the mobile drawer). */
 .sidebar {
   background: var(--bg-elev);
   border: 1px solid var(--border-soft);
   border-radius: var(--radius);
   padding: 18px;
-  height: fit-content;
-  position: sticky;
-  top: 96px;
-  max-height: calc(100vh - 110px);
   overflow-y: auto;
+}
+
+@media (min-width: 961px) {
+  .sidebar {
+    height: fit-content;
+    position: sticky;
+    top: 96px;
+    max-height: calc(100vh - 110px);
+  }
 }
 
 .sidebar-section {
@@ -379,7 +563,8 @@ mark {
 
 .results-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  /* min(100%, …) keeps one column from ever exceeding the viewport (fixed 310px caused horizontal scroll on phones) */
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
   gap: 16px;
 }
 
@@ -508,28 +693,65 @@ mark {
 
 /* ============================ MODAL ============================ */
 .modal {
-  position: fixed; inset: 0;
-  display: grid; place-items: center;
+  position: fixed;
+  inset: 0;
+  /* Flex (not grid): Safari paints grid+abs+backdrop-filter oddly; one in-flow child centers reliably. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: max(16px, 3vw, env(safe-area-inset-top))
+    max(16px, 3vw, env(safe-area-inset-right))
+    max(16px, 3vw, env(safe-area-inset-bottom))
+    max(16px, 3vw, env(safe-area-inset-left));
   z-index: 100;
+  isolation: isolate;
+}
+/* Author `display:flex` beats the UA `[hidden]` rule in Safari — overlay stayed visible on every load. */
+.modal[hidden] {
+  display: none !important;
+  pointer-events: none;
 }
 .modal-backdrop {
-  position: absolute; inset: 0;
-  background: rgba(2, 6, 23, 0.6);
-  backdrop-filter: blur(4px);
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  /* No backdrop-filter: WebKit often composites it above sibling dialog text. */
+  background: rgba(2, 6, 23, 0.82);
+}
+@media (prefers-color-scheme: light) {
+  .modal-backdrop {
+    background: rgba(15, 23, 42, 0.45);
+  }
 }
 .modal-card {
   position: relative;
+  z-index: 2;
+  flex: 0 1 auto;
+  min-width: 0;
+  min-height: 0;
+  align-self: center;
+  max-height: min(86vh, 100%);
   background: var(--bg-card);
   border: 1px solid var(--border-soft);
   border-radius: var(--radius);
   padding: 28px;
   width: min(680px, 92vw);
-  max-height: 86vh;
+  overflow-x: hidden;
   overflow-y: auto;
   box-shadow: var(--shadow);
+  color: var(--text);
+  -webkit-overflow-scrolling: touch;
+}
+#modal-body {
+  color: var(--text);
+  position: relative;
+  z-index: 0;
 }
 .modal-close {
-  position: absolute; top: 12px; right: 14px;
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  z-index: 3;
   font-size: 26px;
   color: var(--text-soft);
 }
@@ -544,10 +766,23 @@ mark {
   margin: 18px 0 6px;
 }
 .modal .grid {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 8px 18px;
-  font-size: 13.5px; color: var(--text-soft);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 18px;
+  font-size: 13.5px;
+  color: var(--text-soft);
 }
 .modal .grid b { color: var(--text); font-weight: 500; }
+
+@media (max-width: 520px) {
+  .modal .grid {
+    grid-template-columns: 1fr;
+  }
+  .modal-card {
+    padding: 22px 16px;
+    width: min(680px, 100%);
+  }
+}
 
 /* ============================ FOOTER ============================ */
 .footer {

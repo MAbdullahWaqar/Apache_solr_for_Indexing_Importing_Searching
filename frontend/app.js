@@ -1,12 +1,14 @@
 /* =========================================================================
    BookFinder UI - app.js
    -----------------------------------------------------------------------
-   Talks to the Flask backend at /api/* (same origin when served by Flask,
-   otherwise falls back to http://localhost:5000).
+   Talks to the Flask backend at /api/* (same origin when served over HTTP(S),
+   e.g. Flask on any port; file:// opens fall back to http://localhost:5000).
    ========================================================================= */
 
 const API_BASE = (() => {
-  if (location.port === "5000" || location.port === "") return "";
+  if (location.protocol === "http:" || location.protocol === "https:") {
+    return "";
+  }
   return "http://localhost:5000";
 })();
 
@@ -31,6 +33,10 @@ const els = {
   emptyState:      document.getElementById("empty-state"),
   modal:           document.getElementById("modal"),
   modalBody:       document.getElementById("modal-body"),
+  sidebar:         document.getElementById("sidebar"),
+  sidebarToggle:   document.getElementById("sidebar-toggle"),
+  sidebarClose:    document.getElementById("sidebar-close"),
+  sidebarBackdrop: document.getElementById("sidebar-backdrop"),
   facets: {
     genres:    document.getElementById("facet-genres"),
     language:  document.getElementById("facet-language"),
@@ -39,6 +45,32 @@ const els = {
     year:      document.getElementById("facet-year"),
   },
 };
+
+const SIDEBAR_DRAWER_MQ = window.matchMedia("(max-width: 960px)");
+
+function sidebarDrawerMode() {
+  return SIDEBAR_DRAWER_MQ.matches;
+}
+
+function setSidebarDrawerOpen(open) {
+  document.body.classList.toggle("sidebar-drawer-open", open);
+  if (els.sidebarBackdrop) {
+    els.sidebarBackdrop.setAttribute("aria-hidden", open ? "false" : "true");
+  }
+  if (els.sidebarToggle) {
+    els.sidebarToggle.setAttribute("aria-expanded", open ? "true" : "false");
+  }
+  document.body.style.overflow = open && sidebarDrawerMode() ? "hidden" : "";
+}
+
+function closeSidebarDrawer() {
+  setSidebarDrawerOpen(false);
+}
+
+function toggleSidebarDrawer() {
+  if (!sidebarDrawerMode()) return;
+  setSidebarDrawerOpen(!document.body.classList.contains("sidebar-drawer-open"));
+}
 
 const state = {
   q: "",
@@ -152,6 +184,17 @@ function escapeHtml(s) {
   })[c]);
 }
 
+/** Solr sometimes returns multi-valued fields as arrays; Safari also mishandles `data-id` via `dataset.id`. */
+function scalar(v) {
+  if (v == null) return "";
+  return Array.isArray(v) ? (v[0] ?? "") : v;
+}
+
+function safeFixed(n, digits = 1) {
+  const x = Number(n);
+  return (Number.isFinite(x) ? x : 0).toFixed(digits);
+}
+
 function renderResults(data) {
   const { documents, total, elapsed_ms, qtime_ms, page_size, page } = data;
 
@@ -171,17 +214,17 @@ function renderResults(data) {
 
   els.results.innerHTML = documents.map(doc => {
     const hl = doc._highlight || {};
-    const titleHtml = (hl.title && hl.title[0]) || escapeHtml(doc.title);
+    const titleHtml = (hl.title && hl.title[0]) || escapeHtml(scalar(doc.title));
     const descHtml  = (hl.description && hl.description[0])
-                       || escapeHtml((doc.description || "").slice(0, 220));
+                       || escapeHtml(String(scalar(doc.description)).slice(0, 220));
     const genres    = (doc.genres || []).slice(0, 2).map(g =>
       `<span class="card-tag">${escapeHtml(g)}</span>`).join("");
     return `
-      <article class="card" data-id="${escapeHtml(doc.id)}">
+      <article class="card" data-book-id="${escapeHtml(doc.id)}">
         <h2 class="card-title">${titleHtml}</h2>
-        <div class="card-author">by ${escapeHtml(doc.author)}</div>
+        <div class="card-author">by ${escapeHtml(scalar(doc.author))}</div>
         <div class="card-meta">
-          <span class="pill star">&#9733; ${(doc.rating ?? 0).toFixed(1)}</span>
+          <span class="pill star">&#9733; ${safeFixed(doc.rating, 1)}</span>
           <span class="pill">${doc.year ?? ""}</span>
           <span class="pill">${doc.pages ?? "?"} pp</span>
           <span class="pill">${escapeHtml(doc.language || "")}</span>
@@ -189,7 +232,7 @@ function renderResults(data) {
         <div class="card-snippet">${descHtml}&hellip;</div>
         <div class="card-tags">${genres}</div>
         <div class="card-bottom">
-          <span class="card-price">$${(doc.price ?? 0).toFixed(2)}</span>
+          <span class="card-price">$${safeFixed(doc.price, 2)}</span>
           <span class="${doc.in_stock ? 'in-stock-yes' : 'in-stock-no'}">
             ${doc.in_stock ? "In stock" : "Out of stock"}
           </span>
@@ -198,8 +241,10 @@ function renderResults(data) {
   }).join("");
 
   els.results.querySelectorAll(".card").forEach(card => {
-    card.addEventListener("click",
-      () => openDetails(card.dataset.id));
+    card.addEventListener("click", e => {
+      const bookId = e.currentTarget.getAttribute("data-book-id");
+      if (bookId) openDetails(bookId);
+    });
   });
 }
 
@@ -346,40 +391,47 @@ async function fetchSuggestions(q) {
 // Modal
 // --------------------------------------------------------------------------
 async function openDetails(id) {
+  if (!id) return;
+  closeSidebarDrawer();
+  els.modalBody.innerHTML =
+    `<p class="modal-loading" style="color:var(--text-soft);margin:12px 0;">Loading…</p>`;
+  els.modal.hidden = false;
   try {
     const doc = await apiGet(`/api/book/${encodeURIComponent(id)}`);
+    const title = scalar(doc.title);
+    const author = scalar(doc.author);
+    const desc = scalar(doc.description);
     els.modalBody.innerHTML = `
-      <h2>${escapeHtml(doc.title)}</h2>
+      <h2>${escapeHtml(title)}</h2>
       <p style="color: var(--text-soft); margin-top: 4px;">
-        by <strong>${escapeHtml(doc.author)}</strong>
+        by <strong>${escapeHtml(author)}</strong>
       </p>
       <h3>Overview</h3>
-      <p style="color: var(--text-soft);">${escapeHtml(doc.description || "")}</p>
+      <p style="color: var(--text-soft);">${escapeHtml(desc)}</p>
       <h3>Details</h3>
       <div class="grid">
         <span>Year</span><b>${doc.year ?? ""}</b>
         <span>Pages</span><b>${doc.pages ?? "?"}</b>
-        <span>Language</span><b>${escapeHtml(doc.language || "")}</b>
-        <span>Publisher</span><b>${escapeHtml(doc.publisher || "")}</b>
-        <span>ISBN</span><b style="font-family:monospace">${escapeHtml(doc.isbn || "")}</b>
-        <span>Rating</span><b>&#9733; ${(doc.rating ?? 0).toFixed(1)}</b>
-        <span>Price</span><b>$${(doc.price ?? 0).toFixed(2)}</b>
+        <span>Language</span><b>${escapeHtml(scalar(doc.language))}</b>
+        <span>Publisher</span><b>${escapeHtml(scalar(doc.publisher))}</b>
+        <span>ISBN</span><b style="font-family:monospace">${escapeHtml(scalar(doc.isbn))}</b>
+        <span>Rating</span><b>&#9733; ${safeFixed(doc.rating, 1)}</b>
+        <span>Price</span><b>$${safeFixed(doc.price, 2)}</b>
         <span>In stock</span><b>${doc.in_stock ? "Yes (" + (doc.stock_count ?? 0) + ")" : "No"}</b>
       </div>
       <h3>Genres</h3>
       <div class="card-tags">
         ${(doc.genres || []).map(g =>
-          `<span class="card-tag">${escapeHtml(g)}</span>`).join("")}
+          `<span class="card-tag">${escapeHtml(scalar(g))}</span>`).join("")}
       </div>
       <h3>Tags</h3>
       <div class="card-tags">
         ${(doc.tags || []).map(t =>
-          `<span class="card-tag">${escapeHtml(t)}</span>`).join("")}
+          `<span class="card-tag">${escapeHtml(scalar(t))}</span>`).join("")}
       </div>`;
-    els.modal.hidden = false;
   } catch (e) {
-    els.modalBody.innerHTML = `<p>Could not load: ${e.message}</p>`;
-    els.modal.hidden = false;
+    els.modalBody.innerHTML =
+      `<p style="color:var(--text);">Could not load: ${escapeHtml(e.message)}</p>`;
   }
 }
 
@@ -469,8 +521,32 @@ function bindEvents() {
 
   els.modal.querySelectorAll("[data-close]").forEach(el =>
     el.addEventListener("click", () => { els.modal.hidden = true; }));
+
+  if (els.sidebarToggle) {
+    els.sidebarToggle.addEventListener("click", () => { toggleSidebarDrawer(); });
+  }
+  if (els.sidebarClose) {
+    els.sidebarClose.addEventListener("click", () => { closeSidebarDrawer(); });
+  }
+  if (els.sidebarBackdrop) {
+    els.sidebarBackdrop.addEventListener("click", () => { closeSidebarDrawer(); });
+  }
+  const onViewportChange = () => {
+    if (!SIDEBAR_DRAWER_MQ.matches) closeSidebarDrawer();
+  };
+  if (SIDEBAR_DRAWER_MQ.addEventListener) {
+    SIDEBAR_DRAWER_MQ.addEventListener("change", onViewportChange);
+  } else {
+    SIDEBAR_DRAWER_MQ.addListener(onViewportChange);
+  }
+
   document.addEventListener("keydown", e => {
-    if (e.key === "Escape") els.modal.hidden = true;
+    if (e.key !== "Escape") return;
+    if (document.body.classList.contains("sidebar-drawer-open") && sidebarDrawerMode()) {
+      closeSidebarDrawer();
+      return;
+    }
+    els.modal.hidden = true;
   });
 }
 
@@ -478,6 +554,11 @@ function bindEvents() {
 // Boot
 // --------------------------------------------------------------------------
 async function boot() {
+  els.modal.hidden = true;
+  document.body.classList.remove("sidebar-drawer-open");
+  document.body.style.overflow = "";
+  if (els.sidebarBackdrop) els.sidebarBackdrop.setAttribute("aria-hidden", "true");
+  if (els.sidebarToggle) els.sidebarToggle.setAttribute("aria-expanded", "false");
   bindEvents();
   await refreshHealth();
   setInterval(refreshHealth, 30_000);
