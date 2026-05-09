@@ -91,23 +91,39 @@ The two on-disk artefacts are:
 
 ## 3. Configuration Details
 
-### 3.1 Solr installation
+### 3.1 Solr installation and SolrCloud cluster
 
 - **Solr version:** 9.5.0
-- **Mode:** standalone (single node) on port 8983
-- **Core name:** `books` (created with `solr create -c books`)
+- **Recommended mode for this lab:** SolrCloud on a single machine
+- **Node 1:** `localhost:8983`
+- **Node 2:** `localhost:7574`
+- **Embedded ZooKeeper:** `localhost:9983`
+- **Collection name:** `books`
+- **Shards:** 2
+- **Replication factor:** 2
 
-The lab also includes guidance for SolrCloud (sharded mode) — the scripts
-parametrise `SOLR_PORT` and `CORE_NAME` so the same workflow applies to a
-collection in cloud mode.
+The project includes `scripts/setup_solrcloud.sh`, which creates a real
+two-node SolrCloud cluster on one host. The collection has two logical shards
+and two replicas, giving four physical cores distributed across the two Solr
+nodes. This satisfies the lab prerequisite to create a cluster of servers
+(shards) while remaining easy to reproduce on a laptop.
+
+For a simpler non-cloud demonstration, `scripts/setup_solr.sh` can create a
+standalone `books` core, but the screenshots and final evaluation use
+SolrCloud mode.
 
 ### 3.2 Schema strategy
 
 Rather than editing `managed-schema` by hand, the project ships
 `scripts/apply_schema.sh` which uses Solr's **Schema API** to push the field
-types, fields and copyFields. This makes the operation idempotent and safer in
-production. A reference XML schema (`solr-config/managed-schema.xml`) is also
-checked in for completeness.
+types, fields and copyFields. Before the schema is applied,
+`scripts/install_resources.sh` copies `synonyms.txt` and `stopwords.txt` into
+the active core configuration (standalone) or into ZooKeeper (SolrCloud). This
+ensures that the `text_en` analyzer can resolve the custom synonym and stopword
+resources.
+
+A reference XML schema (`solr-config/managed-schema.xml`) is also checked in
+for documentation and review.
 
 ### 3.3 Field-type strategy
 
@@ -164,17 +180,19 @@ extract it, and add `bin\` to `PATH`.
 ### Step 2 — Start Solr & create the core
 
 ```bash
-bash scripts/setup_solr.sh
+bash scripts/setup_solrcloud.sh
 ```
 
-This idempotent script starts Solr on port 8983 (if not already running),
-creates the `books` core if it does not already exist, and applies the
-project schema via the Schema API.
+This idempotent script starts Solr node 1 on port 8983, Solr node 2 on port
+7574, launches embedded ZooKeeper, and creates the `books` collection with
+2 shards and replication factor 2.
 
 ### Step 3 — Generate & index the dataset
 
 ```bash
 python3 scripts/generate_dataset.py     # writes data/books.csv & .json
+bash   scripts/install_resources.sh     # pushes synonyms/stopwords
+bash   scripts/apply_schema.sh          # applies text_en/text_suggest + fields
 bash   scripts/index_data.sh            # JSON ingestion (default)
 # or:
 FORMAT=csv bash scripts/index_data.sh   # CSV ingestion
@@ -254,21 +272,30 @@ Browser  <->  Flask (backend/app.py + search_client.py)  <->  Solr (8983)
 
 ## 6. Screenshots of Outputs
 
-> Place screenshots in `docs/screenshots/`. Suggested captures (each backed by
-> a script in this repo so the screenshots match what reviewers can reproduce
-> on their own machines):
+Screenshots should be captured by following `docs/RUN_STEP_BY_STEP.md`. Each
+file is saved in `docs/screenshots/` and embedded in the final Word document
+using `docs/generate_report.py`.
 
 | Screenshot | What it shows |
 | --- | --- |
-| `01-solr-admin.png`     | Solr Admin UI showing the `books` core with 250 docs |
-| `02-schema-fields.png`  | Schema browser listing the custom fields |
-| `03-curl-index.png`     | Terminal output of `index_data.sh` succeeding |
-| `04-sample-queries.png` | Output of `sample_queries.sh` |
-| `05-app-home.png`       | The web UI on first load, facets populated |
-| `06-app-search.png`     | A live search showing highlighted matches |
-| `07-app-facets.png`     | Several facets selected, results filtered |
-| `08-app-modal.png`      | Detail modal for a single book |
-| `09-app-mobile.png`     | The UI in a 375 × 700 mobile viewport |
+| `01-solrcloud-graph.png` | SolrCloud graph showing two live nodes and the `books` collection |
+| `02-collection-shards.png` | Collection details showing 2 shards and 2 replicas |
+| `03-install-resources.png` | Terminal output for synonym/stopword resource installation |
+| `04-apply-schema.png` | Terminal output for Schema API setup |
+| `05-schema-browser.png` | Solr schema browser listing custom fields |
+| `06-generate-dataset.png` | Terminal output of deterministic dataset generation |
+| `07-index-data.png` | Terminal output of `index_data.sh` showing 250 indexed documents |
+| `08-doc-count.png` | Solr Admin query output showing `numFound: 250` |
+| `09-sample-queries.png` | Output of `sample_queries.sh` |
+| `10-faceted-search.png` | Solr Admin faceted-search output |
+| `11-highlighting.png` | Solr Admin highlighting output |
+| `12-web-ui-home.png` | Web UI first load with search bar, facets and results |
+| `13-web-search-highlight.png` | Live web search with highlighted search terms |
+| `14-web-facets-filters.png` | Web UI after applying filters/faceted navigation |
+| `15-web-autocomplete.png` | Autocomplete suggestions in the web UI |
+| `16-web-pagination.png` | Pagination controls in the web UI |
+| `17-web-detail-modal.png` | Single-book detail modal |
+| `18-web-mobile.png` | Responsive mobile layout |
 
 ---
 
@@ -350,9 +377,9 @@ does, not implementing it.
 
 If I extend this project, the next steps would be:
 
-1. **SolrCloud / sharding.** Migrate the standalone core into a 2-shard,
-   2-replica collection on ZooKeeper to demonstrate distributed indexing and
-   high availability — directly aligned with the PDC course themes.
+1. **Multi-machine SolrCloud.** The current project uses two SolrCloud nodes on
+   one laptop. A production extension would place those nodes on separate
+   machines or containers and add an external ZooKeeper ensemble.
 2. **Streaming expressions.** Build a small analytics dashboard on top of
    Solr's `/stream` handler for top-N, rollups, and joins.
 3. **Authentication.** Drop a tiny auth proxy in front of `/api/*` so the

@@ -26,14 +26,14 @@ if ! command -v solr >/dev/null 2>&1; then
   exit 1
 fi
 
-echo "[1/3] Starting Solr on port ${SOLR_PORT} (if not already running)..."
+echo "[1/4] Starting Solr on port ${SOLR_PORT} (if not already running)..."
 if ! curl -fsS "${SOLR_URL}/solr/admin/info/system" >/dev/null 2>&1; then
   solr start -p "${SOLR_PORT}"
 else
   echo "      Solr already running on ${SOLR_PORT}."
 fi
 
-echo "[2/3] Creating core '${CORE_NAME}' (idempotent)..."
+echo "[2/4] Creating core '${CORE_NAME}' (idempotent)..."
 if curl -fsS "${SOLR_URL}/solr/admin/cores?action=STATUS&core=${CORE_NAME}" \
     | grep -q "\"name\":\"${CORE_NAME}\""; then
   echo "      Core '${CORE_NAME}' already exists, skipping."
@@ -41,9 +41,14 @@ else
   solr create -c "${CORE_NAME}" -p "${SOLR_PORT}"
 fi
 
-echo "[3/3] Applying project schema via Schema API..."
+echo "[3/4] Installing synonyms.txt + stopwords.txt..."
+SOLR_PORT="${SOLR_PORT}" CORE_NAME="${CORE_NAME}" \
+  bash "$(dirname "$0")/install_resources.sh"
+
+echo "[4/4] Applying project schema via Schema API..."
 SOLR_PORT="${SOLR_PORT}" CORE_NAME="${CORE_NAME}" \
   bash "$(dirname "$0")/apply_schema.sh"
 
 echo
 echo "Done. Admin UI: ${SOLR_URL}/solr/#/${CORE_NAME}"
+echo "Next: bash scripts/index_data.sh    # ingest the dataset"
