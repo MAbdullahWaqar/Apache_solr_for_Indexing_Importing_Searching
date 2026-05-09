@@ -28,7 +28,8 @@ fi
 
 echo "[1/4] Starting Solr on port ${SOLR_PORT} (if not already running)..."
 if ! curl -fsS "${SOLR_URL}/solr/admin/info/system" >/dev/null 2>&1; then
-  solr start -p "${SOLR_PORT}"
+  # Solr 10 defaults to SolrCloud. Use --user-managed for standalone/core mode.
+  solr start --user-managed -p "${SOLR_PORT}"
 else
   echo "      Solr already running on ${SOLR_PORT}."
 fi

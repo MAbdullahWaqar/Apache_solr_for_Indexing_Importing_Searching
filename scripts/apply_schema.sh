@@ -37,11 +37,24 @@ post() {
   }
 }
 
+field_type_exists() {
+  local name="$1"
+  curl -fsS "${BASE}/schema/fieldtypes/${name}" >/dev/null 2>&1
+}
+
+field_exists() {
+  local name="$1"
+  curl -fsS "${BASE}/schema/fields/${name}" >/dev/null 2>&1
+}
+
 # ---------------------------------------------------------------------------
 # 1. Field type: text_suggest (edge-n-grams for autocomplete)
 # ---------------------------------------------------------------------------
 echo "[1/4] Adding field type 'text_suggest'..."
-post '{
+if field_type_exists "text_suggest"; then
+  echo "      Field type 'text_suggest' already exists, skipping."
+else
+  post '{
   "add-field-type": [
     {
       "name": "text_suggest",
@@ -60,13 +73,17 @@ post '{
       }
     }
   ]
-}' || true
+}'
+fi
 
 # ---------------------------------------------------------------------------
 # 2. Field type: text_en (stopwords + Porter stemmer + synonyms at query time)
 # ---------------------------------------------------------------------------
 echo "[2/4] Adding field type 'text_en' (stopwords + stemming + synonyms)..."
-post '{
+if field_type_exists "text_en"; then
+  echo "      Field type 'text_en' already exists, skipping."
+else
+  post '{
   "add-field-type": [
     {
       "name": "text_en",
@@ -93,13 +110,18 @@ post '{
       }
     }
   ]
-}' || true
+}'
+fi
 
 # ---------------------------------------------------------------------------
 # 3. Fields
 # ---------------------------------------------------------------------------
 echo "[3/4] Adding fields..."
-FIELDS_JSON=$(cat <<'EOF'
+FIELDS_WERE_ADDED=0
+if field_exists "title"; then
+  echo "      Project fields already exist, skipping field creation."
+else
+  FIELDS_JSON=$(cat <<'EOF'
 {
   "add-field": [
     {"name": "title",       "type": "text_en",      "indexed": true, "stored": true, "multiValued": false},
@@ -124,13 +146,18 @@ FIELDS_JSON=$(cat <<'EOF'
 }
 EOF
 )
-post "${FIELDS_JSON}" || true
+  post "${FIELDS_JSON}"
+  FIELDS_WERE_ADDED=1
+fi
 
 # ---------------------------------------------------------------------------
 # 4. copyFields
 # ---------------------------------------------------------------------------
 echo "[4/4] Adding copyFields..."
-post '{
+if [ "${FIELDS_WERE_ADDED}" -eq 0 ]; then
+  echo "      Project fields already existed; assuming copyFields are already present, skipping."
+else
+  post '{
   "add-copy-field": [
     {"source": "title",       "dest": ["_text_", "title_str", "title_ac"]},
     {"source": "author",      "dest": ["_text_", "author_str"]},
@@ -138,7 +165,8 @@ post '{
     {"source": "genres",      "dest": "_text_"},
     {"source": "tags",        "dest": "_text_"}
   ]
-}' || true
+}'
+fi
 
 echo
 echo "Schema applied successfully."

@@ -1620,7 +1620,7 @@ def expand(records: list[dict]) -> list[dict]:
             "rating": round(min(5.0, max(2.5, base["rating"] + rng.uniform(-0.6, 0.4))), 1),
             "price": round(max(5.0, base["price"] + rng.uniform(-10, 20)), 2),
             "publisher": rng.choice(PUBLISHERS) if rng.random() < 0.2 else base["publisher"],
-            "tags": list(set(base["tags"] + [edition.split()[0].lower()])),
+            "tags": sorted(set(base["tags"] + [edition.split()[0].lower()])),
             "description": (
                 f"A companion volume to {base['title']} that revisits the "
                 f"original's themes from a fresh angle, with updated "

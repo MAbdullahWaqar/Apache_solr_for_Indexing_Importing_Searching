@@ -39,7 +39,7 @@ echo =================================================================
 echo [1/4] Starting node 1 in cloud mode on port %PORT_1%...
 curl -fsS http://localhost:%PORT_1%/solr/admin/info/system >nul 2>nul
 if errorlevel 1 (
-  call solr start -c -p %PORT_1%
+  call solr start -p %PORT_1%
 ) else (
   echo       Node 1 already running on %PORT_1%.
 )
@@ -49,7 +49,7 @@ timeout /t 2 /nobreak >nul
 echo [2/4] Starting node 2 on port %PORT_2%, joining ZK %ZK_HOST%...
 curl -fsS http://localhost:%PORT_2%/solr/admin/info/system >nul 2>nul
 if errorlevel 1 (
-  call solr start -c -p %PORT_2% -z %ZK_HOST%
+  call solr start -p %PORT_2% -z %ZK_HOST%
 ) else (
   echo       Node 2 already running on %PORT_2%.
 )
@@ -57,7 +57,7 @@ if errorlevel 1 (
 echo [3/4] Creating collection '%COLLECTION%' (idempotent)...
 curl -fsS "http://localhost:%PORT_1%/solr/admin/collections?action=clusterstatus&wt=json" | findstr "\"%COLLECTION%\"" >nul
 if errorlevel 1 (
-  call solr create_collection -c %COLLECTION% -shards %NUM_SHARDS% -replicationFactor %REPLICATION_FACTOR% -p %PORT_1%
+  call solr create -c %COLLECTION% -sh %NUM_SHARDS% -rf %REPLICATION_FACTOR% -s http://localhost:%PORT_1%
 ) else (
   echo       Collection '%COLLECTION%' already exists, skipping.
 )

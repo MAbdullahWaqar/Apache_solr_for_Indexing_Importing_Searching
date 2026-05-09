@@ -80,6 +80,8 @@ class SolrSearchClient:
             params.extend([
                 ("hl", "true"),
                 ("hl.fl", "title,description"),
+                ("hl.method", "original"),
+                ("hl.requireFieldMatch", "false"),
                 ("hl.simple.pre", "<mark>"),
                 ("hl.simple.post", "</mark>"),
                 ("hl.fragsize", 220),

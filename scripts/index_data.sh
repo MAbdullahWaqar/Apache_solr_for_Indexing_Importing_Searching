@@ -60,5 +60,5 @@ echo "Verifying document count..."
 curl -fsS "${BASE}/select?q=*:*&rows=0" | python3 -c '
 import json, sys
 d = json.load(sys.stdin)
-print(f"Indexed documents: {d[\"response\"][\"numFound\"]}")
+print("Indexed documents:", d["response"]["numFound"])
 '

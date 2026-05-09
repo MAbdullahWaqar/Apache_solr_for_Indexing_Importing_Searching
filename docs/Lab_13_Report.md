@@ -148,9 +148,11 @@ The `/select` handler is configured with sensible project defaults:
 - Default facet fields: `genres`, `language`, `publisher`, `tags`
 - A `year` range facet from 1700 to 2030 in 10-year buckets
 
-A `/suggest` handler backed by **AnalyzingInfixLookupFactory** powers
-autocomplete, and a `/spell` SpellCheckComponent provides "did you mean?"
-suggestions.
+Autocomplete is implemented in two layers. If a Solr `/suggest` handler is
+configured, the backend uses it. If not, the backend falls back to the
+`title_ac` edge-ngram field, so autocomplete still works in a fresh Solr 10
+setup without manual `solrconfig.xml` editing. Spellcheck-style demonstrations
+are included through query examples.
 
 ---
 
@@ -243,7 +245,7 @@ Browser  <->  Flask (backend/app.py + search_client.py)  <->  Solr (8983)
 | --- | --- | --- |
 | Search bar with query support | UI + `/api/search` | Free-text, debounced 220 ms |
 | Real-time results | UI | Re-runs query on every keystroke after debounce |
-| Autocomplete suggestions | UI + `/api/suggest` | Solr Suggester or fallback prefix query |
+| Autocomplete suggestions | UI + `/api/suggest` | Solr Suggester when configured; otherwise prefix query on `title_ac` |
 | Filters | UI + `/api/search` | In-stock, min rating, year range, multi-select facets |
 | Faceted navigation | UI + `/api/search` | Genres, languages, publishers, tags, decade range |
 | Pagination | UI + `/api/search` | `start`/`rows` with elision, page jump |

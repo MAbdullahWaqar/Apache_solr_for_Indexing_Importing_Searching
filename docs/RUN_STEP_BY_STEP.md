@@ -409,6 +409,19 @@ Open:
 http://localhost:5000/
 ```
 
+On macOS, port `5000` may already be used by AirPlay Receiver and may return
+HTTP 403. If that happens, run Flask on port `5001`:
+
+```bash
+FLASK_PORT=5001 python backend/app.py
+```
+
+Then open:
+
+```text
+http://localhost:5001/
+```
+
 ### Screenshot 12 — Web UI home
 
 Capture initial page:

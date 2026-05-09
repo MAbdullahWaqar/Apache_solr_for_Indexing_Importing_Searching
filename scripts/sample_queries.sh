@@ -63,8 +63,8 @@ run "10. Programming books boosted by rating, top 5" \
     "${BASE}/select?q=programming&fq=genres:Programming&sort=rating%20desc&rows=5&fl=id,title,rating"
 
 # 11. Highlighting
-run "11. Highlight 'algorithms' in title and description" \
-    "${BASE}/select?q=algorithms&hl=true&hl.fl=title,description&hl.simple.pre=%3Cmark%3E&hl.simple.post=%3C/mark%3E&rows=3&fl=id,title"
+run "11. Highlight 'algorithms' in description" \
+    "${BASE}/select?q=description:algorithms&hl=true&hl.method=original&hl.fl=description&hl.simple.pre=%3Cmark%3E&hl.simple.post=%3C/mark%3E&rows=3&fl=id,title,description"
 
 # 12. Pagination (page 3, 10 per page)
 run "12. Pagination - start=20, rows=10" \
@@ -74,9 +74,10 @@ run "12. Pagination - start=20, rows=10" \
 run "13. Spellcheck for 'algoritm'" \
     "${BASE}/select?q=algoritm&spellcheck=true&spellcheck.collate=true&rows=0"
 
-# 14. Suggest (autocomplete)
-run "14. Suggest 'des'" \
-    "${BASE}/suggest?suggest=true&suggest.q=des&suggest.dictionary=titleSuggester&suggest.dictionary=authorSuggester&suggest.build=true"
+# 14. Autocomplete fallback using the indexed edge-ngram field title_ac.
+# The Flask UI also uses this fallback if a Solr /suggest handler is not present.
+run "14. Autocomplete prefix 'des' via title_ac" \
+    "${BASE}/select?q=title_ac:des*&rows=5&fl=id,title,author"
 
 # 15. JSON Facet API
 run "15. Stats facet - average rating per language" \

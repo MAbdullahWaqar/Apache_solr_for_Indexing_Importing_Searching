@@ -85,7 +85,7 @@ python -m http.server 8000 --directory frontend
 | **Highlighting** | `<mark>` tags on title and description. |
 | **Sorting** | By relevance, year, rating, price, title. |
 | **Pagination** | `start` / `rows` with total-count metadata. |
-| **Autocomplete** | `/suggest` endpoint backed by Solr's Suggester. |
+| **Autocomplete** | `/api/suggest` endpoint with Solr Suggester support and `title_ac` prefix fallback. |
 | **UI** | Responsive layout, dark theme, debounced live search, facet sidebar. |
 
 ## 4. Documentation & deliverables

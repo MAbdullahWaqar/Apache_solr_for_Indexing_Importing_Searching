@@ -23,7 +23,7 @@ if errorlevel 1 (
 echo [1/4] Starting Solr on port %SOLR_PORT%...
 curl -fsS %SOLR_URL%/solr/admin/info/system >nul 2>nul
 if errorlevel 1 (
-  call solr start -p %SOLR_PORT%
+  call solr start --user-managed -p %SOLR_PORT%
 ) else (
   echo       Solr already running on %SOLR_PORT%.
 )

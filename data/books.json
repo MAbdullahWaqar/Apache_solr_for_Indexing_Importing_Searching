@@ -2273,10 +2273,10 @@
     "price": 102.46,
     "publisher": "HarperCollins",
     "tags": [
-      "dragon",
-      "field",
+      "academic",
       "compilers",
-      "academic"
+      "dragon",
+      "field"
     ],
     "description": "A companion volume to Compilers: Principles, Techniques, and Tools that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9782649936216",
@@ -2300,9 +2300,9 @@
     "publisher": "Knopf",
     "tags": [
       "data-processing",
-      "spark",
       "field",
-      "scala"
+      "scala",
+      "spark"
     ],
     "description": "A companion volume to Spark: The Definitive Guide that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9789657796245",
@@ -2325,10 +2325,10 @@
     "price": 33.07,
     "publisher": "Prentice Hall",
     "tags": [
-      "workbook",
       "legacy",
+      "refactoring",
       "testing",
-      "refactoring"
+      "workbook"
     ],
     "description": "A companion volume to Working Effectively with Legacy Code that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9789718873205",
@@ -2351,10 +2351,10 @@
     "price": 46.01,
     "publisher": "Simon & Schuster",
     "tags": [
-      "workbook",
       "biography",
       "spacex",
-      "tech"
+      "tech",
+      "workbook"
     ],
     "description": "A companion volume to Elon Musk that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9788525000835",
@@ -2378,8 +2378,8 @@
     "publisher": "Random House",
     "tags": [
       "medicine",
-      "mortality",
       "memoir",
+      "mortality",
       "solutions"
     ],
     "description": "A companion volume to When Breath Becomes Air that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
@@ -2428,10 +2428,10 @@
     "price": 87.51,
     "publisher": "MIT Press",
     "tags": [
-      "algorithms",
       "academic",
-      "data-structures",
-      "companion"
+      "algorithms",
+      "companion",
+      "data-structures"
     ],
     "description": "A companion volume to Introduction to Algorithms that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9787890789642",
@@ -2454,9 +2454,9 @@
     "price": 24.98,
     "publisher": "Random House",
     "tags": [
-      "space",
       "field",
-      "popular-science"
+      "popular-science",
+      "space"
     ],
     "description": "A companion volume to Cosmos that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9783744628266",
@@ -2480,8 +2480,8 @@
     "publisher": "Addison-Wesley",
     "tags": [
       "algorithms",
-      "field",
       "career",
+      "field",
       "interview"
     ],
     "description": "A companion volume to Cracking the Coding Interview that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
@@ -2505,9 +2505,9 @@
     "price": 20.29,
     "publisher": "T. Egerton",
     "tags": [
+      "classic",
       "companion",
       "regency",
-      "classic",
       "romance"
     ],
     "description": "A companion volume to Pride and Prejudice that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
@@ -2531,8 +2531,8 @@
     "price": 31.95,
     "publisher": "Spiegel & Grau",
     "tags": [
-      "memoir",
       "companion",
+      "memoir",
       "south-africa"
     ],
     "description": "A companion volume to Born a Crime that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
@@ -2556,10 +2556,10 @@
     "price": 10.46,
     "publisher": "Chilton Books",
     "tags": [
+      "epic",
       "politics",
-      "workbook",
       "sci-fi",
-      "epic"
+      "workbook"
     ],
     "description": "A companion volume to Dune that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9789970253302",
@@ -2582,8 +2582,8 @@
     "price": 17.36,
     "publisher": "Little, Brown",
     "tags": [
-      "sociology",
       "field",
+      "sociology",
       "success"
     ],
     "description": "A companion volume to Outliers that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
@@ -2607,9 +2607,9 @@
     "price": 51.14,
     "publisher": "HarperCollins",
     "tags": [
+      "12-factor",
       "cloud",
       "field",
-      "12-factor",
       "patterns"
     ],
     "description": "A companion volume to Cloud Native Patterns that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
@@ -2659,10 +2659,10 @@
     "price": 46.24,
     "publisher": "Crown Business",
     "tags": [
-      "monopoly",
       "innovation",
-      "workbook",
-      "startup"
+      "monopoly",
+      "startup",
+      "workbook"
     ],
     "description": "A companion volume to Zero to One that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9788280774248",
@@ -2685,9 +2685,9 @@
     "price": 5.06,
     "publisher": "Addison-Wesley",
     "tags": [
-      "psychology",
       "annotated",
       "classic",
+      "psychology",
       "russian"
     ],
     "description": "A companion volume to Crime and Punishment that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
@@ -2711,10 +2711,10 @@
     "price": 94.96,
     "publisher": "MIT Press",
     "tags": [
-      "workbook",
-      "algorithms",
       "academic",
-      "data-structures"
+      "algorithms",
+      "data-structures",
+      "workbook"
     ],
     "description": "A companion volume to Introduction to Algorithms that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9785011135408",
@@ -2737,10 +2737,10 @@
     "price": 65.52,
     "publisher": "O'Reilly Media",
     "tags": [
+      "companion",
       "culture",
-      "scale",
       "process",
-      "companion"
+      "scale"
     ],
     "description": "A companion volume to Software Engineering at Google that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9785665244792",
@@ -2763,10 +2763,10 @@
     "price": 13.95,
     "publisher": "Simon & Schuster",
     "tags": [
-      "workbook",
-      "biography",
       "apple",
-      "tech"
+      "biography",
+      "tech",
+      "workbook"
     ],
     "description": "A companion volume to Steve Jobs that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9785939522359",
@@ -2789,9 +2789,9 @@
     "price": 35.05,
     "publisher": "The Russian Messenger",
     "tags": [
-      "history",
-      "epic",
       "companion",
+      "epic",
+      "history",
       "napoleonic"
     ],
     "description": "A companion volume to War and Peace that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
@@ -2840,9 +2840,9 @@
     "price": 27.01,
     "publisher": "Random House",
     "tags": [
-      "space",
       "field",
-      "popular-science"
+      "popular-science",
+      "space"
     ],
     "description": "A companion volume to Cosmos that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9783744628266",
@@ -2865,9 +2865,9 @@
     "price": 23.73,
     "publisher": "The Russian Messenger",
     "tags": [
-      "psychology",
-      "companion",
       "classic",
+      "companion",
+      "psychology",
       "russian"
     ],
     "description": "A companion volume to Crime and Punishment that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
@@ -2891,10 +2891,10 @@
     "price": 53.33,
     "publisher": "MIT Press",
     "tags": [
+      "architecture",
       "ddd",
       "modeling",
-      "solutions",
-      "architecture"
+      "solutions"
     ],
     "description": "A companion volume to Domain-Driven Design that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9788772064086",
@@ -2917,10 +2917,10 @@
     "price": 111.3,
     "publisher": "Knopf",
     "tags": [
-      "solutions",
       "academic",
-      "sql",
-      "databases"
+      "databases",
+      "solutions",
+      "sql"
     ],
     "description": "A companion volume to Database System Concepts that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9788277572185",
@@ -2943,10 +2943,10 @@
     "price": 37.31,
     "publisher": "Knopf",
     "tags": [
-      "culture",
-      "devops",
+      "annotated",
       "automation",
-      "annotated"
+      "culture",
+      "devops"
     ],
     "description": "A companion volume to The DevOps Handbook that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9780343984496",
@@ -2969,8 +2969,8 @@
     "price": 96.38,
     "publisher": "MIT Press",
     "tags": [
-      "algorithms",
       "academic",
+      "algorithms",
       "data-structures",
       "solutions"
     ],
@@ -2995,9 +2995,9 @@
     "price": 21.95,
     "publisher": "Crown Business",
     "tags": [
-      "product",
       "annotated",
       "lean",
+      "product",
       "startup"
     ],
     "description": "A companion volume to The Lean Startup that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
@@ -3022,9 +3022,9 @@
     "publisher": "Simon & Schuster",
     "tags": [
       "biography",
+      "companion",
       "spacex",
-      "tech",
-      "companion"
+      "tech"
     ],
     "description": "A companion volume to Elon Musk that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9784092377363",
@@ -3048,9 +3048,9 @@
     "publisher": "Addison-Wesley",
     "tags": [
       "best-practices",
-      "field",
+      "career",
       "coding",
-      "career"
+      "field"
     ],
     "description": "A companion volume to The Pragmatic Programmer that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9786940771996",
@@ -3074,8 +3074,8 @@
     "publisher": "Scribner",
     "tags": [
       "annotated",
-      "jazz-age",
       "classic",
+      "jazz-age",
       "tragedy"
     ],
     "description": "A companion volume to The Great Gatsby that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
@@ -3099,9 +3099,9 @@
     "price": 35.95,
     "publisher": "Crown Business",
     "tags": [
-      "monopoly",
-      "innovation",
       "field",
+      "innovation",
+      "monopoly",
       "startup"
     ],
     "description": "A companion volume to Zero to One that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
@@ -3125,9 +3125,9 @@
     "price": 32.85,
     "publisher": "George Allen & Unwin",
     "tags": [
-      "field",
-      "fantasy",
       "epic",
+      "fantasy",
+      "field",
       "middle-earth"
     ],
     "description": "A companion volume to The Lord of the Rings that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
@@ -3151,10 +3151,10 @@
     "price": 35.68,
     "publisher": "Self-Published",
     "tags": [
-      "workbook",
-      "series",
+      "fundamentals",
       "javascript",
-      "fundamentals"
+      "series",
+      "workbook"
     ],
     "description": "A companion volume to You Don't Know JS Yet that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9784258922123",
@@ -3177,10 +3177,10 @@
     "price": 13.93,
     "publisher": "HarperCollins",
     "tags": [
-      "pulitzer",
       "history",
-      "workbook",
-      "memory"
+      "memory",
+      "pulitzer",
+      "workbook"
     ],
     "description": "A companion volume to Beloved that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9784605061895",
@@ -3203,10 +3203,10 @@
     "price": 112.86,
     "publisher": "Addison-Wesley",
     "tags": [
-      "math",
-      "workbook",
       "classic",
-      "fundamentals"
+      "fundamentals",
+      "math",
+      "workbook"
     ],
     "description": "A companion volume to The Art of Computer Programming, Vol. 1 that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9780510773540",
@@ -3229,9 +3229,9 @@
     "price": 8.77,
     "publisher": "Random House",
     "tags": [
-      "solutions",
+      "father-son",
       "post-apocalyptic",
-      "father-son"
+      "solutions"
     ],
     "description": "A companion volume to The Road that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9789227955676",
@@ -3254,10 +3254,10 @@
     "price": 70.14,
     "publisher": "Random House",
     "tags": [
-      "enterprise",
-      "patterns",
+      "architecture",
       "companion",
-      "architecture"
+      "enterprise",
+      "patterns"
     ],
     "description": "A companion volume to Patterns of Enterprise Application Architecture that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9782799298233",
@@ -3280,10 +3280,10 @@
     "price": 90.0,
     "publisher": "Addison-Wesley",
     "tags": [
-      "math",
-      "classic",
       "annotated",
-      "fundamentals"
+      "classic",
+      "fundamentals",
+      "math"
     ],
     "description": "A companion volume to The Art of Computer Programming, Vol. 1 that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9786593066654",
@@ -3306,10 +3306,10 @@
     "price": 52.33,
     "publisher": "O'Reilly Media",
     "tags": [
-      "workbook",
-      "ops",
+      "containers",
       "kubernetes",
-      "containers"
+      "ops",
+      "workbook"
     ],
     "description": "A companion volume to Kubernetes Up & Running that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9785847870795",
@@ -3332,10 +3332,10 @@
     "price": 25.5,
     "publisher": "Random House",
     "tags": [
-      "field",
-      "tragedy",
       "classic",
-      "russian"
+      "field",
+      "russian",
+      "tragedy"
     ],
     "description": "A companion volume to Anna Karenina that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9789629091934",
@@ -3359,8 +3359,8 @@
     "publisher": "MIT Press",
     "tags": [
       "annotated",
-      "jazz-age",
       "classic",
+      "jazz-age",
       "tragedy"
     ],
     "description": "A companion volume to The Great Gatsby that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
@@ -3384,10 +3384,10 @@
     "price": 34.28,
     "publisher": "CareerCup",
     "tags": [
-      "workbook",
       "algorithms",
       "career",
-      "interview"
+      "interview",
+      "workbook"
     ],
     "description": "A companion volume to Cracking the Coding Interview that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9781647297893",
@@ -3435,10 +3435,10 @@
     "price": 115.07,
     "publisher": "Addison-Wesley",
     "tags": [
-      "math",
-      "field",
       "classic",
-      "fundamentals"
+      "field",
+      "fundamentals",
+      "math"
     ],
     "description": "A companion volume to The Art of Computer Programming, Vol. 1 that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9788148920831",
@@ -3461,10 +3461,10 @@
     "price": 40.49,
     "publisher": "Addison-Wesley",
     "tags": [
-      "problem-solving",
+      "classic",
       "companion",
       "essays",
-      "classic"
+      "problem-solving"
     ],
     "description": "A companion volume to Programming Pearls that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9788233394554",
@@ -3488,9 +3488,9 @@
     "publisher": "MIT Press",
     "tags": [
       "annotated",
-      "scheme",
+      "classic",
       "functional",
-      "classic"
+      "scheme"
     ],
     "description": "A companion volume to Structure and Interpretation of Computer Programs that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9785469089520",
@@ -3513,9 +3513,9 @@
     "price": 15.77,
     "publisher": "The Russian Messenger",
     "tags": [
+      "classic",
       "field",
       "philosophy",
-      "classic",
       "russian"
     ],
     "description": "A companion volume to The Brothers Karamazov that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
@@ -3539,10 +3539,10 @@
     "price": 12.44,
     "publisher": "Addison-Wesley",
     "tags": [
-      "workbook",
+      "classic",
       "memoir",
-      "wwii",
-      "classic"
+      "workbook",
+      "wwii"
     ],
     "description": "A companion volume to The Diary of a Young Girl that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9783186130976",
@@ -3565,10 +3565,10 @@
     "price": 32.81,
     "publisher": "Basic Books",
     "tags": [
-      "field",
+      "affordance",
       "cognition",
       "design",
-      "affordance"
+      "field"
     ],
     "description": "A companion volume to The Design of Everyday Things that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9789209819064",
@@ -3591,9 +3591,9 @@
     "price": 32.94,
     "publisher": "Harper",
     "tags": [
+      "anthropology",
       "history",
-      "solutions",
-      "anthropology"
+      "solutions"
     ],
     "description": "A companion volume to Sapiens that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9789565252628",
@@ -3616,10 +3616,10 @@
     "price": 11.58,
     "publisher": "Ace Books",
     "tags": [
-      "solutions",
-      "classic",
       "ai",
-      "cyberpunk"
+      "classic",
+      "cyberpunk",
+      "solutions"
     ],
     "description": "A companion volume to Neuromancer that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9783778983799",
@@ -3642,10 +3642,10 @@
     "price": 5.67,
     "publisher": "HarperCollins",
     "tags": [
-      "sci-fi",
-      "psychohistory",
       "annotated",
-      "classic"
+      "classic",
+      "psychohistory",
+      "sci-fi"
     ],
     "description": "A companion volume to Foundation that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9786242554488",
@@ -3668,10 +3668,10 @@
     "price": 39.12,
     "publisher": "Random House",
     "tags": [
-      "workbook",
-      "ops",
+      "containers",
       "kubernetes",
-      "containers"
+      "ops",
+      "workbook"
     ],
     "description": "A companion volume to Kubernetes Up & Running that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9785847870795",
@@ -3694,10 +3694,10 @@
     "price": 62.98,
     "publisher": "O'Reilly Media",
     "tags": [
-      "operations",
-      "sre",
       "companion",
-      "google"
+      "google",
+      "operations",
+      "sre"
     ],
     "description": "A companion volume to Site Reliability Engineering that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9785841523215",
@@ -3720,10 +3720,10 @@
     "price": 34.56,
     "publisher": "John Murray",
     "tags": [
-      "science",
-      "solutions",
+      "classic",
       "evolution",
-      "classic"
+      "science",
+      "solutions"
     ],
     "description": "A companion volume to The Origin of Species that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9784411962393",
@@ -3746,9 +3746,9 @@
     "price": 5.0,
     "publisher": "Scribner",
     "tags": [
+      "classic",
       "field",
       "jazz-age",
-      "classic",
       "tragedy"
     ],
     "description": "A companion volume to The Great Gatsby that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
@@ -3772,9 +3772,9 @@
     "price": 63.7,
     "publisher": "MIT Press",
     "tags": [
-      "neural-networks",
       "deep-learning",
       "field",
+      "neural-networks",
       "theory"
     ],
     "description": "A companion volume to Deep Learning that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
@@ -3798,10 +3798,10 @@
     "price": 81.69,
     "publisher": "Pearson",
     "tags": [
-      "x86",
-      "systems",
       "companion",
-      "linking"
+      "linking",
+      "systems",
+      "x86"
     ],
     "description": "A companion volume to Computer Systems: A Programmer's Perspective that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9783016137373",
@@ -3824,10 +3824,10 @@
     "price": 40.09,
     "publisher": "O'Reilly Media",
     "tags": [
+      "companion",
       "culture",
-      "scale",
       "process",
-      "companion"
+      "scale"
     ],
     "description": "A companion volume to Software Engineering at Google that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9785665244792",
@@ -3850,10 +3850,10 @@
     "price": 99.67,
     "publisher": "Simon & Schuster",
     "tags": [
-      "algorithms",
       "academic",
-      "data-structures",
-      "annotated"
+      "algorithms",
+      "annotated",
+      "data-structures"
     ],
     "description": "A companion volume to Introduction to Algorithms that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9789682416699",
@@ -3876,10 +3876,10 @@
     "price": 55.54,
     "publisher": "O'Reilly Media",
     "tags": [
-      "companion",
-      "patterns",
       "architecture",
-      "microservices"
+      "companion",
+      "microservices",
+      "patterns"
     ],
     "description": "A companion volume to Building Microservices that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9787047587220",
@@ -3927,9 +3927,9 @@
     "price": 39.11,
     "publisher": "Manning",
     "tags": [
-      "monopoly",
-      "innovation",
       "companion",
+      "innovation",
+      "monopoly",
       "startup"
     ],
     "description": "A companion volume to Zero to One that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
@@ -3953,10 +3953,10 @@
     "price": 51.53,
     "publisher": "Addison-Wesley",
     "tags": [
+      "architecture",
       "ddd",
-      "workbook",
       "modeling",
-      "architecture"
+      "workbook"
     ],
     "description": "A companion volume to Domain-Driven Design that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9787757378590",
@@ -3979,10 +3979,10 @@
     "price": 44.72,
     "publisher": "O'Reilly Media",
     "tags": [
-      "workbook",
-      "patterns",
       "kubernetes",
-      "microservices"
+      "microservices",
+      "patterns",
+      "workbook"
     ],
     "description": "A companion volume to Designing Distributed Systems that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9787950400074",
@@ -4006,8 +4006,8 @@
     "publisher": "Random House",
     "tags": [
       "medicine",
-      "mortality",
       "memoir",
+      "mortality",
       "workbook"
     ],
     "description": "A companion volume to When Breath Becomes Air that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
@@ -4031,10 +4031,10 @@
     "price": 27.58,
     "publisher": "Gnome Press",
     "tags": [
+      "classic",
       "field",
-      "sci-fi",
       "psychohistory",
-      "classic"
+      "sci-fi"
     ],
     "description": "A companion volume to Foundation that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9783594949818",
@@ -4057,10 +4057,10 @@
     "price": 5.0,
     "publisher": "O'Reilly Media",
     "tags": [
-      "solutions",
-      "regency",
       "classic",
-      "romance"
+      "regency",
+      "romance",
+      "solutions"
     ],
     "description": "A companion volume to Pride and Prejudice that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9782223716289",
@@ -4083,10 +4083,10 @@
     "price": 66.37,
     "publisher": "Vintage",
     "tags": [
-      "enterprise",
-      "patterns",
+      "architecture",
       "companion",
-      "architecture"
+      "enterprise",
+      "patterns"
     ],
     "description": "A companion volume to Patterns of Enterprise Application Architecture that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9782799298233",
@@ -4109,10 +4109,10 @@
     "price": 38.97,
     "publisher": "HarperCollins",
     "tags": [
-      "monopoly",
       "innovation",
-      "workbook",
-      "startup"
+      "monopoly",
+      "startup",
+      "workbook"
     ],
     "description": "A companion volume to Zero to One that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9788280774248",
@@ -4135,10 +4135,10 @@
     "price": 31.21,
     "publisher": "W. Strahan",
     "tags": [
-      "economics",
+      "classic",
       "companion",
-      "philosophy",
-      "classic"
+      "economics",
+      "philosophy"
     ],
     "description": "A companion volume to The Wealth of Nations that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9784246710862",
@@ -4161,10 +4161,10 @@
     "price": 51.42,
     "publisher": "Manning",
     "tags": [
-      "solr",
       "annotated",
       "lucene",
-      "search"
+      "search",
+      "solr"
     ],
     "description": "A companion volume to Solr in Action that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9787610854629",
@@ -4187,10 +4187,10 @@
     "price": 59.79,
     "publisher": "Manning",
     "tags": [
-      "solr",
       "annotated",
       "lucene",
-      "search"
+      "search",
+      "solr"
     ],
     "description": "A companion volume to Solr in Action that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9787610854629",
@@ -4214,9 +4214,9 @@
     "publisher": "Vintage",
     "tags": [
       "data-processing",
-      "spark",
       "field",
-      "scala"
+      "scala",
+      "spark"
     ],
     "description": "A companion volume to Spark: The Definitive Guide that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9789657796245",
@@ -4240,8 +4240,8 @@
     "publisher": "Scribner",
     "tags": [
       "annotated",
-      "jazz-age",
       "classic",
+      "jazz-age",
       "tragedy"
     ],
     "description": "A companion volume to The Great Gatsby that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
@@ -4265,10 +4265,10 @@
     "price": 45.18,
     "publisher": "HarperCollins",
     "tags": [
-      "legacy",
-      "testing",
       "annotated",
-      "refactoring"
+      "legacy",
+      "refactoring",
+      "testing"
     ],
     "description": "A companion volume to Working Effectively with Legacy Code that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9786621914827",
@@ -4291,9 +4291,9 @@
     "price": 38.88,
     "publisher": "O'Reilly Media",
     "tags": [
-      "workbook",
       "cognition",
-      "decision-making"
+      "decision-making",
+      "workbook"
     ],
     "description": "A companion volume to Thinking, Fast and Slow that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9784418454358",
@@ -4316,10 +4316,10 @@
     "price": 20.96,
     "publisher": "Knopf",
     "tags": [
-      "pulitzer",
       "history",
-      "solutions",
-      "memory"
+      "memory",
+      "pulitzer",
+      "solutions"
     ],
     "description": "A companion volume to Beloved that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9784275853882",
@@ -4342,10 +4342,10 @@
     "price": 60.87,
     "publisher": "Addison-Wesley",
     "tags": [
-      "workbook",
-      "java",
+      "best-practices",
       "design",
-      "best-practices"
+      "java",
+      "workbook"
     ],
     "description": "A companion volume to Effective Java that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9788902463512",
@@ -4369,9 +4369,9 @@
     "publisher": "O'Reilly Media",
     "tags": [
       "annotated",
-      "ops",
+      "containers",
       "kubernetes",
-      "containers"
+      "ops"
     ],
     "description": "A companion volume to Kubernetes Up & Running that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9780227015681",
@@ -4394,10 +4394,10 @@
     "price": 23.75,
     "publisher": "MIT Press",
     "tags": [
-      "biography",
       "apple",
-      "tech",
-      "companion"
+      "biography",
+      "companion",
+      "tech"
     ],
     "description": "A companion volume to Steve Jobs that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9788746355899",
@@ -4446,10 +4446,10 @@
     "price": 13.76,
     "publisher": "Houghton Mifflin",
     "tags": [
-      "companion",
-      "pesticides",
       "classic",
-      "environment"
+      "companion",
+      "environment",
+      "pesticides"
     ],
     "description": "A companion volume to Silent Spring that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9784039119063",
@@ -4472,10 +4472,10 @@
     "price": 50.18,
     "publisher": "O'Reilly Media",
     "tags": [
-      "tensorflow",
-      "ml",
       "annotated",
-      "scikit-learn"
+      "ml",
+      "scikit-learn",
+      "tensorflow"
     ],
     "description": "A companion volume to Hands-On Machine Learning that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9781310672972",
@@ -4498,9 +4498,9 @@
     "price": 44.36,
     "publisher": "O'Reilly Media",
     "tags": [
+      "annotated",
       "design",
       "patterns",
-      "annotated",
       "refactoring"
     ],
     "description": "A companion volume to Refactoring that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
@@ -4524,10 +4524,10 @@
     "price": 14.26,
     "publisher": "Vintage",
     "tags": [
+      "annotated",
       "education",
-      "memoir",
       "family",
-      "annotated"
+      "memoir"
     ],
     "description": "A companion volume to Educated that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9780797186651",
@@ -4550,8 +4550,8 @@
     "price": 20.62,
     "publisher": "Little, Brown",
     "tags": [
-      "decision-making",
       "annotated",
+      "decision-making",
       "psychology"
     ],
     "description": "A companion volume to Blink that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
@@ -4575,10 +4575,10 @@
     "price": 27.11,
     "publisher": "T. Egerton",
     "tags": [
-      "solutions",
-      "regency",
       "classic",
-      "romance"
+      "regency",
+      "romance",
+      "solutions"
     ],
     "description": "A companion volume to Pride and Prejudice that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9782223716289",
@@ -4601,8 +4601,8 @@
     "price": 34.94,
     "publisher": "Little, Brown",
     "tags": [
-      "sociology",
       "companion",
+      "sociology",
       "success"
     ],
     "description": "A companion volume to Outliers that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
@@ -4627,9 +4627,9 @@
     "publisher": "MIT Press",
     "tags": [
       "annotated",
-      "scheme",
+      "classic",
       "functional",
-      "classic"
+      "scheme"
     ],
     "description": "A companion volume to Structure and Interpretation of Computer Programs that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9785469089520",
@@ -4653,9 +4653,9 @@
     "publisher": "Simon & Schuster",
     "tags": [
       "biography",
+      "solutions",
       "spacex",
-      "tech",
-      "solutions"
+      "tech"
     ],
     "description": "A companion volume to Elon Musk that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9780209291300",
@@ -4678,10 +4678,10 @@
     "price": 41.72,
     "publisher": "W. Strahan",
     "tags": [
-      "economics",
-      "philosophy",
       "annotated",
-      "classic"
+      "classic",
+      "economics",
+      "philosophy"
     ],
     "description": "A companion volume to The Wealth of Nations that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9784914270421",
@@ -4704,9 +4704,9 @@
     "price": 23.27,
     "publisher": "MIT Press",
     "tags": [
-      "history",
-      "epic",
       "companion",
+      "epic",
+      "history",
       "napoleonic"
     ],
     "description": "A companion volume to War and Peace that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
@@ -4730,10 +4730,10 @@
     "price": 57.95,
     "publisher": "Prentice Hall",
     "tags": [
-      "workbook",
-      "fundamentals",
+      "c",
       "classic",
-      "c"
+      "fundamentals",
+      "workbook"
     ],
     "description": "A companion volume to The C Programming Language that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9784209548211",
@@ -4756,10 +4756,10 @@
     "price": 36.22,
     "publisher": "Random House",
     "tags": [
-      "productivity",
-      "workbook",
       "habits",
-      "psychology"
+      "productivity",
+      "psychology",
+      "workbook"
     ],
     "description": "A companion volume to The Power of Habit that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9782369552154",
@@ -4783,9 +4783,9 @@
     "publisher": "O'Reilly Media",
     "tags": [
       "algorithms",
-      "solutions",
       "career",
-      "interview"
+      "interview",
+      "solutions"
     ],
     "description": "A companion volume to Cracking the Coding Interview that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9784576083711",
@@ -4808,9 +4808,9 @@
     "price": 33.83,
     "publisher": "Crown Business",
     "tags": [
-      "product",
       "field",
       "lean",
+      "product",
       "startup"
     ],
     "description": "A companion volume to The Lean Startup that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
@@ -4834,9 +4834,9 @@
     "price": 33.99,
     "publisher": "Crown Business",
     "tags": [
-      "monopoly",
-      "innovation",
       "field",
+      "innovation",
+      "monopoly",
       "startup"
     ],
     "description": "A companion volume to Zero to One that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
@@ -4860,10 +4860,10 @@
     "price": 97.26,
     "publisher": "MIT Press",
     "tags": [
-      "algorithms",
       "academic",
-      "data-structures",
-      "annotated"
+      "algorithms",
+      "annotated",
+      "data-structures"
     ],
     "description": "A companion volume to Introduction to Algorithms that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9789682416699",
@@ -4886,9 +4886,9 @@
     "price": 16.76,
     "publisher": "Harper",
     "tags": [
-      "history",
+      "anthropology",
       "field",
-      "anthropology"
+      "history"
     ],
     "description": "A companion volume to Sapiens that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9782581932024",
@@ -4911,10 +4911,10 @@
     "price": 25.59,
     "publisher": "W. Strahan",
     "tags": [
+      "classic",
       "economics",
-      "solutions",
       "philosophy",
-      "classic"
+      "solutions"
     ],
     "description": "A companion volume to The Wealth of Nations that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9785246941126",
@@ -4937,10 +4937,10 @@
     "price": 46.95,
     "publisher": "CareerCup",
     "tags": [
-      "workbook",
       "algorithms",
       "career",
-      "interview"
+      "interview",
+      "workbook"
     ],
     "description": "A companion volume to Cracking the Coding Interview that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9781647297893",
@@ -4963,9 +4963,9 @@
     "price": 27.14,
     "publisher": "Random House",
     "tags": [
-      "space",
       "companion",
-      "popular-science"
+      "popular-science",
+      "space"
     ],
     "description": "A companion volume to Cosmos that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9781208476460",
@@ -4988,9 +4988,9 @@
     "price": 30.33,
     "publisher": "Random House",
     "tags": [
-      "design",
       "coding",
       "companion",
+      "design",
       "refactoring"
     ],
     "description": "A companion volume to Clean Code that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
@@ -5014,10 +5014,10 @@
     "price": 98.03,
     "publisher": "Penguin Classics",
     "tags": [
-      "os",
       "academic",
       "annotated",
-      "kernel"
+      "kernel",
+      "os"
     ],
     "description": "A companion volume to Operating System Concepts that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9781363290734",
@@ -5040,9 +5040,9 @@
     "price": 5.0,
     "publisher": "Penguin Classics",
     "tags": [
+      "classic",
       "companion",
       "regency",
-      "classic",
       "romance"
     ],
     "description": "A companion volume to Pride and Prejudice that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
@@ -5066,10 +5066,10 @@
     "price": 56.3,
     "publisher": "Addison-Wesley",
     "tags": [
-      "solutions",
       "design",
       "patterns",
-      "refactoring"
+      "refactoring",
+      "solutions"
     ],
     "description": "A companion volume to Refactoring that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9780636541689",
@@ -5092,9 +5092,9 @@
     "price": 31.83,
     "publisher": "George Allen & Unwin",
     "tags": [
-      "field",
-      "fantasy",
       "epic",
+      "fantasy",
+      "field",
       "middle-earth"
     ],
     "description": "A companion volume to The Lord of the Rings that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
@@ -5118,10 +5118,10 @@
     "price": 40.87,
     "publisher": "Addison-Wesley",
     "tags": [
-      "problem-solving",
+      "classic",
       "companion",
       "essays",
-      "classic"
+      "problem-solving"
     ],
     "description": "A companion volume to Programming Pearls that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9788233394554",
@@ -5144,10 +5144,10 @@
     "price": 35.85,
     "publisher": "O'Reilly Media",
     "tags": [
-      "solutions",
-      "ops",
+      "containers",
       "kubernetes",
-      "containers"
+      "ops",
+      "solutions"
     ],
     "description": "A companion volume to Kubernetes Up & Running that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9780783571379",
@@ -5171,8 +5171,8 @@
     "publisher": "Belknap Press",
     "tags": [
       "economics",
-      "inequality",
-      "field"
+      "field",
+      "inequality"
     ],
     "description": "A companion volume to Capital in the Twenty-First Century that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9786700064375",
@@ -5196,9 +5196,9 @@
     "publisher": "Penguin Classics",
     "tags": [
       "annotated",
-      "series",
+      "fundamentals",
       "javascript",
-      "fundamentals"
+      "series"
     ],
     "description": "A companion volume to You Don't Know JS Yet that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9789614948724",
@@ -5222,9 +5222,9 @@
     "publisher": "Simon & Schuster",
     "tags": [
       "adventure",
+      "companion",
       "fantasy",
-      "middle-earth",
-      "companion"
+      "middle-earth"
     ],
     "description": "A companion volume to The Hobbit that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9780102201673",
@@ -5247,10 +5247,10 @@
     "price": 98.56,
     "publisher": "Pearson",
     "tags": [
-      "solutions",
-      "tcp",
+      "academic",
       "networking",
-      "academic"
+      "solutions",
+      "tcp"
     ],
     "description": "A companion volume to Computer Networking: A Top-Down Approach that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9789683403131",
@@ -5273,10 +5273,10 @@
     "price": 70.07,
     "publisher": "MIT Press",
     "tags": [
+      "classic",
       "companion",
-      "scheme",
       "functional",
-      "classic"
+      "scheme"
     ],
     "description": "A companion volume to Structure and Interpretation of Computer Programs that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9782724455700",
@@ -5299,9 +5299,9 @@
     "price": 31.55,
     "publisher": "Little, Brown",
     "tags": [
-      "trends",
+      "field",
       "sociology",
-      "field"
+      "trends"
     ],
     "description": "A companion volume to The Tipping Point that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9789225710017",
@@ -5324,9 +5324,9 @@
     "price": 38.28,
     "publisher": "Random House",
     "tags": [
-      "space",
+      "popular-science",
       "solutions",
-      "popular-science"
+      "space"
     ],
     "description": "A companion volume to Cosmos that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9789282912706",
@@ -5349,10 +5349,10 @@
     "price": 50.5,
     "publisher": "O'Reilly Media",
     "tags": [
-      "solutions",
-      "ops",
+      "containers",
       "kubernetes",
-      "containers"
+      "ops",
+      "solutions"
     ],
     "description": "A companion volume to Kubernetes Up & Running that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9780783571379",
@@ -5375,10 +5375,10 @@
     "price": 33.4,
     "publisher": "O'Reilly Media",
     "tags": [
-      "workbook",
-      "patterns",
       "kubernetes",
-      "microservices"
+      "microservices",
+      "patterns",
+      "workbook"
     ],
     "description": "A companion volume to Designing Distributed Systems that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9787950400074",
@@ -5402,9 +5402,9 @@
     "publisher": "O'Reilly Media",
     "tags": [
       "advanced",
-      "workbook",
       "idioms",
-      "python"
+      "python",
+      "workbook"
     ],
     "description": "A companion volume to Fluent Python that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9786864464462",
@@ -5429,8 +5429,8 @@
     "tags": [
       "adventure",
       "fantasy",
-      "middle-earth",
-      "field"
+      "field",
+      "middle-earth"
     ],
     "description": "A companion volume to The Hobbit that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9782501476867",
@@ -5453,8 +5453,8 @@
     "price": 39.2,
     "publisher": "Microsoft Press",
     "tags": [
-      "companion",
       "best-practices",
+      "companion",
       "construction"
     ],
     "description": "A companion volume to Code Complete that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
@@ -5478,10 +5478,10 @@
     "price": 76.1,
     "publisher": "MIT Press",
     "tags": [
-      "neural-networks",
       "deep-learning",
-      "workbook",
-      "theory"
+      "neural-networks",
+      "theory",
+      "workbook"
     ],
     "description": "A companion volume to Deep Learning that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9780917565649",
@@ -5504,10 +5504,10 @@
     "price": 47.75,
     "publisher": "Addison-Wesley",
     "tags": [
-      "history",
-      "project-management",
+      "companion",
       "essays",
-      "companion"
+      "history",
+      "project-management"
     ],
     "description": "A companion volume to The Mythical Man-Month that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9789806951587",
@@ -5530,9 +5530,9 @@
     "price": 26.89,
     "publisher": "O'Reilly Media",
     "tags": [
-      "solutions",
       "javascript",
-      "language-design"
+      "language-design",
+      "solutions"
     ],
     "description": "A companion volume to JavaScript: The Good Parts that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9785407845065",
@@ -5556,9 +5556,9 @@
     "publisher": "Random House",
     "tags": [
       "education",
-      "memoir",
+      "family",
       "field",
-      "family"
+      "memoir"
     ],
     "description": "A companion volume to Educated that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9782943334039",
@@ -5581,10 +5581,10 @@
     "price": 27.11,
     "publisher": "Houghton Mifflin",
     "tags": [
-      "pesticides",
-      "field",
       "classic",
-      "environment"
+      "environment",
+      "field",
+      "pesticides"
     ],
     "description": "A companion volume to Silent Spring that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9786667184154",
@@ -5607,9 +5607,9 @@
     "price": 41.13,
     "publisher": "Belknap Press",
     "tags": [
+      "annotated",
       "economics",
-      "inequality",
-      "annotated"
+      "inequality"
     ],
     "description": "A companion volume to Capital in the Twenty-First Century that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9781968009632",
@@ -5632,9 +5632,9 @@
     "price": 37.97,
     "publisher": "Random House",
     "tags": [
-      "space",
+      "popular-science",
       "solutions",
-      "popular-science"
+      "space"
     ],
     "description": "A companion volume to Cosmos that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9789282912706",
@@ -5657,8 +5657,8 @@
     "price": 19.03,
     "publisher": "Little, Brown",
     "tags": [
-      "sociology",
       "annotated",
+      "sociology",
       "success"
     ],
     "description": "A companion volume to Outliers that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
@@ -5682,10 +5682,10 @@
     "price": 33.45,
     "publisher": "Houghton Mifflin",
     "tags": [
-      "workbook",
-      "pesticides",
       "classic",
-      "environment"
+      "environment",
+      "pesticides",
+      "workbook"
     ],
     "description": "A companion volume to Silent Spring that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9782584746147",
@@ -5709,9 +5709,9 @@
     "publisher": "Random House",
     "tags": [
       "education",
+      "family",
       "memoir",
-      "workbook",
-      "family"
+      "workbook"
     ],
     "description": "A companion volume to Educated that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9780602692667",
@@ -5734,10 +5734,10 @@
     "price": 18.28,
     "publisher": "IT Revolution Press",
     "tags": [
-      "metrics",
       "devops",
-      "solutions",
-      "research"
+      "metrics",
+      "research",
+      "solutions"
     ],
     "description": "A companion volume to Accelerate that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9781980360650",
@@ -5760,10 +5760,10 @@
     "price": 20.86,
     "publisher": "Contact Publishing",
     "tags": [
-      "workbook",
+      "classic",
       "memoir",
-      "wwii",
-      "classic"
+      "workbook",
+      "wwii"
     ],
     "description": "A companion volume to The Diary of a Young Girl that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9783186130976",
@@ -5786,10 +5786,10 @@
     "price": 102.49,
     "publisher": "Pearson",
     "tags": [
-      "dragon",
-      "workbook",
+      "academic",
       "compilers",
-      "academic"
+      "dragon",
+      "workbook"
     ],
     "description": "A companion volume to Compilers: Principles, Techniques, and Tools that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9788601586116",
@@ -5812,10 +5812,10 @@
     "price": 18.6,
     "publisher": "Knopf",
     "tags": [
-      "pulitzer",
       "history",
-      "solutions",
-      "memory"
+      "memory",
+      "pulitzer",
+      "solutions"
     ],
     "description": "A companion volume to Beloved that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9784275853882",
@@ -5838,9 +5838,9 @@
     "price": 60.51,
     "publisher": "Addison-Wesley",
     "tags": [
-      "java",
-      "design",
       "best-practices",
+      "design",
+      "java",
       "solutions"
     ],
     "description": "A companion volume to Effective Java that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
@@ -5864,9 +5864,9 @@
     "price": 13.81,
     "publisher": "Oxford University Press",
     "tags": [
-      "solutions",
+      "biology",
       "evolution",
-      "biology"
+      "solutions"
     ],
     "description": "A companion volume to The Selfish Gene that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9780941151894",
@@ -5889,10 +5889,10 @@
     "price": 54.93,
     "publisher": "Manning",
     "tags": [
-      "cloud",
-      "workbook",
       "12-factor",
-      "patterns"
+      "cloud",
+      "patterns",
+      "workbook"
     ],
     "description": "A companion volume to Cloud Native Patterns that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9783634186869",
@@ -5916,9 +5916,9 @@
     "publisher": "Self-Published",
     "tags": [
       "field",
-      "series",
+      "fundamentals",
       "javascript",
-      "fundamentals"
+      "series"
     ],
     "description": "A companion volume to You Don't Know JS Yet that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9789430929587",
@@ -5941,10 +5941,10 @@
     "price": 54.3,
     "publisher": "Addison-Wesley",
     "tags": [
+      "annotated",
       "best-practices",
-      "coding",
       "career",
-      "annotated"
+      "coding"
     ],
     "description": "A companion volume to The Pragmatic Programmer that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9782316140991",
@@ -5967,10 +5967,10 @@
     "price": 59.1,
     "publisher": "O'Reilly Media",
     "tags": [
-      "field",
-      "patterns",
       "architecture",
-      "microservices"
+      "field",
+      "microservices",
+      "patterns"
     ],
     "description": "A companion volume to Building Microservices that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9784570540654",
@@ -5993,10 +5993,10 @@
     "price": 36.96,
     "publisher": "IT Revolution Press",
     "tags": [
-      "solutions",
       "devops",
       "lean",
-      "novel"
+      "novel",
+      "solutions"
     ],
     "description": "A companion volume to The Phoenix Project that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9788604687896",
@@ -6019,10 +6019,10 @@
     "price": 50.47,
     "publisher": "Addison-Wesley",
     "tags": [
+      "essays",
       "history",
-      "solutions",
       "project-management",
-      "essays"
+      "solutions"
     ],
     "description": "A companion volume to The Mythical Man-Month that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9787035994474",
@@ -6045,10 +6045,10 @@
     "price": 34.79,
     "publisher": "W. Strahan",
     "tags": [
-      "economics",
+      "classic",
       "companion",
-      "philosophy",
-      "classic"
+      "economics",
+      "philosophy"
     ],
     "description": "A companion volume to The Wealth of Nations that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9784246710862",
@@ -6071,10 +6071,10 @@
     "price": 26.95,
     "publisher": "W. Strahan",
     "tags": [
+      "classic",
       "economics",
-      "solutions",
       "philosophy",
-      "classic"
+      "solutions"
     ],
     "description": "A companion volume to The Wealth of Nations that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9785246941126",
@@ -6097,10 +6097,10 @@
     "price": 51.43,
     "publisher": "O'Reilly Media",
     "tags": [
-      "workbook",
-      "scalability",
+      "architecture",
       "databases",
-      "architecture"
+      "scalability",
+      "workbook"
     ],
     "description": "A companion volume to Designing Data-Intensive Applications that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9781952833786",
@@ -6123,10 +6123,10 @@
     "price": 44.67,
     "publisher": "Addison-Wesley",
     "tags": [
-      "problem-solving",
       "annotated",
+      "classic",
       "essays",
-      "classic"
+      "problem-solving"
     ],
     "description": "A companion volume to Programming Pearls that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the annotated edition tradition.",
     "isbn": "9781879781849",
@@ -6149,9 +6149,9 @@
     "price": 52.68,
     "publisher": "O'Reilly Media",
     "tags": [
-      "companion",
       "algorithms",
       "career",
+      "companion",
       "interview"
     ],
     "description": "A companion volume to Cracking the Coding Interview that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
@@ -6175,9 +6175,9 @@
     "price": 40.89,
     "publisher": "Microsoft Press",
     "tags": [
-      "solutions",
       "best-practices",
-      "construction"
+      "construction",
+      "solutions"
     ],
     "description": "A companion volume to Code Complete that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9786147659646",
@@ -6201,8 +6201,8 @@
     "publisher": "Belknap Press",
     "tags": [
       "economics",
-      "inequality",
-      "field"
+      "field",
+      "inequality"
     ],
     "description": "A companion volume to Capital in the Twenty-First Century that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
     "isbn": "9786700064375",
@@ -6225,10 +6225,10 @@
     "price": 31.14,
     "publisher": "Vintage",
     "tags": [
-      "workbook",
-      "tragedy",
       "classic",
-      "russian"
+      "russian",
+      "tragedy",
+      "workbook"
     ],
     "description": "A companion volume to Anna Karenina that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9780771438066",
@@ -6251,10 +6251,10 @@
     "price": 38.18,
     "publisher": "George Allen & Unwin",
     "tags": [
-      "solutions",
-      "fantasy",
       "epic",
-      "middle-earth"
+      "fantasy",
+      "middle-earth",
+      "solutions"
     ],
     "description": "A companion volume to The Lord of the Rings that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the solutions manual tradition.",
     "isbn": "9782753958265",
@@ -6277,9 +6277,9 @@
     "price": 40.96,
     "publisher": "George Allen & Unwin",
     "tags": [
-      "field",
-      "fantasy",
       "epic",
+      "fantasy",
+      "field",
       "middle-earth"
     ],
     "description": "A companion volume to The Lord of the Rings that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the field guide tradition.",
@@ -6303,10 +6303,10 @@
     "price": 38.89,
     "publisher": "Simon & Schuster",
     "tags": [
-      "workbook",
       "biography",
       "spacex",
-      "tech"
+      "tech",
+      "workbook"
     ],
     "description": "A companion volume to Elon Musk that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the workbook tradition.",
     "isbn": "9788525000835",
@@ -6329,9 +6329,9 @@
     "price": 19.23,
     "publisher": "The Russian Messenger",
     "tags": [
+      "classic",
       "companion",
       "philosophy",
-      "classic",
       "russian"
     ],
     "description": "A companion volume to The Brothers Karamazov that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
@@ -6355,10 +6355,10 @@
     "price": 25.44,
     "publisher": "Basic Books",
     "tags": [
-      "cognition",
-      "design",
       "affordance",
-      "companion"
+      "cognition",
+      "companion",
+      "design"
     ],
     "description": "A companion volume to The Design of Everyday Things that revisits the original's themes from a fresh angle, with updated examples and exercises drawn from the companion tradition.",
     "isbn": "9789585204157",

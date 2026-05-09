@@ -47,11 +47,14 @@ echo "   Shards x Replicas: ${NUM_SHARDS} x ${REPLICATION_FACTOR}"
 echo "================================================================="
 
 # ---------------------------------------------------------------------------
-# 1. Start node 1 in cloud mode (this also brings up the embedded ZooKeeper)
+# 1. Start node 1 in cloud mode (this also brings up the embedded ZooKeeper).
+#    Solr 10 starts in SolrCloud mode by default; older Solr 9 releases used
+#    `-c`. The modern syntax below works for Solr 10 and avoids the deprecated
+#    `-c` flag.
 # ---------------------------------------------------------------------------
 echo "[1/4] Starting node 1 in cloud mode on port ${PORT_1}..."
 if ! curl -fsS "http://localhost:${PORT_1}/solr/admin/info/system" >/dev/null 2>&1; then
-  solr start -c -p "${PORT_1}"
+  solr start -p "${PORT_1}"
 else
   echo "      Node 1 already running on ${PORT_1}."
 fi
@@ -64,7 +67,7 @@ sleep 2
 # ---------------------------------------------------------------------------
 echo "[2/4] Starting node 2 on port ${PORT_2}, joining ZK ${ZK_HOST}..."
 if ! curl -fsS "http://localhost:${PORT_2}/solr/admin/info/system" >/dev/null 2>&1; then
-  solr start -c -p "${PORT_2}" -z "${ZK_HOST}"
+  solr start -p "${PORT_2}" -z "${ZK_HOST}"
 else
   echo "      Node 2 already running on ${PORT_2}."
 fi
@@ -79,11 +82,11 @@ LIVE_NODES=$(curl -fsS "http://localhost:${PORT_1}/solr/admin/collections?action
 if echo "${LIVE_NODES}" | grep -q "\"${COLLECTION}\""; then
   echo "      Collection '${COLLECTION}' already exists, skipping."
 else
-  solr create_collection \
+  solr create \
     -c "${COLLECTION}" \
-    -shards "${NUM_SHARDS}" \
-    -replicationFactor "${REPLICATION_FACTOR}" \
-    -p "${PORT_1}"
+    -sh "${NUM_SHARDS}" \
+    -rf "${REPLICATION_FACTOR}" \
+    -s "http://localhost:${PORT_1}"
 fi
 
 # ---------------------------------------------------------------------------
