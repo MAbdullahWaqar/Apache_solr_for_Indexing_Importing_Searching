@@ -4,7 +4,69 @@
 
 ---
 
+## How to run this project
+
+Run everything **from the repository root** (`Apache_solr_for_Indexing_Importing_Searching/`). Solr must be running **before** Flask; the UI talks to Flask, and Flask talks to Solr.
+
+### Step 0 — Dataset files (first time only)
+
+If `data/books.json` is missing:
+
+```bash
+python3 scripts/generate_dataset.py
+```
+
+### Step 1 — Solr: core, schema, synonyms, index
+
+**macOS / Linux (recommended one-shot helper):**
+
+```bash
+bash scripts/setup_solr.sh
+bash scripts/install_resources.sh
+bash scripts/index_data.sh
+```
+
+**Windows:** run the same steps using `scripts\setup_solr.bat`, `scripts\install_resources.bat`, and `scripts\index_data.bat` from a shell in the project folder.
+
+**Manual Solr** (if you prefer not to use `setup_solr.sh`): start Solr, `solr create -c books`, then `bash scripts/apply_schema.sh`, then `install_resources.sh` and `index_data.sh` as above. Default Solr URL is **`http://localhost:8983`**, core name **`books`**.
+
+### Step 2 — Python virtual environment and dependencies
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+pip install -r backend/requirements.txt
+```
+
+### Step 3 — Start the web application (Flask + UI)
+
+```bash
+python backend/app.py
+```
+
+By default the app listens on **port 5000** and serves **both** the REST API and the BookFinder static files.
+
+- **Open in your browser:** [http://localhost:5000/](http://localhost:5000/)  
+- **Another port** (e.g. if 5000 is busy): `FLASK_PORT=5001 python backend/app.py` then open **http://localhost:5001/** (the UI must be loaded from the **same** host and port so API calls stay same-origin).
+
+### Step 4 — Confirm it works
+
+- The header should show **Solr OK** and a document count after `/api/health` succeeds.
+- You should see **book cards** and be able to search, filter, and open a detail view.
+
+### Optional — Index with Python instead of curl
+
+```bash
+python scripts/index_data.py
+```
+
+(requires the same venv / `pip install -r backend/requirements.txt` so `pysolr` is available.)
+
+---
+
 ## Table of contents
+
+**[How to run this project](#how-to-run-this-project)** (copy-paste flow)
 
 1. [What this project teaches](#1-what-this-project-teaches)
 2. [Architecture](#2-architecture)
